@@ -1,0 +1,8 @@
+# Drop this at .github/FUNDING.yml in each public repo (or in a `.github` org repo
+# to apply org-wide). Fill the [TODO] handles once Sponsors + Open Collective exist.
+# GitHub renders a "Sponsor" button from this file. Remove lines you don't use.
+
+github: [TODO-github-username]          # e.g. sness23  — enable GitHub Sponsors first
+open_collective: TODO-collective-slug   # e.g. planetar — create under Open Source Collective
+# patreon: TODO                         # optional, if a YouTube audience asks for it
+# custom: ["https://[TODO-website]/support"]
