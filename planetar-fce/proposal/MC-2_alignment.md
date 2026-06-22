@@ -4,25 +4,24 @@
 > Traceability source: [`../01-CHALLENGE.md`](../01-CHALLENGE.md) (EO1–EO6). Keep consistent with PRC-6.
 > CH13 analogue: `../../planetar/proposal/MC-2_alignment.md`.
 
-## Draft (skeleton)
+## Draft (workspace markdown — strip headings before submission)
 
-Open with the CH14 ask in its own words (FCE = compliance-by-design enforcement at the
-fusion chokepoint), then walk **EO1–EO6** showing each is met by a built primitive + a
-defined 1a build:
+**Solution.** The Fusion Compliance Engine (FCE) is a modular, AI-enabled compliance layer that sits between sensor ingestion and the fusion analytics pipeline and acts as a policy-aware gatekeeper: it tags, filters, and routes each data element by machine-readable classification and operational-release policy, in real time, during multi-sensor fusion — exactly the automated compliance layer CH14 requires in place of manual review and procedural checklists. It is built on a provenance-tracked message bus the applicant has already developed, demonstrated for the 1a in a Maritime Domain Awareness setting (a CH14 example) fusing two modalities — open AIS and synthetic-Protected-B SAR detections — so that cross-domain merges carry a genuine classification decision.
 
-- **EO1** modular AI component enforcing policy during ≥2-sensor fusion → broker hook.
-- **EO2** machine-readable policy, ≥2 modalities, Network domain, ≥Protected B → ODRL + class/domain fields.
-- **EO3** programmatic, no human approval → synchronous check in publish path.
-- **EO4** provenance records (source/class/ts/domain) → `zmesg` + additive fields.
-- **EO5** audit logs (permit/restrict/downgrade/segregate + dispositions) → WAL record type.
-- **EO6** exportable ingestion→output lineage → WAL replay + ontology + export format.
+**Essential Outcome compliance.** The FCE meets each Essential Outcome:
 
-Close: demo domain = **Maritime Domain Awareness** (CH14's named example); sovereign
-Canadian IP fills the gap CH14 states.
+- **(EO1)** A modular component enforces classification and policy constraints *during* multi-sensor (≥2) fusion — enforcement is a synchronous hook at the bus chokepoint every fused element already crosses.
+- **(EO2)** Enforcement is driven by **machine-readable policy** (W3C ODRL, already built as an expression layer) applied across **≥2 sensor modalities** (AIS, SAR), at least the **Network-security** domain, and at least **Protected B**.
+- **(EO3)** Checks and enforcement actions run **programmatically during ingestion and fusion, without human approval** for predefined policy conditions.
+- **(EO4)** **Provenance records** are generated and retained for all data in and out of the pipeline — source-sensor id, classification marking, timestamp, and domain of origin (`zmesg` envelope + the 1a's added classification/domain fields).
+- **(EO5)** **Audit logs** record the policy rules applied, the enforcement action taken (**permit / restrict / downgrade / segregate**), and the resulting disposition, written to the CRC32 append-only WAL.
+- **(EO6)** **Data lineage** from original ingestion through fused output is reconstructable (WAL replay + per-edge graph provenance) and **exportable** for compliance review, forensic analysis, or accreditation.
+
+**Fit to the challenge intent.** CH14 seeks a sovereign, Canadian-developed and Canadian-controlled compliance engine for multi-domain fusion — a reusable building block "from Arctic surveillance to coalition interoperability hubs," supporting the CAF Digital Campaign Plan, the DND/CAF AI Strategy, NORAD modernization, and the Cyber Forces mandate. The FCE is Canadian-owned foreground IP built on the applicant's open-source spine; because it enforces at a chokepoint already benchmarked at nanosecond scale, it adds compliance without degrading tactical decision speed.
 
 ## TODO
-- [ ] One sentence per EO, each ending in concrete demo evidence (see 01 table "Demo evidence").
-- [ ] Verbatim-check EO wording vs. `../CH14-challenge.txt` lines 57–77.
+- [ ] Verbatim-check each EO against `../CH14-challenge.txt` lines 57–77 before lock.
+- [ ] Confirm "Network security domain" wording maps to our demo (synthetic markings).
 
 ## Char-count budget
-Target ≤ 2,950.
+Target ≤ 2,950. Likely runs long — tighten the intent paragraph first.

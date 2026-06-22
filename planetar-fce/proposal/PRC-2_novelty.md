@@ -1,27 +1,25 @@
 # PRC-2 — Novelty (20 pts)
 
-> **Field cap:** 3,000 characters. **Tight section** (high weight). CH13 analogue: `../../planetar/proposal/PRC-2_novelty.md`.
-> ⚠️ **Novelty here is the FCE engine + policy model — NOT the fusion model** (`THESIS.md`).
+> **Field cap:** 3,000 characters. **Tight + high weight.** CH13 analogue: `../../planetar/proposal/PRC-2_novelty.md`.
+> ⚠️ **Novelty = the FCE engine + policy model, NOT the fusion model** (`../THESIS.md`). Keep fusion to ≤1 line of background.
 
-## Draft (skeleton)
+## Draft (workspace markdown — strip headings before submission)
 
-The novel contribution is **compliance-by-design enforcement embedded in the fusion path**:
-1. **Enforcement at the chokepoint, not beside it.** Existing approaches bolt compliance on
-   after fusion or via manual review. Novelty: a synchronous policy gate at the single bus
-   every fused element crosses, with permit/restrict/downgrade/**segregate** dispositions.
-2. **Machine-readable policy → cross-domain fusion control.** Repurpose W3C **ODRL** (a
-   civil data-rights standard) as a defence classification/release-authority policy language,
-   evaluated per element across modalities and security domains. [differentiator]
-3. **Provenance-native, exportable audit by construction.** Append-only CRC32 WAL +
-   per-edge lineage → accreditation-grade lineage as a property of the substrate, not an
-   afterthought.
-4. **Sovereign Canadian foreground IP.** Net-new, Canadian-owned (vs. allied-nation
-   compliance tech CH14 says Canada lacks). Background: applicant-named-inventor patents
-   (US 10,936,582 / 11,442,952, Salesforce-assigned) — **background, not owned IP** [CH13 Q9 rules].
+**(a) New knowledge / technology.**
+
+(1) *Enforcement embedded in the fusion path — the core contribution.* Compliance for multi-domain fusion is enforced today by manual review and procedural checklists, or by guards/cross-domain solutions that screen data at a network boundary, after or beside fusion. The FCE instead places a **synchronous policy gate at the single message chokepoint every fused element crosses**, deciding per element to **permit, restrict, downgrade, or segregate** before a cross-domain merge occurs. Per-element, in-line, programmatic enforcement *during* learned multi-sensor fusion — rather than perimeter screening or post-hoc audit — is, to the applicant's knowledge, absent from the open literature and is novel, separately patentable Canadian foreground IP.
+
+(2) *Machine-readable rights repurposed as defence classification policy.* The FCE adopts **W3C ODRL** — a standards-track rights language adopted across IDSA, Gaia-X, and JPEG Trust — as the policy language for classification guides, release authorities, and coalition caveats. The applicant has already built an ODRL *expression* layer (`planetar-market`); by design it expresses but does not enforce. The novelty is the **evaluation-and-enforcement engine** that binds an ODRL policy to a real-time disposition over an element's {classification, domain, source, modality, releasability}, with hot-reload between operational contexts and no system restart. This brings a civil-standards policy substrate to sovereign defence fusion.
+
+(3) *Accreditation-grade lineage as a property of the substrate.* Because every decision is written to an append-only, CRC32-protected, bit-exact-replayable log and every fused edge carries provenance, exportable ingestion-to-output lineage is a **structural property**, not a bolt-on report — enabling forensic review and accreditation by construction.
+
+**(b) Enhanced capability vs SOTA.** *Speed:* manual compliance cannot keep pace with AI-fusion volume and velocity; the FCE enforces at a chokepoint benchmarked at p50 80–140 ns / p99 400–900 ns, so enforcement adds negligible tactical latency — the explicit CH14 constraint. *Placement:* in-path per-element dispositions (downgrade/segregate, not just allow/deny) versus boundary guards' coarse pass/block. *Trust:* each disposition renders its governing rule and provenance for operator inspection and controlled override, beyond opaque or after-the-fact logging. *Pedigree:* the applicant's peer-reviewed work building reliable ML systems over noisy, scarce-label sensor streams (ORCA-SLANG, Interspeech 2021 [A2]; Sattar et al., PacRim 2011, on Ocean Networks Canada data [A1]) and named-inventor provenance/entity-resolution IP (US 10,936,582; US 11,442,952 — Salesforce-assigned background, not owned) evidence the capability to deliver.
+
+**(c) Future potential.** The "enforce policy at the fusion chokepoint" pattern generalizes to any multi-domain setting CH14 names — Joint ISR (SIGINT + EO/IR + radar), Arctic surveillance, tactical-edge dismounted, coalition interoperability — without redesign, because the engine is agnostic to which modalities cross the bus. As sovereign Canadian foreground IP, it is a reusable building block for every future fusion system and a basis for Component 1b/2 hardening.
 
 ## TODO
-- [ ] Prior-art contrast: name how current cross-domain/guard solutions differ (no overclaiming).
-- [ ] Keep the fusion model to ≤1 background sentence.
+- [ ] Add a real prior-art citation for cross-domain guards / ODRL adoption (new ref list).
+- [ ] Confirm ODRL adopters (IDSA/Gaia-X/JPEG Trust) against `planetar-market/RESEARCH-LEGAL.md` §B.
 
 ## Char-count budget
-Target ≤ 2,960 (tight — budget headroom carefully).
+Target ≤ 2,960 (tight — this draft runs over; trim (b) pedigree clause at red-team).
