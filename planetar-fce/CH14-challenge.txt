@@ -1,0 +1,215 @@
+Challenge Statement
+Reliable AI Sensor Fusion for Real-World Missions
+The Canadian Armed Forces and the Department of National Defence (DND/CAF) are seeking
+innovative Artificial Intelligence (AI) solutions that embed compliance-by-design into multi-
+sensor, multi-domain fusion workflows. The goal is to develop a modular Fusion Compliance
+Engine (FCE) that automatically enforces classification rules, legal constraints, and policy
+adherence in real time during data aggregation and analysis.
+
+Background and Context
+
+When data from different sensors—unmanned aerial systems (UAS), distributed acoustic
+sensors, SIGINT (signal intelligence) receivers, EO/IR (electro-optics/infra-red) platforms, and
+radar—and from multiple classification domains are combined, a single error can result in
+compromised sources, methods, or operations. Today, compliance is enforced through manual
+reviews and procedural checklists that cannot keep pace with the volume and velocity of
+modern AI-enabled data fusion.
+
+DND/CAF requires an automated compliance layer that sits between raw sensor ingestion and
+the fusion analytics pipeline. This layer must act as a policy-aware gatekeeper - tagging,
+filtering, and routing data according to classification markings, and operational release
+authorities—all without introducing latency that degrades tactical decision-making.
+
+This challenge directly supports the CAF Digital Campaign Plan, the DND/CAF AI Strategy,
+NORAD (North American Aerospace Defence Command) modernization priorities, and the
+Cyber Forces mandate. A successful FCE becomes a reusable building block for every future
+fusion system—from Arctic surveillance to coalition interoperability hubs.
+
+While compliance and data-tagging technologies exist in allied nations, Canada currently lacks a
+sovereign, Canadian-developed and Canadian-controlled compliance engine for multi-domain
+fusion. This challenge seeks to build Canadian industrial capacity and intellectual property in a
+critical enabling technology.
+
+DND/CAF are hosting this challenge to observe advancements in AI technology to resolve this
+issue.
+
+Examples of application can be described as, but not limited to:
+
+
+
+
+                                             Page 1
+Joint ISR Fusion: Automated classification enforcement when combining SIGINT, EO/IR imagery,
+and radar tracks. The FCE tags every data element with provenance metadata, blocks
+unauthorized cross-domain merges and generates an audit trail.
+
+Maritime Domain Awareness: Compliance checks during multi-sensor anomaly detection.
+
+Tactical Edge Dismounted: Modular compliance layer deployed on portable computer (e.g.,
+ruggedized laptop or edge server) that enforces classification separation for wearable sensor
+networks operating in denied or austere environments.
+
+DND/CAF will not provide any data (classified, unclassified, operational, synthetic, or
+representative) for use in training, fine-tuning, or validating AI models. Participation in this
+challenge assumes that innovators possess sufficient sensor-domain expertise to independently
+generate or obtain appropriate datasets for model development and testing.
+
+Essential Outcomes
+
+Proposed solutions must:
+   •   Develop a modular AI-enabled component that automatically enforces classification
+       rules and policy constraints during multi-sensor (at least two) data fusion operations.
+   •   Apply enforcement controls based on machine-readable policy definitions across:
+           o Multiple sensor modalities (at least two)
+           o Security domains (at least Network security)
+           o Classification levels (at least Protected B level)
+   •   Execute compliance checks and enforcement actions programmatically during data
+       ingestion and fusion processing, without requiring human approval for predefined policy
+       conditions.
+   •   Generate and retain provenance records for all data ingested into and produced by the
+       fusion pipeline including source sensor identification, classification markings,
+       timestamps, and domain of origin.
+   •   Produce audit logs documenting policy rules applied during fusion processing,
+       enforcement actions taken (e.g., permit, restrict, downgrade, segregate) and resulting
+       compliance dispositions.
+   •   Produce audit records that support traceability of data lineage from original ingestion
+       through fusion output and are exportable for compliance review, forensic analysis, or
+       accreditation activities.
+
+
+                                              Page 2
+Desired Outcomes
+Proposed solutions should include capabilities and considerations such as, but not limited to,
+the following:
+   •   Real-time compliance enforcement across multiple sensor modalities (at least two) and
+       classification levels, with performance suitable for tactical decision-making.
+   •   Adaptable policy framework that allows compliance rules (e.g. classification guides,
+       release authorities, coalition-specific caveats) to be updated or reconfigured without
+       system restart, supporting rapid transition between operational contexts.
+   •   Incorporate Size/Weight/Power (SWaP) and compute limits into fusion pipelines for
+       edge deployment and capable of maintaining compliance enforcement.
+   •   Explainability and operator trust mechanisms, including human-readable compliance
+       decisions and controlled override capabilities with appropriate accountability
+       safeguards.
+
+
+
+
+                                             Page 3
+Énoncé du défi
+Fusion de capteurs par l’IA fiable pour des missions réelles
+Les Forces armées canadiennes et le ministère de la Défense nationale (MDN/FAC) recherchent
+des solutions innovantes en matière d'intelligence artificielle (IA) qui intègrent la conformité
+dès la conception dans les flux de travail de fusion multisensorielle et multi-domaines. L'objectif
+est de développer un moteur de conformité de fusion (FCE) modulaire qui applique
+automatiquement les règles de classification, les contraintes juridiques et le respect des
+politiques en temps réel lors de l'agrégation et de l'analyse des données.
+
+Historique et contexte
+
+Lorsque les données provenant de différents capteurs — systèmes aériens sans pilote (UAS),
+capteurs acoustiques distribués, récepteurs SIGINT (renseignement d'origine
+électromagnétique), plateformes EO/IR (électro-optiques/infrarouges) et radars — et issues de
+multiples domaines de classification sont combinées, une seule erreur peut compromettre les
+sources, les méthodes ou les opérations. Aujourd'hui, la conformité est assurée par des
+examens manuels et des listes de contrôle procédurales qui ne peuvent pas suivre le rythme du
+volume et de la vitesse de la fusion de données moderne basée sur l'IA.
+
+Le MDN/CAF a besoin d'une couche de conformité automatisée qui s'intercale entre la collecte
+brute des données des capteurs et le pipeline d'analyse de fusion. Cette couche doit agir
+comme un contrôleur respectueux des politiques : elle doit étiqueter, filtrer et acheminer les
+données en fonction des marquages de classification et des autorisations opérationnelles de
+diffusion, le tout sans introduire de latence susceptible de nuire à la prise de décision tactique.
+
+Ce projet s'inscrit en lien direct avec le plan de campagne numérique des Forces armées
+canadiennes (FAC), la stratégie du MDN et des FAC en matière d'intelligence artificielle, les
+priorités de modernisation du NORAD (Commandement de la défense aérospatiale de
+l'Amérique du Nord) et le mandat des Forces cyber. Une FCE réussie constituera un élément
+réutilisable pour tous les futurs systèmes de fusion, qu'il s'agisse de la surveillance de l'Arctique
+ou des centres d'interopérabilité des coalitions.
+
+Bien que les pays alliés disposent de technologies de conformité et de marquage des données,
+le Canada ne dispose pas actuellement d'un moteur de conformité souverain, développé et
+contrôlé par le Canada, destiné à la fusion multi-domaine. Ce défi vise à renforcer les capacités
+industrielles et la propriété intellectuelle du Canada dans le domaine d'une technologie
+habilitante essentielle.
+
+
+
+
+                                               Page 4
+Le MDN et les FAC organisent ce défi afin d'observer les progrès réalisés dans le domaine de
+l'intelligence artificielle pour résoudre ce problème.
+
+Voici quelques exemples d'applications, sans que cette liste soit exhaustive :
+
+Fusion interarmées des données ISR: application automatisée des règles de classification lors
+de la combinaison de données SIGINT, d'images EO/IR et de signaux radar. Le système FCE
+associe à chaque élément de données des métadonnées de provenance, empêche les fusions
+non autorisées entre domaines et génère une piste d'audit.
+
+Maîtrise du domaine maritime: contrôles de conformité lors de la détection d'anomalies à
+l'aide de plusieurs capteurs.
+
+Milieu tactique démonté: couche de conformité modulaire déployée sur un ordinateur
+portable (par exemple, un ordinateur portable renforcé ou un serveur de périphérie) qui assure
+la séparation des niveaux de classification pour les réseaux de capteurs portables opérant dans
+des environnements hostiles ou difficiles.
+
+Le MDN et les FAC ne fourniront aucune donnée (classifiée, non classifiée, opérationnelle,
+synthétique ou représentative) destinée à l'entraînement, au réglage fin ou à la validation de
+modèles d'IA. La participation à ce défi suppose que les innovateurs possèdent une expertise
+suffisante dans le domaine des capteurs pour générer ou se procurer de manière autonome les
+ensembles de données appropriés au développement et à l'évaluation des modèles.
+Résultats essentiels
+Les solutions proposées doivent répondre aux critères suivants:
+   •   Développer un composant modulaire basé sur l'IA qui applique automatiquement les
+       règles de classification et les contraintes de politique lors d'opérations de fusion de
+       données multisensorielles (au moins deux capteurs).
+   •   Appliquer des contrôles de mise en conformité basés sur des définitions de politiques
+       lisibles par machine dans les domaines suivants :
+           o Plusieurs types de capteurs (au moins deux)
+           o Domaines de sécurité (au moins la sécurité réseau)
+           o Niveaux de classification (au moins le niveau « Protégé B »)
+   •   Effectuer des contrôles de conformité et mettre en œuvre des mesures coercitives de
+       manière automatisée lors de l'ingestion et du traitement de fusion des données, sans
+       nécessiter de validation humaine pour les conditions de politique prédéfinies.
+
+
+
+
+                                              Page 5
+   •   Générer et conserver des enregistrements de provenance pour toutes les données
+       ingérées dans le pipeline de fusion et produites par celui-ci, y compris l'identification des
+       capteurs sources, les marquages de classification, les horodatages et le domaine
+       d'origine.
+   •   Générer des journaux d'audit documentant les règles de politique appliquées lors du
+       traitement de fusion, les mesures d'application prises (par exemple, autorisation,
+       restriction, déclassement, séparation) et les décisions de conformité qui en découlent.
+   •   Générer des enregistrements d'audit permettant de retracer le parcours des données
+       depuis leur ingestion initiale jusqu'à la sortie de la fusion, et pouvant être exportés à des
+       fins de contrôle de conformité, d'analyse judiciaire ou d'activités d'accréditation.
+
+Résultats souhaités
+
+Les solutions proposées doivent inclure des fonctionnalités et des aspects tels que, sans s’y
+limiter, les éléments suivants :
+   •   Application en temps réel de la conformité sur plusieurs modalités de capteurs (au
+       moins deux) et niveaux de classification, avec des performances adaptées à la prise de
+       décision tactique.
+   •   Cadre de politiques adaptable permettant de mettre à jour ou de reconfigurer les règles
+       de conformité (par exemple, guides de classification, autorisations de diffusion,
+       restrictions spécifiques à la coalition) sans redémarrage du système, afin de faciliter la
+       transition rapide entre différents contextes opérationnels.
+   •   Intégration des contraintes de taille, de poids et de puissance (SWaP) ainsi que des
+       limites de calcul dans les pipelines de fusion pour un déploiement en périphérie, tout en
+       garantissant le maintien de l'application de la conformité.
+   •   Mécanismes d'explicabilité et de confiance des opérateurs, comprenant des décisions
+       de conformité lisibles par l'humain et des capacités de contournement contrôlées
+       assorties de garanties appropriées en matière de responsabilité.
+
+
+
+
+                                              Page 6
+
