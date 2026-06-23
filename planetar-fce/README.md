@@ -49,16 +49,16 @@ planetar-fce/
 ├── 03-ARCHITECTURE.md     ⏳ the FCE layer on the bus (enforcement + audit + lineage)
 ├── 08-OPEN-QUESTIONS.md   ⏳ decisions log + open items
 ├── CH14-challenge.{pdf,txt}  ✅ authoritative challenge doc (source of record)
-└── proposal/              ⏳ MC/PRC narrative skeletons (authoring format from planetar/)
-    ├── MC-1_trl.md            pass/fail — FCE TRL 2 → 3
-    ├── MC-2_alignment.md      pass/fail — map to EO1–EO6
-    ├── PRC-1_st_merit.md      10 pts
-    ├── PRC-2_novelty.md       20 pts — the FCE approach (NOT the fusion model)
-    ├── PRC-3_impact.md        20 pts
-    ├── PRC-4_feasibility.md   20 pts — own-the-chokepoint + ns latency headroom
-    ├── PRC-5_gba_plus.md      5 pts  — reuse CH13 GBA+
-    ├── PRC-6_desired_outcomes.md 15 pts — real-time, hot-reload, SWaP, override
-    └── PRC-7_budget.md        budget tables
+└── proposal/              ◐ 4 of 9 drafted (MC-1, MC-2, PRC-2, PRC-4); rest skeletons
+    ├── MC-1_trl.md            ✅ DRAFT — FCE TRL 2 → 3 (~2.7k chars)
+    ├── MC-2_alignment.md      ✅ DRAFT — EO1–EO6 walk (~2.6k chars)
+    ├── PRC-1_st_merit.md      ⏳ 10 pts
+    ├── PRC-2_novelty.md       ✅ DRAFT — FCE approach, NOT fusion model (~2.96k, at cap)
+    ├── PRC-3_impact.md        ⏳ 20 pts
+    ├── PRC-4_feasibility.md   ✅ DRAFT — own-the-chokepoint + ns latency (~2.65k chars)
+    ├── PRC-5_gba_plus.md      ⏳ 5 pts  — reuse CH13 GBA+
+    ├── PRC-6_desired_outcomes.md ⏳ 15 pts — real-time, hot-reload, SWaP, override
+    └── PRC-7_budget.md        ⏳ budget tables
 ```
 
 ✅ = done · ⏳ = scaffolded skeleton, needs authoring.
@@ -80,7 +80,8 @@ char-count/strip protocol (`planetar/CLAUDE.md`). Evaluation framework (MC/PRC w
 | Thesis pivot defined | ✅ `THESIS.md` |
 | Essential-outcome asset map | ✅ `FIT.md` (formalize into `01-CHALLENGE.md`) |
 | Workspace docs 01/02/03/08 | ⏳ skeletons |
-| 9 narrative drafts | ⏳ skeletons |
+| 9 narrative drafts | ◐ **4 drafted** (MC-1, MC-2, PRC-2, PRC-4); 5 skeletons (PRC-1/3/5/6/7) |
+| Demo design (Q2/R7) | ✅ AIS + SAR, dark-vessel/MDA setting, synthetic Protected-B markings |
 | Component decision (1a vs 1b) | ⏳ 1a recommended; confirm honest TRL of FCE engine |
 | Multiple-bid rule (CH14 + urban sibling) | ⏳ verify in Amendment 2 |
 | GBA+ / portfolio / budget reuse from CH13 | ⏳ pending |
