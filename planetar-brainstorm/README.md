@@ -36,6 +36,7 @@ or low-partner-dependency calls.
 | [`04-ocean-maritime.md`](04-ocean-maritime.md) | Ocean Supercluster, Ocean Startup Project, COVE, ONC (Victoria-local) |
 | [`05-community-revenue.md`](05-community-revenue.md) | GitHub Sponsors, dual-license / open-core, services, YouTube + website flywheel |
 | [`06-shortlist-and-calendar.md`](06-shortlist-and-calendar.md) | Ranked shortlist (fit × $ × effort) + a dated calendar of known windows |
+| [`07-funding-radar.md`](07-funding-radar.md) | Announcement channels to subscribe to (with status + cadence) + a Gotham-adjacency scan mapping planetar's assets to programs beyond maritime |
 
 ## Top picks (the 60-second version)
 

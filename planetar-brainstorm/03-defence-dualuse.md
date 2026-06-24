@@ -39,6 +39,58 @@ Challenge-based accelerator for **dual-use deep tech** across 32 NATO nations.
   so you can move when the call opens. Higher prestige than most Canadian grants.
 - https://www.diana.nato.int/
 
+### DIANA 2027 challenge call — go/no-go ⏰ (decide by 2026-07-02 12:00 BST)
+
+*Drafted 2026-06-22 — re-verify the deadline and challenge text on diana.nato.int before acting;
+this is a fast-moving call.*
+
+**The opportunity.** DIANA's 2027 challenge call is **open now** and closes **2026-07-02
+12:00 BST** (~11 days out). One of the six 2027 challenges —
+**"Multidomain Sensing & Advanced Data Processing for Intelligence and Surveillance"** — is a
+near-exact description of planetar: *"sensor and data fusion technologies to integrate data from
+various platforms (autonomous platforms, satellites, ground sensors) and from different sources,
+formats, and security classifications … analytics/AI/causal models … actionable, causality-based
+intelligence and predictive insights."* Selected innovators get **€100K** non-dilutive +
+200+ test centres + mentors/end-users/investors.
+([challenges](https://www.diana.nato.int/challenges.html) · [2027 topics](https://sciencebusiness.net/news/r-d-funding/research-infrastructures/funding-radar-nato-diana-announces-2027-challenge-topics))
+
+**The fit screen (passes both — TRL gate corrected 2026-06-22):** DIANA requires **TRL 4 and
+above** ("lower will not be considered") — **not** TRL 1–3 as first assumed. Verified against the
+actual repos, **planetar's platform substrate is at TRL 4 today** (integrated + lab-validated;
+several components at TRL 5 on live feeds), so the gate is **passable honestly** ✅ · the scored
+deliverable is **software/AI data-fusion**, not hardware ✅. This is the cleanest non-IDEaS fit in
+the whole radar, and the first to clear screen #1 by *reaching* the gated TRL rather than failing
+it. **Full workspace + drafts: [`../planetar-diana/`](../planetar-diana/).**
+
+**For (bid):**
+- Thesis match is as close as CH13/CH14 — fusion + re-ID + decision support is the literal ask.
+- Non-dilutive €100K + a NATO credibility stamp Canadian grants can't match (~20 Canadians/cohort).
+- Pitch is largely **reusable** from the CH13/CH14 spine (one-pager, architecture, benchmark,
+  patent framing) — marginal authoring cost is lower than a cold bid.
+- Individual/early-stage friendly; doesn't depend on the C1 incorporation question.
+
+**Against (no-bid / defer):**
+- **Timing collision** — 11 days, immediately after the CH13 deadline (2026-06-02) and overlapping
+  CH14 authoring (deadline 2026-07-14). Real risk of doing two things badly.
+- DIANA is an **accelerator**, not just a grant: selection implies a *time-heavy* multi-month
+  program commitment, not a fire-and-forget deliverable. Solo-founder bandwidth is the binding
+  constraint.
+- DIANA's TRL band is **4+**; planetar reaches it, but the TRL-4 claim must survive a panel that
+  may ask for a live fused-demo (two integration gaps to close before the *pitch* stage — see
+  [`../planetar-diana/FIT.md`](../planetar-diana/FIT.md)).
+- Annual cadence → a **2028 call** exists as a fallback if CH14 + CSSP are the better use of June–July.
+
+**Recommendation → DECISION (founder, 2026-06-22): GO — submit the 2027 bid.** Fit is excellent,
+the TRL gate is honestly cleared (TRL 4 verified), and C1 is resolved (applicant = **Zax Analytics**,
+BC-registered; Steven Ness Director & CEO). Drafts built and applicant facts filled in
+([`../planetar-diana/`](../planetar-diana/)). Accepted cost: the bandwidth overlap with CH14
+(DIANA 2026-07-02 / CH14 2026-07-14) — mitigated by the reused spine and the TRL-4 demo work
+overlapping CH14.
+
+**Decision:** `[x]` **submit 2027** · `[ ]` defer to 2028 — committed 2026-06-22. Next: transfer
+content into DIANA's official templates, finish `[TODO]` founder facts, submit before
+2026-07-02 12:00 BST.
+
 ## BDC StrongNorth Fund + Catalyst Innovation Fund — ⚠ dilutive (equity/VC)
 
 Part of Canada's 2026 defence package — *capital*, not grants.
