@@ -2,7 +2,7 @@
 
 > **Field cap:** 3,000 characters. **Pass/fail.** Must accurately state current TRL + R&D to reach it.
 > **Locked claim (R5):** the solution — the **Fusion Compliance Engine (FCE)** — is **TRL 2 at start → TRL 3** at end-state.
-> CH13 analogue: `../../planetar/proposal/MC-1_trl.md`. ⚠️ LOC figures are TODO (re-audit; broker grew since May snapshot).
+> CH13 analogue: `../../planetar/proposal/MC-1_trl.md`. LOC kept qualitative (broker is ~3.1k lines, ≈half doc comments → ~1.5k LOC of code; `zmesg` has no standalone repo here). Benchmark attributed to predecessor `zbroker0` per `../../planetar/docs/benchmark-2026-04-27.md`.
 
 ## Draft (workspace markdown — strip headings before submission)
 
@@ -10,7 +10,7 @@
 
 Prior R&D establishing the critical functions (all built, open-source, broker-integrated):
 
-(1) **The fusion chokepoint (built).** `planetar-broker` — a dependency-light C message bus (TCP/UDP/shared-memory, lock-free reserve path) — is the single point every fused observation crosses. Its append-only write-ahead log is CRC32-protected and bit-exact replayable: the audit-and-lineage spine the FCE writes to. A 1M-message benchmark of its shared-memory path measured p50 80–140 ns / p99 400–900 ns, demonstrating that an enforcement check can be inserted without material tactical latency.
+(1) **The fusion chokepoint (built).** `planetar-broker` — a dependency-light single-file C message bus (TCP/UDP/shared-memory, lock-free reserve path) — is the single point every fused observation crosses. Its append-only write-ahead log is CRC32-protected and bit-exact replayable: the audit-and-lineage spine the FCE writes to. A 1M-message benchmark of this shared-memory architecture (measured on its predecessor `zbroker0`) recorded p50 80–140 ns / p99 400–900 ns on an untuned workstation; a planetar-broker re-benchmark, including FCE-on overhead, is part of the 1a. This headroom shows an enforcement check can be inserted without material tactical latency.
 
 (2) **Native provenance (built).** `zmesg`, a zero-copy typed envelope, already carries source id, nanosecond timestamps, and correlation/causation ids on every message — most of the provenance record an Essential Outcome requires (classification marking and domain-of-origin are additive fields delivered in the 1a).
 
@@ -21,8 +21,9 @@ Prior R&D establishing the critical functions (all built, open-source, broker-in
 These — measured and test-covered — demonstrate the critical functions in adjacent settings (TRL 3 components). The 1a delivers the application-specific advance: the policy-evaluation-and-enforcement engine, with classification/domain provenance fields, an enforcement-action audit record, and exportable lineage — TRL 2 → 3.
 
 ## TODO
-- [ ] Re-audit LOC for broker/ontology/zmesg; insert exact figures (or drop if contested).
-- [ ] Confirm benchmark phrasing matches `planetar/docs/benchmark-2026-04-27.md` exactly.
+- [x] LOC re-audited **2026-06-22**: broker `planetar-broker.c` = 3,125 lines (≈1,355 doc comments → ~1.5k LOC of code), single file; `planetar-ontology` ~1,676 LOC TS (non-test). **`zmesg` has no standalone repo here** — it's an envelope *format* embedded as per-language codecs (ui/ais/ontology/eo/sat/acoustic + `tests/zmesg-test.h`); broker.c cites a canonical `~/github/sness23/zmesg/zmesg.h` that is **absent on this machine**. → keep LOC qualitative; cite `zmesg` only functionally (verified: envelope carries `source`, ns timestamps, `correlationId`, `causationId` — `planetar-ui/src/types/zmesg.ts`).
+- [x] Benchmark attribution fixed in MC-1 **2026-06-22**: numbers are predecessor `zbroker0`'s (benchmark-doc title + build path), not a measured planetar-broker run. MC-1 attributes to zbroker0 and folds the planetar-broker re-benchmark (incl. FCE-on overhead) into the 1a. **MC-2 + PRC-1/2/4/6 keep their forward wording** ("the chokepoint is benchmarked") per decision **Q7 / option C (2026-06-22): run the planetar-broker re-benchmark before 2026-07-14** to make the claim literally true — `../08-OPEN-QUESTIONS.md` Q7 (**BLOCKING**). On completion, reconcile MC-1 to cite planetar-broker directly.
+- [ ] Courtesy (out of scope): planetar-broker's own `CLAUDE.md` says "~2.1k lines" — also stale (now 3,125).
 
 ## Char-count budget
-Target ≤ 2,950 (50 buffer). Measure stripped paste block at red-team — currently runs long; trim item (4) first.
+Target ≤ 2,950 (50 buffer). Measured 2026-06-22: ~2,870 after the benchmark-attribution fix — "runs long" note was stale.

@@ -1,0 +1,16 @@
+# Field 11 — MC-1: Justify anticipated end-state TRL
+
+**Form section:** Component 1a → MC-1 · **Cap:** 3,000 characters · **End-state TRL (field 10) = 3**
+**Source:** split from `../proposal/MC-1_trl.md` (the TRL-3 justification), expanded with the demonstration detail.
+**Status:** ✅ READY. Demo = evaluator-operable AIS + SAR at planetar.ca, synthetic Protected-B (Q5/R7).
+
+--- PASTE THIS BELOW ---
+At project start the solution — a modular Fusion Compliance Engine — is at TRL 2: the concept is formulated with strong component-level evidence (a built, provenance-tracked fusion chokepoint with an immutable audit log, a built machine-readable policy layer, per-edge lineage, and an analyst console), but the enforcement engine that binds policy to real-time dispositions is not yet built or demonstrated.
+The anticipated end-state is TRL 3 — analytical and experimental critical-function proof of concept — reached when the engine is built and demonstrated end-to-end. The demonstration is twofold. First, a controlled, reproducible scenario in a Maritime Domain Awareness setting: two sensor modalities — open AIS (unclassified) and Sentinel-1 synthetic-aperture-radar detections marked at synthetic Protected B — are fused; as each element crosses the chokepoint the FCE evaluates the machine-readable policy and applies a disposition (permit, restrict, downgrade, or segregate), blocking an unauthorized cross-domain merge, writing an enforcement-action record to the immutable log, and producing an exportable ingestion-to-output lineage trail, all replayable bit-for-bit from the write-ahead log. Second, an evaluator-operable live system at planetar.ca that evaluators drive themselves during evaluation — changing a policy and watching enforcement hot-reload, and clicking any disposition back through its governing rule and provenance. A running system an evaluator can operate is the defining characteristic of a demonstrated proof of concept.
+The work proceeds in two milestone stages. Milestone 1 designs the ODRL-to-classification policy model, adds the classification and domain-of-origin fields to the envelope, designs the synchronous policy-evaluation hook, and sets up the two-modality demonstration data under synthetic Protected-B markings. Milestone 2 builds the enforcement engine at the chokepoint, adds the enforcement-action record type to the write-ahead log, delivers the exportable lineage format and the evaluator-operable planetar.ca demonstration, and measures the FCE's enforcement overhead against the no-enforcement baseline.
+Every disposition traces to the rule that produced it and to the element's provenance, and the full chain can be independently re-run from the open-source repositories — analytical and experimental evidence, not assertion. This is a clean one-level advance from TRL 2 to TRL 3, squarely inside the Component 1a bracket (TRL 1–3). TRL 4 — component validation in a laboratory environment — is the natural Component 1b objective this proof of concept sets up.
+--- END PASTE ---
+
+## Notes
+- planetar.ca (evaluator-operable) is the headline proof-of-concept evidence — same role it played in CH13.
+- If over 3,000: trim the second half of the Milestone-1/2 sentence (the data-setup clause) first.

@@ -49,7 +49,7 @@ software. That is the structural difference from the two no-bids.
   SHM) is *directly* the "no added latency" selling point. The FCE's whole risk is latency;
   we can show a measured ns-scale chokepoint.
 - **Adaptable policy without restart:** ODRL policies are data, not code → hot-reload story.
-- **SWaP / edge:** the ~1.2k-LOC dependency-light **C** broker is a genuine edge artifact
+- **SWaP / edge:** the dependency-light single-file **C** broker (~1.5k LOC) is a genuine edge artifact
   (the Tactical-Edge/Dismounted example asks for exactly a ruggedized-laptop deployment).
 - **Explainability + override:** the `planetar-ui` shell already clicks from a detection
   back through its causation chain to raw inputs — that's "human-readable compliance

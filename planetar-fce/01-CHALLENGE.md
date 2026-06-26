@@ -25,7 +25,7 @@ no-bids failed — see `FIT.md`.)
 |---|---|---|
 | **DO1** | Real-time enforcement at tactical-decision speed | ns-scale chokepoint (`zbroker0` p50 80–140 ns / p99 400–900 ns) — enforcement adds negligible latency |
 | **DO2** | Adaptable policy without system restart | ODRL policies are **data**, not code → hot-reload |
-| **DO3** | SWaP / compute limits for edge | ~1.2k-LOC dependency-light **C** broker = genuine edge artifact (Tactical-Edge example) |
+| **DO3** | SWaP / compute limits for edge | dependency-light single-file **C** broker (~1.5k LOC) = genuine edge artifact (Tactical-Edge example) |
 | **DO4** | Explainability + operator trust + controlled override | `planetar-ui` causation-chain drill-down; override = a policy-authority action logged to WAL |
 
 ## Application domain for the demo
