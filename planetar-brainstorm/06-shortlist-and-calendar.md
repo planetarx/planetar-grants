@@ -46,7 +46,8 @@ Fit = match to planetar's honest profile. ⛔ = blocked until incorporation. ⏰
 | rolling | NRC IRAP — call **1-877-994-4727** | Once incorporated, get an ITA |
 | rolling | ISC Challenge Stream new problem statements | Standing watch for data-fusion/OSINT/MDA |
 | with tax return | SR&ED claim | Keep contemporaneous R&D records now |
-| ~late 2026 (TBC) | NATO DIANA next challenge call | Subscribe to announcements; pre-draft pitch |
+| **2026-07-02 12:00 BST** ⏰ | NATO DIANA **2027** challenge call closes (incl. "Multidomain Sensing & Advanced Data Processing for ISR" — near-exact fit) | **GO — submitting (2026-06-22).** Drafts + applicant facts done → [`../planetar-diana/`](../planetar-diana/). TRL gate cleared (TRL 4); C1 resolved (Zax Analytics). Transfer to official templates → submit |
+| rolling (CanadaBuys) | **CSSP** (DRDC public-safety S&T) CFPs — last `W7714-248656` | Standing watch (4th watch); civilian-forward, TRL 1–3 OK ([`07`](07-funding-radar.md)) |
 | watch | Sovereign Tech Fellowship / Standards re-open | 2026 rounds closed Apr 6 / May 19 |
 | open | CDL 2026/27 (incl. Defence Stream) | Apply only if you want mentorship/investor intros |
 
@@ -66,8 +67,11 @@ Fit = match to planetar's honest profile. ⛔ = blocked until incorporation. ⏰
    ([`drafts/01`](drafts/01-nlnet-application.md))
 6. **Resolve C1** (Zax relationship) with the accountant → start the IRAP/SR&ED stack
    (now unblocked). ([`DECISIONS.md`](DECISIONS.md))
-7. **Set 3 standing watches:** IDEaS/MINERVA challenge list · ISC Challenge Stream ·
-   NATO DIANA next call. Bid only software/AI-essential, TRL 1–3 calls (the no-bid lesson).
+7. **Set 4 standing watches:** IDEaS/MINERVA challenge list · ISC Challenge Stream ·
+   NATO DIANA next call · **CSSP** (Canadian Safety & Security Program — same DRDC/PSPC
+   plumbing as IDEaS, civilian public-safety S&T, passes both fit screens). Bid only
+   software/AI-essential, TRL 1–3 calls (the no-bid lesson). Subscribe to the announcement
+   channels in [`07-funding-radar.md`](07-funding-radar.md) so these arrive automatically.
 
 ## Decisions that change this plan
 
