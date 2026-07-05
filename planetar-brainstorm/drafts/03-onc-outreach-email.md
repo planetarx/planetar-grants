@@ -46,7 +46,7 @@ couple of weeks?
 Thanks very much,
 
 Steven Ness, PhD
-`[TODO: title / company per C1]` · `[TODO: email]` · `[TODO: site]`
+CEO, Zax Analytics · sness@sness.net · https://sness.net · https://planetar.ca
 
 ---
 

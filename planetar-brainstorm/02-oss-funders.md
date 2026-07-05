@@ -18,11 +18,21 @@ no-nonsense application; pays for concrete deliverables.
 > The currently-open *other* NLnet funds (NGI TALER = payments, NGI Fediversity = hosting,
 > Open Social = ActivityPub) are **off-theme** for planetar — don't force-fit them.
 
+> **⚠️ Re-verified 2026-07-02 — the 2026-08-01 window is NOT usable.** Restack itself is
+> confirmed real (announced 2026-01-31: Horizon Europe "Open Internet Stack", €10M,
+> €5K–50K grants, rolling calls every ~2 months June 2026 → 2030, individuals eligible) —
+> **but its calls have not opened yet.** As of 2026-07-02, `nlnet.nl/propose` offers **only
+> NGI TALER and NGI Fediversity** (deadline 2026-08-01) — no Restack option, and **no
+> general Open Call either** ("our regular open call will reopen after the summer").
+> **New action:** hold the drafted application; **check https://nlnet.nl/propose/ monthly**
+> and submit to the first Restack / regular call that appears (expect fall 2026).
+
 - **Fund:** **Restack** — *"a healthy Open Internet Stack… open, resilient, trustworthy
   digital infrastructure… middleware without vendor lock-in… local-first infrastructure."*
 - **Amount:** **€5,000–€50,000** per project; **scale-up** track for proven projects.
-- **Cadence:** **rolling open calls every ~2 months, June 2026 → 2030.** **Next deadline:
-  2026-08-01 12:00 CEST.** Plenty of runway — no longer a one-shot.
+- **Cadence:** **rolling open calls every ~2 months → 2030** *per the Restack announcement* —
+  but **the first call had not opened as of 2026-07-02**; NLnet's regular call reopens
+  **after summer 2026**. (The 2026-08-01 deadline is Taler/Fediversity only.)
 - **Eligible:** free/open hardware / **software** / data / standards. **Individuals and
   orgs of any type** — no incorporation required. Global applicants.
 - **Bonus services:** free security & accessibility audits, mentoring, testing,
@@ -32,8 +42,9 @@ no-nonsense application; pays for concrete deliverables.
   typed-envelope standard (UUIDv7, ns timestamps, provenance)." That's *exactly* Restack's
   "middleware without vendor lock-in / Open Internet Stack" language. *Frame as open infra,
   not a defence product.* Draft ready: [`drafts/01-nlnet-application.md`](drafts/01-nlnet-application.md).
-- **Action:** submit via the form before the Aug-1 window (or any later 2-monthly one).
-  **Lowest-friction non-dilutive money on this whole list.**
+- **Action:** hold until the Restack / regular call opens (check monthly; expect fall 2026),
+  then submit immediately. Still the **lowest-friction non-dilutive money on this whole
+  list** — just not an August cheque.
 - Apply: https://nlnet.nl/propose/ (Call Selection = **Restack**, fallback **Open Call**) ·
   Form fields are mirrored in [`drafts/01`](drafts/01-nlnet-application.md).
 - **Other coming-soon NLnet funds to watch:** **CodeSupply** (cybersecurity / software
@@ -105,6 +116,7 @@ Tech, Ocean Supercluster), and (c) a forcing function to ship the open-infra sto
 ## Sources
 
 - [NLnet — NGI Zero Commons Fund](https://nlnet.nl/commonsfund/) · [Apply for funding](https://nlnet.nl/funding.html) · [Guide for applicants](https://nlnet.nl/commonsfund/guideforapplicants/)
+- [NLnet — Restack / Open Internet Stack announcement (2026-01-31)](https://nlnet.nl/news/2026/20260131-restack.html) · [Aug-1 2026 call scope — Taler + Fediversity only](https://nlnet.nl/news/2026/20260601-call.html) · [Proposal form](https://nlnet.nl/propose/)
 - [Sovereign Tech Agency](https://www.sovereign.tech/) · [Fund](https://www.sovereign.tech/programs/fund) · [Fellowship](https://www.sovereign.tech/programs/fellowship) · [Standards](https://www.sovereign.tech/programs/standards)
 - [Open Source Collective — GitHub Sponsors](https://docs.oscollective.org/campaigns-and-partnerships/github-sponsors) · [Open Collective](https://opencollective.com/github-sponsors)
 - [Mozilla MOSS (note: hiatus)](https://www.mozilla.org/en-US/moss/)

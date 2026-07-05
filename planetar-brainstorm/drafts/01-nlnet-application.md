@@ -1,5 +1,13 @@
 # NLnet application (draft) — target fund: **Restack**
 
+> **⏸️ ON HOLD 2026-07-03 — do not submit for 2026-08-01.** Verified on `nlnet.nl/propose`
+> (2026-07-02): the only selectable calls are **NGI TALER** and **NGI Fediversity** — no
+> Restack, and no general Open Call (so the fallback in the apply-note below is currently
+> impossible). NLnet's regular call reopens **after summer 2026**; Restack's rolling calls
+> haven't started. Keep this draft ready, **check https://nlnet.nl/propose/ monthly**, and
+> submit to the first Restack / regular call that appears. Status detail:
+> [`../02-oss-funders.md`](../02-oss-funders.md).
+
 > **Retargeted 2026-06-03.** The **NGI Zero Commons Fund closed permanently** — its 13th
 > and final call was 2026-06-01; the NGI0 budget is fully allocated. NGI Zero **Core** is
 > also closed. The fit-appropriate successor is **Restack** — NLnet's new Horizon Europe
@@ -35,8 +43,8 @@ work. If you'd rather name the company, use `Zax Analytics` — your call.)
 **Proposal Name:** planetar — an open real-time fusion bus & self-describing message
 envelope for multi-source data
 
-**Website / repository:** `github.com/sness23/planetar-broker` ·
-`github.com/sness23/zmesg` · `[TODO: project site once live]`
+**Website / repository:** `github.com/planetarx/planetar-broker` ·
+`github.com/sness23/zmesg` · https://planetar.ca (live demo) · https://sness.net
 
 **Requested amount:** €50,000
 
@@ -165,7 +173,7 @@ and be ready to attach the relevant prompts/output. Do **not** leave it blank or
 - [x] Latency claim corrected — predecessor (`zbroker0`) ns figure attributed honestly;
       planetar-broker's own measured number is the ~34 µs TCP path.
 - [x] LOC corrected to auditable committed values (broker ~1,000; envelope 260).
-- [ ] Fill `[TODO]`s: founder phone, project site URL.
+- [ ] Fill `[TODO]`s: founder phone.
 - [ ] Decide applicant entity: **individual (recommended)** vs Zax Analytics.
 - [ ] Decide ask: **€50k** vs tighter **~€30k** first grant (then scale-up).
 - [ ] Complete the **generative-AI disclosure** honestly.

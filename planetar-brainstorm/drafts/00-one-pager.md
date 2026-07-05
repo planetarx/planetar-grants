@@ -57,8 +57,8 @@ pollution / whale-strike monitoring** (civilian) and **maritime domain awareness
 
 ## Who's building it
 
-**Steven Ness, PhD** (Computer Science, University of Victoria, 2013) — `[TODO: confirm
-company/role wording per C1]`. Background: published hydrophone event-detection on
+**Steven Ness, PhD** (Computer Science, University of Victoria, 2013) — **CEO, Zax
+Analytics** (Victoria, BC). Background: published hydrophone event-detection on
 **Ocean Networks Canada / NEPTUNE Canada** data (Sattar et al., IEEE PacRim 2011, 95%
 accuracy); large-scale bioacoustic ML (the Orchive, ORCA-SLANG / Interspeech 2021);
 **named inventor on US Patent 10,936,582** (entity resolution across distributed systems;
@@ -73,9 +73,10 @@ available for the AGPL components.
 ## Status & links
 
 - Repos: `github.com/planetarx/*` and `github.com/sness23/zmesg`
-- Website: `[TODO]` · YouTube: `[TODO]` · Demo video: `[TODO: dark-vessel demo]`
+- Live system / website: https://planetar.ca · Personal (CV, links): https://sness.net
+- YouTube: `[TODO]` · Demo video: `[TODO: dark-vessel demo]`
 - Support / sponsor: `[TODO: GitHub Sponsors + Open Collective links]`
-- Contact: Steven Ness — `[TODO: email]`
+- Contact: Steven Ness — sness@sness.net
 
 ## The ask (tailor per use)
 

@@ -46,7 +46,8 @@ match the rest of the platform. Commit: `Add AGPL-3.0 LICENSE (was unlicensed)`.
 ### 3. Dual-license note on AGPL repos (enables the commercial path)
 Add to each AGPL repo's `README`:
 > **Licensing.** Licensed under AGPL-3.0. **Commercial licenses** (for use without AGPL
-> obligations) are available — contact `[TODO: email]`.
+> obligations) are available — contact sness@sness.net. *(matches the note already
+> shipped on `planetar-registry`/`-ontology`, per C3)*
 
 This one line is what turns AGPL into a revenue path ([`../05-community-revenue.md`](../05-community-revenue.md)).
 

@@ -39,6 +39,18 @@ Only **one repo needs relicensing**; everything else already matches the decisio
 | C2 | **Disclose the OOR relationship — yes.** Spouse works at Open Ocean Robotics, same blue-economy ecosystem as Ocean Startup / Ocean Supercluster. | When an ocean application asks about conflicts/relationships, **disclose proactively**. Reflect in [`drafts/02`](drafts/02-ocean-startup-challenge.md) (Ocean Startup) and [`drafts/03`](drafts/03-onc-outreach-email.md) (ONC). |
 | C3 | **Apply the license changes — yes. DONE 2026-06-03.** | `planetar-broker` relicensed AGPL→Apache-2.0 (+`NOTICE`) and pushed; `planetar-registry` AGPL-3.0 `LICENSE` added + dual-license note (`sness@sness.net`) and pushed. **`planetar-ontology` DONE** — AGPL-3.0 LICENSE + dual-license note committed on `add-ontology-service` (`1aef5de`), where the code lives; **not pushed** (origin/main is a README stub; publishing the branch is Steven's call). WIP untouched. **Still pending (manual):** `.github/FUNDING.yml`, GitHub Sponsors, Open Collective, and dual-license notes on the other 5 AGPL repos (ui/ais/sat/eo/acoustic). |
 
+## Resolved (2026-07-04, with Steven) — application vehicles & asks
+
+| # | Decision | Detail / consequence |
+|---|---|---|
+| D4 | **Vehicle doctrine per funder** | **Individual (Steven):** Ocean Startup Challenge (Zax fails the <5-yr / majority-owner rules), Emergent Ventures, NLnet. **Zax Analytics (Steven as CEO):** Schmidt Marine, IRAP/SR&ED (Track B). Early-stage programs stay eligible; the corp is reserved for the programs where its age + accountant are assets. |
+| D5 | **Emergent Ventures ask: US$50,000** | Split: **$25K founder runway / $15K GPU training compute / $10K satellite data + hosting**. Repos cited as `github.com/planetarx` (+ `sness23/zmesg`). Draft: [`../planetar-emergent-ventures/01-APPLICATION-draft.md`](../planetar-emergent-ventures/01-APPLICATION-draft.md). |
+| D6 | **Schmidt Marine: applicant Zax Analytics, ask US$200,000 over 18 months** | Mid-range of SMTP's US$100K–400K; credible for a solo team; ONC hydrophone data as in-kind, not budgeted. Draft: [`../planetar-schmidt-marine/01-APPLICATION-draft.md`](../planetar-schmidt-marine/01-APPLICATION-draft.md). |
+
+**Still open:** dilutive-funding stance (equity/VC — the BDC StrongNorth path). Raised
+2026-07-04, unresolved; does not affect the July applications. Revisit before any 2027
+round prep.
+
 ## Assets unlocked by D1 (the accountant is a real advantage)
 
 A 10-year corporation with an accountant means **SR&ED is low-friction** — the books,
