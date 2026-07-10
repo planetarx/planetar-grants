@@ -61,7 +61,8 @@ Fit = match to planetar's honest profile. ⛔ = blocked. ⏰ = time-sensitive. �
 | rolling | ISC Challenge Stream new problem statements | Standing watch for data-fusion/OSINT/MDA |
 | watch | **CSA smartEarth** next AO (~$2.65M planned FY 2026-27) | Quarterly check — [`../planetar-smartearth/`](../planetar-smartearth/) |
 | with tax return | SR&ED claim | Keep contemporaneous R&D records now |
-| ~late 2026 (TBC) | NATO DIANA next challenge call | Subscribe to announcements; pre-draft pitch |
+| **2026-07-02 12:00 BST** ⏰ | NATO DIANA **2027** challenge call closes (incl. "Multidomain Sensing & Advanced Data Processing for ISR" — near-exact fit) | **GO — submitting (2026-06-22).** Drafts + applicant facts done → [`../planetar-diana/`](../planetar-diana/). TRL gate cleared (TRL 4); C1 resolved (Zax Analytics). Transfer to official templates → submit |
+| rolling (CanadaBuys) | **CSSP** (DRDC public-safety S&T) CFPs — last `W7714-248656` | Standing watch (4th watch); civilian-forward, TRL 1–3 OK ([`07`](07-funding-radar.md)) |
 | watch | Sovereign Tech Fellowship / Standards re-open | 2026 rounds closed Apr 6 / May 19 |
 | open | CDL 2026/27 (incl. Defence Stream) | Apply only if you want mentorship/investor intros |
 
@@ -83,11 +84,24 @@ Fit = match to planetar's honest profile. ⛔ = blocked. ⏰ = time-sensitive. �
    record/embed the dark-vessel hero demo. ([`drafts/04`](drafts/04-license-and-funding-setup.md), [05](05-community-revenue.md))
 7. **Send the ONC email** for a data/research conversation; compounds into Mitacs +
    Ocean Supercluster + research-framed grants. ([`drafts/03`](drafts/03-onc-outreach-email.md))
+<<<<<<< HEAD
 8. **NLnet: check `nlnet.nl/propose` monthly**; submit [`drafts/01`](drafts/01-nlnet-application.md)
    the moment Restack / the regular call opens (expect fall 2026).
 9. **Keep 4 standing watches:** IDEaS/MINERVA challenge list · ISC Challenge Stream ·
    NATO DIANA next call · **CSA smartEarth next AO**. Bid only software/AI-essential,
    TRL 1–3 calls (the no-bid lesson).
+=======
+5. **Finalize + submit the NLnet application to Restack** (open-infrastructure face) for the
+   2026-08-01 window (Commons Fund closed; Restack is the successor, rolling to 2030).
+   ([`drafts/01`](drafts/01-nlnet-application.md))
+6. **Resolve C1** (Zax relationship) with the accountant → start the IRAP/SR&ED stack
+   (now unblocked). ([`DECISIONS.md`](DECISIONS.md))
+7. **Set 4 standing watches:** IDEaS/MINERVA challenge list · ISC Challenge Stream ·
+   NATO DIANA next call · **CSSP** (Canadian Safety & Security Program — same DRDC/PSPC
+   plumbing as IDEaS, civilian public-safety S&T, passes both fit screens). Bid only
+   software/AI-essential, TRL 1–3 calls (the no-bid lesson). Subscribe to the announcement
+   channels in [`07-funding-radar.md`](07-funding-radar.md) so these arrive automatically.
+>>>>>>> 07f081b6b8dfd91c4c03117de9335f23405720ca
 
 ## Decisions that change this plan
 
