@@ -73,8 +73,9 @@ this) · Arctic surveillance · coalition interoperability.
   FCE governs (Maritime Domain Awareness is a named CH14 example — use it as the demo
   domain, not the pitch).
 - Bus latency framing changes role: in CH13 it was "real-time fusion"; here it's the
-  **"no added latency to enforcement"** proof — same number (`zbroker0` p50 80–140 ns /
-  p99 400–900 ns), different argument.
+  **"no added latency to enforcement"** proof — same chokepoint, now measured on
+  planetar-broker itself (ring-hop 2026-07-13: p50 95–100 ns / p99 1.0–1.6 µs;
+  `benchmark-2026-07-13-ring-hop.md`), different argument.
 
 ## Per-narrative pivot checklist
 

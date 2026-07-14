@@ -2,7 +2,7 @@
 
 **For:** Steven Ness, Zax Analytics — IDEaS CFP6 **Challenge 14** (Reliable AI Sensor Fusion / FCE), **Component 1a**
 **Solicitation:** `W7714-248676/014` · **Portal:** https://defence-innovation-portal.my.site.com/
-**Deadline:** **2026-07-14 14:00 EDT** · **Target file: 2026-07-11** (3-day buffer)
+**Deadline:** **2026-07-21 14:00 EDT** (extended 2026-07-13 — was 07-14) · **Target file: 2026-07-17** (4-day buffer)
 **Built:** 2026-06-23 · mirrors the proven CH13 kit (`../../planetar/submission/README.md`)
 
 This directory maps the **Component 1a step** of the DIP wizard field-by-field, in portal order. The portal
@@ -81,7 +81,7 @@ For each of MC-1(→09+11), MC-2, PRC-1…6:
 
 ## Pre-submission checklist (T-7 → T-0)
 
-Deadline **2026-07-14 14:00 EDT**; target file **2026-07-11** (confirm weekday before scheduling).
+Deadline **2026-07-21 14:00 EDT** (extended 2026-07-13; was 07-14); target file **2026-07-17**. Gate on **Q8** (CH14 Q&A doc) before final assembly.
 
 **T-7 (~2026-07-04) — freeze**
 - [ ] 🛑 **Q7 benchmark** run on Linux (`./tests/ring-hop 1000000`); p50/p99 recorded; latency claim reconciled across MC-1/MC-2/PRC-1/2/4/6 (or reworded to predecessor framing if not run). — `08-OPEN-QUESTIONS.md` §Q7

@@ -7,7 +7,7 @@
   hardware Essentials). Decision owner: **Steven Ness.** Not yet committed — gated on the
   three checks in "Before committing."
 - **Date:** 2026-06-22.
-- **Deadline:** 2026-07-14 14:00 EDT (~3 weeks; confirm on CanadaBuys Guide).
+- **Deadline:** 2026-07-21 14:00 EDT (extended by notice amendment 2026-07-13; was 2026-07-14).
 
 ---
 
@@ -45,9 +45,9 @@ No Essential requires hardware we don't have, data DND won't give, or capability
 software. That is the structural difference from the two no-bids.
 
 ### Desired outcomes — where we're already strong
-- **Real-time at tactical speed:** the `zbroker0` benchmark (p50 80–140 ns / p99 400–900 ns
-  SHM) is *directly* the "no added latency" selling point. The FCE's whole risk is latency;
-  we can show a measured ns-scale chokepoint.
+- **Real-time at tactical speed:** the planetar-broker ring-hop benchmark (2026-07-13:
+  p50 95–100 ns / p99 1.0–1.6 µs SHM) is *directly* the "no added latency" selling point.
+  The FCE's whole risk is latency; we can show a measured ns-scale chokepoint.
 - **Adaptable policy without restart:** ODRL policies are data, not code → hot-reload story.
 - **SWaP / edge:** the dependency-light single-file **C** broker (~1.5k LOC) is a genuine edge artifact
   (the Tactical-Edge/Dismounted example asks for exactly a ruggedized-laptop deployment).
@@ -106,7 +106,7 @@ Solicitation Guide disqualifies us.** If pursued, it gets its own `planetar-urba
 
 The pre-conditions are now **mostly cleared** (CH14 PDF + CanadaBuys notice read):
 
-1. ✅ **Solicitation + deadline:** `W7714-248676/014` (CH14), closes **2026-07-14 14:00 EDT**.
+1. ✅ **Solicitation + deadline:** `W7714-248676/014` (CH14), closes **2026-07-14 14:00 EDT**. *(2026-07-13: extended to **2026-07-21 14:00 EDT** by notice amendment.)*
 2. ✅ **Criteria/Components:** CH14 reuses CH13's CFP6 framework wholesale — MC-1/MC-2 +
    PRC-1…7 (10/20/20/20/5/15 + budget), 70-pt threshold, 3,000-char caps, **1a/1b/2 ladder
    with 1a (TRL 1–3) the honest lane**. The CH14 PDF adds no challenge-specific scoring. We

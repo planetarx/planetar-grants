@@ -47,8 +47,9 @@ fused observation already crosses. That is the whole structural advantage (see `
 ## Latency argument (DO1 — the FCE's core risk)
 
 The FCE's design risk is *added latency in the fusion path*. planetar's measured
-ns-scale chokepoint (`planetar/docs/benchmark-2026-04-27.md`: `zbroker0` p50 80–140 ns /
-p99 400–900 ns SHM) gives headroom to insert a policy check and still stay far under any
+ns-scale chokepoint (`../benchmark-2026-07-13-ring-hop.md`: planetar-broker ring-hop
+p50 95–100 ns / p99 1.0–1.6 µs SHM; predecessor `zbroker0` 2026-04-27: p50 80–140 ns /
+p99 400–900 ns) gives headroom to insert a policy check and still stay far under any
 tactical-decision threshold. **The 1a must measure FCE-on overhead** and report it the same
 conservative way as the CH13 benchmark (bracket measured runs; no post-tuning numbers).
 

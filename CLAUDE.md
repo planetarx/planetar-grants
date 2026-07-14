@@ -4,143 +4,117 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-<<<<<<< HEAD
-`planetar-grants` tracks Zax Analytics' funding pursuits for the planetar platform **other than** the live IDEaS CFP6 CH13 bid (that one lives in `../planetar/`). It is **Markdown only — no code, no build, no lint, no tests.** The work here is researching funding opportunities, screening them, recording bid/no-bid decisions, and drafting applications.
+`planetar-grants` (git: `git@github.com:planetarx/planetar-grants.git`) is Zax Analytics'
+**funding-pursuits portfolio** for the planetar platform — every pursuit *other than* the filed
+IDEaS CFP6 CH13 bid, which lives in the sibling repo `../planetar/`. It is **Markdown only — no
+code, no build, no lint, no tests.** The work is researching opportunities, screening them with
+the fit filter, recording bid/no-bid/hold decisions, and authoring application drafts.
 
-Workspace-wide norms (provenance over polish, conservative claims, the exact patent phrasing, absolute dates) come from `../CLAUDE.md` — they apply fully here.
+**Git layout exception:** unlike most `planetarx/` subdirectories, this directory *is* the git
+repo — the workspaces inside are plain directories, not nested repos. Commit here.
 
-**Current state lives in `README.md`** (the dashboard: live deadlines, vehicles, decision pointers, remaining founder inputs) — read it before assuming what is or isn't done, and keep it updated when statuses change.
+Workspace-wide norms from `../CLAUDE.md` (provenance over polish, conservative claims, the exact
+patent phrasing, absolute dates) apply fully.
 
-**Git layout exception:** unlike most `planetarx/` subdirectories, the three directories inside this repo are *not* nested git repos. `planetar-grants` itself is the repo — commit here.
+## Where current state lives (read before assuming anything)
 
-## Layout
+- **Each workspace's own `README.md` is the authoritative per-opportunity status dashboard.**
+  Read it before acting in that workspace.
+- The top-level `README.md` is the portfolio dashboard (live deadlines, vehicles, asks, remaining
+  founder inputs) — useful, but it lags when work lands in bursts. When a status changes, update
+  **both** the workspace README and the top-level dashboard.
+- **Everything here is dated snapshot research.** Deadlines, TRL gates, and program terms move —
+  re-verify against each file's listed sources before acting on or repeating a date, amount, or
+  eligibility claim, and date the update.
 
-One directory per pursuit thread:
+## Layout — one directory per pursuit
 
-| Directory | What | State |
+States verified 2026-07-10; trust the workspace READMEs over this table.
+
+| Directory | Opportunity | State |
 |---|---|---|
-| `planetar-brainstorm/` | The live funding map: pitch framing (`00-FRAMING.md`), funder research by category (`01`–`05`), ranked shortlist + deadline calendar (`06`), `DECISIONS.md`, and ready-to-send application drafts in `drafts/` | **Active** |
-| `planetar-ocean-startup/` | Ocean Startup Challenge 2026–27 (≤$25K, TRL ≤6) — apply as **individual**, not Zax | **ACTIVE — closes 2026-07-26**; draft answers live in `planetar-brainstorm/drafts/02` |
-| `planetar-schmidt-marine/` | Schmidt Marine Technology Partners initial proposal (US$100K–400K, ocean philanthropy) — civilian face only | **ACTIVE — closes 2026-07-31** |
-| `planetar-emergent-ventures/` | Emergent Ventures grant (US$1K–50K, individual, rolling) | **ACTIVE — rolling, submit ASAP** |
-| `planetar-smartearth/` | CSA smartEarth EO-applications AOs (historically ≤~$250K) | **WATCH** — no open AO as of 2026-07-02; check quarterly |
-| `planetar-true-north/` | IDEaS "True North Precision" drone+laser challenge (W7714-248676/012) | **CLOSED — no-bid** (2026-05-31); kept as reference if a hardware partner re-opens the system-integrator angle |
-| `planetar-innovation/` | ISC Testing Stream TS13 (EN578-26ISC1) | **CLOSED — no-bid** (2026-06-01) |
-
-The two closed workspaces follow a per-opportunity pattern — reuse it when a new opportunity arrives (new `planetar-<name>/` directory):
-
-1. Raw capture (`idea.md` or `idea/` — forwarded email, screenshots)
-2. `CHALLENGE.md` — verified research note / transcribed challenge text, every fact sourced and dated
-3. Strategy/architecture docs (numbered `01-…`, `02-…`)
-4. `DECISION-no-bid.md` (or a `proposal/`) — the outcome, with rationale, options considered, and a forward plan
-5. A `README.md` whose file index states each doc's status
-
-## Authoritative records — read before acting
-
-- **`planetar-brainstorm/DECISIONS.md`** is the decision record: D1 (Zax Analytics incorporated, Steven is CEO), D2 (license model: permissive bus + AGPL platform), D3 (civilian-forward public identity), and clarifications C1–C3. Every other file cross-references these by number. Check current status there before repeating any claim about eligibility, licensing, or company structure.
-- The **`DECISION-no-bid.md`** files are filed, dated decisions. Don't rewrite them — append dated updates or add new docs if circumstances change.
-- The **fit filter** (`planetar-brainstorm/README.md`) screens new opportunities: (1) honest TRL is 1–3 — skip anything gated at TRL 4+ unless a partner owns the maturity; (2) the Essential/must-pass deliverable must be software/AI/data, not hardware platforms. Both no-bids failed exactly these two tests.
-
-## Working norms specific to this repo
-
-- **Everything is dated snapshot research.** Deadlines, TRL gates, and program terms move — re-verify against each file's listed sources before acting on or updating a date/amount/eligibility claim, and date the update.
-- **Claims must stay auditable.** Capability claims trace to a repo path, measurement, or citation (see `../planetar/docs/built-services-inventory.md` and the benchmark doc before repeating one). Per `drafts/README.md`: don't soften them either.
-- **`[TODO]` placeholders in `drafts/`** mark founder-only facts (contacts, handles, exact budgets). Never invent values for them.
-- **Pitch framing is per-funder, per D3:** civilian/open-infrastructure face for OSS and ocean funders, dual-use/defence face for IDEaS/DIANA. One codebase, honest framing — don't mix the faces in one document.
-- **Sensitive facts are deliberate on-the-record material:** C1 (corporation registered in Steven's wife's name; Steven is CEO) and C2 (spouse works at Open Ocean Robotics → proactively disclose in ocean-sector applications) must be represented precisely as recorded in `DECISIONS.md`, not paraphrased loosely.
-=======
-`planetar-grants` (git: `git@github.com:planetarx/planetar-grants.git`) is a **funding/grants
-portfolio workspace** — Markdown only, no build/test/lint. It holds the *pipeline* of grant
-opportunities for the **planetar** project: research notes, fit/go-no-go analyses, proposal
-drafts, and funding-strategy scratchpads. The actual flagship bid (IDEaS CH13) lives in a
-sibling repo at `../planetar/`, not here; see "Relationship to siblings" below.
-
-There is no top-level README — each sub-workspace has its own. There are no commands to run;
-work is reading, analyzing fit, and authoring Markdown.
-
-## The five sub-workspaces
-
-Each is a self-contained workspace for one funding opportunity (or strategy area). Check the
-workspace's own `README.md` first — it's the status dashboard.
-
-| Dir | Opportunity | State |
-|---|---|---|
-| `planetar-fce/` | IDEaS CFP6 **Challenge 14** — "Reliable AI Sensor Fusion" / Fusion Compliance Engine. `W7714-248676/014`, deadline **2026-07-14 14:00 EDT**, Component 1a (TRL 1–3, ≤$250K, ≤6mo). | **ACTIVE — scaffold, LEAN BID.** The live authoring target. |
-| `planetar-diana/` | **NATO DIANA 2027** — "Multidomain Sensing & Advanced Data Processing for Intelligence and Surveillance." Accelerator, €100K (+ up to €300K), deadline **2026-07-03 12:00 BST**, **TRL 4+** gate. | **ACTIVE — drafts built (2026-06-22).** First **non-IDEaS** bid to pass both fit screens. Conditional GO; bandwidth go/no-go by 2026-06-28. |
-| `planetar-brainstorm/` | Broad funding/sustainability strategy for planetar as OSS (NLnet, IRAP/SR&ED, Ocean Startup, NATO DIANA, etc.) + ready-to-use `drafts/`. `07-funding-radar.md` = announcement-channel tracker + Gotham-adjacency scan. | Ongoing reference + drafts. |
-| `planetar-true-north/` | IDEaS "True North Precision" (drone laser ranging), `W7714-248676/012`. | **NO-BID** (2026-05-31) — kept as reference. |
-| `planetar-innovation/` | ISC Testing Stream TS13, `EN578-26ISC1`. | **NO-BID** (2026-06-01) — kept as reference. |
+| `planetar-brainstorm/` | The funding map: pitch framing (`00`), funder research (`01`–`05`), shortlist + calendar (`06`), announcement-channel radar (`07`), `DECISIONS.md`, reusable `drafts/` | Active reference |
+| `planetar-fce/` | IDEaS CFP6 **Challenge 14** "Reliable AI Sensor Fusion" (`W7714-248676/014`), Component 1a, Fusion Compliance Engine thesis | **ACTIVE — closes 2026-07-14 14:00 EDT.** All 9 narratives drafted + `submission/` kit; see README for the blocking Q7 benchmark gate |
+| `planetar-diana/` | NATO DIANA 2027 "Multidomain Sensing…" accelerator (€100K + up to €300K) | GO, content-complete 2026-06-23; **deadline 2026-07-02/03 has passed** — the workspace does not record whether it was submitted; confirm with the founder before citing |
+| `planetar-emergent-ventures/` | Emergent Ventures / Mercatus (US$50K, individual, rolling) | Ready to submit |
+| `planetar-ocean-startup/` | Ocean Startup Challenge 2026–27 (≤$25K CAD) — apply as **individual**, not Zax | ACTIVE — closes 2026-07-26; answers in `planetar-brainstorm/drafts/02` |
+| `planetar-schmidt-marine/` | Schmidt Marine Technology Partners (US$200K/18 mo) — **Zax** applicant, civilian face only | ACTIVE — closes 2026-07-31 |
+| `planetar-irap/` | NRC IRAP (AI Assist + DI Assist streams) + SR&ED | **ON HOLD** (2026-06-30, pending cash flow) — `DECISION-hold.md` has the re-engage trigger |
+| `planetar-smartearth/` | CSA smartEarth EO-applications AOs (≤~$250K) | WATCH — quarterly check |
+| `planetar-true-north/` | IDEaS "True North Precision" (`W7714-248676/012`) | NO-BID (2026-05-31) — reference |
+| `planetar-innovation/` | ISC Testing Stream TS13 (`EN578-26ISC1`) | NO-BID (2026-06-01) — reference |
 
 ## The fit filter (the load-bearing lesson of this repo)
 
-Both no-bids died for the **same two reasons**. Apply this screen *before* spending effort on
-any new opportunity — it's the central institutional knowledge encoded here:
+Both no-bids died on the same two screens. Apply this *before* spending effort on any new
+opportunity:
 
-1. **Honest TRL — nuanced after the 2026-06-22 verification.** The IDEaS *funded R&D scope*
-   (new fusion/compliance science) is honestly **TRL 1–3** — keep bidding 1a there. But the
-   *demonstrated platform substrate* (bus + envelope + four live detectors + entity-graph re-ID +
-   shell) was verified **at TRL 4** against the actual repos — integrated and lab-validated, with
-   several components at TRL 5 on live feeds (see `planetar-diana/FIT.md`). So **TRL-4-gated calls
-   are now reachable** when the bid is framed around the demonstrated platform. Still skip calls
-   gated at **TRL 5+/operational-prototype** unless a partner owns that maturity. (The old reading
-   "planetar is early R&D, skip all TRL 4+" killed True North's 1b claim and TS13's TRL-7 gate —
-   both also failed screen #2, which is the more decisive filter.)
+1. **Honest TRL — nuanced since the 2026-06-22 verification.** The IDEaS *funded R&D scope* (new
+   fusion/compliance science) is honestly **TRL 1–3** — keep bidding Component 1a there. But the
+   *demonstrated platform substrate* (bus + envelope + live detectors + entity-graph re-ID +
+   shell) was verified **TRL 4** against the actual repos, with components at TRL 5 on live feeds
+   (evidence: `planetar-diana/FIT.md`). So **TRL-4-gated calls are reachable** when the bid is
+   framed around the demonstrated substrate. Still skip TRL 5+/operational-prototype gates unless
+   a partner owns that maturity. *(Note: `planetar-brainstorm/README.md` still states the older,
+   stricter "skip all TRL 4+" reading — the nuanced version here is current.)*
 2. **The scored/Essential deliverable must be software/AI/data, not hardware.** When the
    must-pass outcomes are airframes, optics, RF apertures, or weapons, planetar can only be a
-   backbone, never the prime. (Killed both no-bids — the decisive screen.)
+   backbone, never the prime. This is the more decisive screen — it killed both no-bids.
 
-**CH14 (`planetar-fce`) is significant as the first *IDEaS* challenge whose *Essential* outcomes
-are pure software** — it passes both screens; it's the active authoring target. **`planetar-diana`
-is the first *non-IDEaS* opportunity to pass both** (software-essential ISR fusion + a TRL-4 gate
-the verified substrate clears) — proof the fit filter generalizes beyond the IDEaS portal.
+**Good-fit signals:** multi-modal fusion · entity resolution / re-ID · maritime / Arctic / ISR ·
+explainable human-in-the-loop decision support · "open infrastructure / software backbone"
+framings · individual-eligible or low-partner-dependency calls.
 
-**Good-fit signals:** multi-modal data fusion · entity resolution / re-ID · maritime / Arctic /
-ISR · explainable human-in-the-loop decision support · "open infrastructure / software backbone"
-framings · individual- or low-partner-dependency calls.
+## Authoritative records — read before acting
 
-## Relationship to siblings (important — don't confuse the repos)
+- **`planetar-brainstorm/DECISIONS.md`** is the decision record — D1 (Zax incorporated, Steven is
+  CEO), D2 (license: permissive bus + AGPL platform), D3 (per-funder identity), D4 (vehicle
+  doctrine: individual vs Zax per funder), D5/D6 (EV and Schmidt asks), clarifications C1–C3.
+  Check there before repeating any claim about eligibility, licensing, vehicles, or company
+  structure.
+- **`DECISION-no-bid.md` / `DECISION-hold.md` files are filed, dated decisions.** Don't rewrite
+  them — append dated updates or add new docs if circumstances change.
+- **Sensitive facts are deliberate on-the-record material:** C1 (company registration/officer
+  details) and C2 (spouse works at Open Ocean Robotics → proactively disclose in ocean-sector
+  applications) must be represented exactly as recorded in `DECISIONS.md`, never paraphrased
+  loosely.
 
-- `../planetar/` — the **filed CH13 bid** (`W7714-248676/013`, submitted ~2026-05-30). This is the
-  canonical proposal spine. `planetar-grants` workspaces **reuse** its artifacts (portfolio,
-  GBA+, budget structure, benchmark report, glossary, patent framing) — lift-and-adapt, don't
-  re-derive. `planetar-fce/README.md` and `FIT.md` map exactly what transfers.
-- `../CLAUDE.md` — the parent workspace's instructions; it documents the planetar code repos and
-  proposal conventions. **It applies here too** (it's auto-loaded). This file adds the
-  grants-portfolio-specific layer on top.
-- The actual planetar **code** (`planetar-broker`, `zmesg`, `planetar-ui`, `planetar-ais`,
-  `planetar-ontology`, `planetar-market`, doibio entity graph) lives in other repos under
-  `~/github/`. Per the provenance rule: when a draft cites a benchmark, LOC count, or repo path,
-  **verify against the actual repo**, don't recall from notes.
+## Per-opportunity workspace pattern
 
-## Proposal authoring conventions (shared across workspaces)
+When a new opportunity arrives, create `planetar-<name>/` and follow the established shape:
 
-The IDEaS workspaces (`planetar-fce`, `planetar-true-north`) mirror the `../planetar/` layout —
-filenames are stable, cite by name when working across files:
+1. Raw capture (`idea.md` or `idea/` — forwarded email, screenshots)
+2. `CHALLENGE.md` — verified research note, every fact sourced and dated
+3. `FIT.md` — go/no-go against the fit filter + Essential-outcome → planetar-asset map
+4. `THESIS.md` — single source of truth all narratives must match (for committed bids)
+5. Numbered strategy/architecture docs (`01-…`, `02-…`, `08-OPEN-QUESTIONS.md`)
+6. `proposal/` (and, for IDEaS, `submission/`) — or `DECISION-no-bid.md` with rationale
+7. `README.md` — the status dashboard, with a file index stating each doc's state
 
-- `CHALLENGE.md` / `01-CHALLENGE.md` — challenge research note + rubric/outcome mapping
-- `FIT.md` — go/no-go + Essential-outcome → planetar-asset map (the must-pass gate)
-- `THESIS.md` — single source of truth all narratives must match (FCE-specific)
-- `02-STRATEGY.md`, `03-ARCHITECTURE.md`, `08-OPEN-QUESTIONS.md`
-- `proposal/` — the narratives that get submitted: `MC-1_trl`, `MC-2_alignment` (mandatory,
-  pass/fail) + `PRC-1_st_merit` (10pts), `PRC-2_novelty` (20), `PRC-3_impact` (20),
-  `PRC-4_feasibility` (20), `PRC-5_gba_plus` (5), `PRC-6_desired_outcomes` (15), `PRC-7_budget`.
+## IDEaS authoring conventions (CH13 = CH14, identical framework)
 
-**CFP6 evaluation framework (CH13 = CH14, identical):** MC pass/fail + PRC weighted to 70-pt
-threshold, **3,000-character cap per field**, 1a/1b/2 component ladder with **1a (TRL 1–3) the
-honest lane**. Narrative drafts are workspace Markdown with headings; **strip headings and
-char-count the stripped paste block before submission** (the budgets target ≤2,950 with buffer).
+- **CFP6 evaluation:** MC-1/MC-2 pass/fail + PRC-1…7 weighted to a 70-pt threshold; **3,000-char
+  cap per field**; 1a/1b/2 component ladder with 1a (TRL 1–3) the honest lane.
+- Narrative drafts are workspace Markdown with headings; **strip headings and char-count the
+  stripped paste block before submission** — budgets target **≤2,950** for buffer.
+- **One thesis per bid.** CH13 = learned cross-modal fusion model; CH14 inverts it (the
+  provenance/compliance substrate is the hero). Each bid's `THESIS.md` is its SSOT — fix any
+  narrative that drifts, never cross-pollinate theses.
+- **Lift-and-adapt from `../planetar/`** (portfolio, GBA+, budget structure, benchmark report,
+  glossary, char-count protocol) — reuse the spine, not the thesis.
 
-## Working norms (carried from `../CLAUDE.md`)
+## Working norms specific to this repo
 
-- **Provenance over polish.** Every claim traces to a measurement, repo path, or citation. Don't
-  soften the verifiable spine (patent, benchmark, LOC, dataset URL) into marketing.
-- **Conservative claims.** Headline benchmark is `p50 80–140 ns / p99 400–900 ns` (brackets four
-  measured runs); don't advertise un-measured post-tuning numbers.
-- **Patent framing.** Always "applicant-named inventor on US Patent 10,936,582" (Salesforce-
-  assigned, Steven Ness 1 of 19 named inventors). Never claim ownership.
-- **Dates are absolute.** Write `2026-07-14`, never "next month." Each research note dates its
-  facts and warns that deadlines/terms move — re-verify before acting.
-- **One thesis per bid.** Don't copy CH13's learned-fusion-model thesis into CH14 — CH14 inverts
-  it (the provenance/compliance substrate is the hero). `planetar-fce/THESIS.md` is the SSOT;
-  fix any narrative that drifts from it.
->>>>>>> 07f081b6b8dfd91c4c03117de9335f23405720ca
+- **Claims must stay auditable — and unsoftened.** Capability claims trace to a repo path,
+  measurement, or citation (`../planetar/docs/built-services-inventory.md`, benchmark doc
+  `../planetar/docs/benchmark-2026-04-27.md`; headline is p50 80–140 ns / p99 400–900 ns). When a
+  draft cites a benchmark, LOC count, or repo path, verify against the actual repo under
+  `~/github/`, don't recall from notes.
+- **`[TODO]` placeholders in drafts mark founder-only facts** (contacts, handles, exact budgets,
+  phone). Never invent values for them.
+- **Pitch framing is per-funder, per D3:** civilian/open-infrastructure face for OSS and ocean
+  funders; dual-use/defence face for IDEaS/DIANA. One codebase, honest framing — never mix the
+  faces in one document.
+- **Patent framing:** always "applicant-named inventor on US Patent 10,936,582"
+  (Salesforce-assigned, 1 of 19 inventors). Never any ownership phrasing.
+- **Dates are absolute:** `2026-07-14`, never "next week."

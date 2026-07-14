@@ -4,7 +4,8 @@
 (CH14)** of CFP6: *"Reliable AI Sensor Fusion for Real-World Missions."*
 
 **Applicant:** Steven Randolph Ness (PhD, CS/ML), Zax Analytics, solo founder.
-**Solicitation:** `W7714-248676/014`. **Deadline: 2026-07-14 14:00 EDT.**
+**Solicitation:** `W7714-248676/014`. **Deadline: 2026-07-21 14:00 EDT** (extended by notice
+amendment 2026-07-13 — was 2026-07-14; verified on `cb-0-11990877`).
 **Target Component:** **1a** (TRL 1–3, ≤$250K CAD, ≤6 mo). **TRL 2 → 3.**
 
 > **Status: SCAFFOLD — not yet a committed bid.** Go/no-go = **LEAN BID** ([`FIT.md`](FIT.md)).
@@ -31,7 +32,7 @@ Protected B. See [`THESIS.md`](THESIS.md), [`03-ARCHITECTURE.md`](03-ARCHITECTUR
 | Machine-readable policy | `planetar-market` ships **W3C ODRL** policy + provenance manifests |
 | Provenance records (source/class/ts/domain) | `zmesg` already carries source/ts/correlation/causation; class+domain are additive fields |
 | Audit logs + exportable lineage | **CRC32 append-only WAL** + per-edge `planetar-ontology` lineage |
-| No added latency | `zbroker0` benchmark: p50 80–140 ns / p99 400–900 ns (ns-scale chokepoint) |
+| No added latency | planetar-broker ring-hop benchmark (2026-07-13): p50 95–100 ns / p99 1.0–1.6 µs (ns-scale chokepoint median) |
 | SWaP / edge | dependency-light single-file **C** broker (~1.5k LOC) (the Tactical-Edge example) |
 | Explainable + override | `planetar-ui` clicks a decision back through its causation chain |
 | Sovereign Canadian IP | net-new FCE engine = Canadian-owned foreground IP |
@@ -76,27 +77,18 @@ char-count/strip protocol (`planetar/CLAUDE.md`). Evaluation framework (MC/PRC w
 
 | Item | Status |
 |---|---|
-| CH14 challenge + guide located + read | ✅ `W7714-248676/014`, closes 2026-07-14; CFP6 Amendment 2 governs |
+| CH14 challenge + guide located + read | ✅ `W7714-248676/014`, closes **2026-07-21 14:00 EDT** (extended 2026-07-13; was 07-14); CFP6 Amendment 2 governs. ⚠️ New **Q&A doc** on the notice (amendment 003, 2026-07-13) — obtain + read before filing (§Q8) |
 | Go/no-go | ✅ **LEAN BID, Component 1a** (`FIT.md`) |
 | Thesis pivot defined | ✅ `THESIS.md` |
 | Essential-outcome asset map | ✅ `FIT.md` (formalize into `01-CHALLENGE.md`) |
 | Workspace docs 01/02/03/08 | ⏳ skeletons |
-<<<<<<< HEAD
-| 9 narrative drafts | ◐ **4 drafted** (MC-1, MC-2, PRC-2, PRC-4); 5 skeletons (PRC-1/3/5/6/7) |
-| Demo design (Q2/R7) | ✅ AIS + SAR, dark-vessel/MDA setting, synthetic Protected-B markings |
-| Component decision (1a vs 1b) | ⏳ 1a recommended; confirm honest TRL of FCE engine |
-| Multiple-bid rule (CH14 + urban sibling) | ⏳ verify in Amendment 2 |
-| GBA+ / portfolio / budget reuse from CH13 | ⏳ pending |
-| planetar.ca demo extended to show FCE enforcement | ⏳ pending |
-=======
 | 9 narrative drafts | 🟢 **All 9 drafted + red-teamed (2026-06-23):** MC-1/MC-2 + PRC-1/2/3/4/5/6 authored, cite-wired, char-checked, consistency-passed; **PRC-7 budget LOCKED at $131K** (SC-1 = 44.3%). Final strip-and-paste char count at submission still pending |
-| 🛑 **Benchmark gate (BLOCKING)** | Re-benchmark `planetar-broker` SHM before 2026-07-14 — MC-2/PRC-1/2/4/6 cite numbers measured on predecessor `zbroker0`. **Scoped 2026-06-23:** run `./tests/ring-hop 1000000` (NOT `make perf`) on a **Linux** box; see `08-OPEN-QUESTIONS.md` **§Q7** |
+| Benchmark gate (was BLOCKING) | ✅ **CLOSED 2026-07-13** — `ring-hop` run on the i9-9900K (four clean 1M-msg runs): **p50 95–100 ns / p99 1.0–1.6 µs**; MC-1 + PRC-1/2/4/6 + submission/09 updated to cite planetar-broker directly ([`benchmark-2026-07-13-ring-hop.md`](benchmark-2026-07-13-ring-hop.md), §Q7) |
 | Component decision (1a vs 1b) | ✅ **1a** locked (R5) |
 | Multiple-bid rule (CH14 + urban sibling) | ✅ urban sibling dropped (R6); CH14-only |
 | GBA+ / budget reuse from CH13 | ✅ GBA+ done (PRC-5); budget locked (PRC-7, $131K) |
 | planetar.ca demo extended to show FCE enforcement | ⏳ build pending — scope locked: **evaluator-operable** AIS + SAR, synthetic markings (R7/Q5) |
 | Submission kit (DIP field map + strip-paste protocol + T-7→T-0 checklist) | ✅ [`submission/`](submission/) (2026-06-23). **All authored fields drafted ≤ cap** — admin (title/synopsis/keywords/overview/location), MC-1 split (09/11), glossary, reference-documents, progression-to-1b. Remaining: milestone-table transcription (T-2) + certification checkboxes (in-portal) |
->>>>>>> bcfd69ed4dbffd688c9d7c7049f9348755b82181
 
 ## Open decisions
 

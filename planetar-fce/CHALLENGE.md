@@ -23,7 +23,7 @@
 | Challenge | *Reliable AI sensor fusion for real-world missions* — build a **Fusion Compliance Engine (FCE)** |
 | Sibling challenge | *Turning urban data into real-time insight through AI* (same funding ladder; see bottom) |
 | CFP opened | **2026-06-04** (Ch1 page "date modified"; Ch2 modified 2026-06-10) |
-| **Proposal deadline** | **2026-07-14, 14:00 EDT** (confirmed on CanadaBuys notice) |
+| **Proposal deadline** | **2026-07-21, 14:00 EDT** — extended by notice amendment 2026-07-13 (was 2026-07-14; re-verified on the CanadaBuys notice 2026-07-13, which also added a CH14 **Q&A** doc → `08-OPEN-QUESTIONS.md` Q8) |
 | Funding ladder (phased, by TRL) | **1a** TRL 1–3 ≤**$250K** ≤6 mo · **1b** TRL 4–5 ≤**$1.5M** ≤12 mo · **2** TRL 6–9 ≤**$5M**. Up to **$6.75M total** if a solution advances all stages. |
 | Eligibility | individuals, startups, not-for-profits, SMEs, academia, other non-traditional innovators; "all stages of development" |
 | Data provided by DND/CAF | **None** — innovators must obtain/generate their own datasets |

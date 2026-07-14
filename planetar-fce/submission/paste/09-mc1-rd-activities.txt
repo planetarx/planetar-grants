@@ -1,18 +1,6 @@
-# Field 09 — MC-1: R&D activities to bring solution to stated TRL
-
-**Form section:** Component 1a → MC-1 · **Cap:** 3,000 characters · **Field 08 (current TRL) = 2**
-**Source:** split from `../proposal/MC-1_trl.md` (the prior-R&D part). Blank lines stripped per DIP rule.
-**Status:** ✅ READY. Benchmark cites planetar-broker's own 2026-07-13 ring-hop measurement (Q7 closed — `../benchmark-2026-07-13-ring-hop.md`); patent uses the audit-safe named-inventor form (Q6).
-
---- PASTE THIS BELOW ---
 Current TRL: 2. The solution is a modular Fusion Compliance Engine (FCE) that evaluates machine-readable classification and release-authority policy at the single message chokepoint between sensor ingestion and fusion, deciding per data element whether to permit, restrict, downgrade, or segregate, and emitting an immutable, exportable audit-and-lineage record. The concept is fully formulated with strong component-level evidence from the research and development below, but the enforcement engine that binds policy to dispositions is not yet built or demonstrated; building and demonstrating it is the work the project funds, advancing the solution to TRL 3.
 The fusion chokepoint is already built and open-source: planetar-broker, a dependency-light single-file C message bus (TCP, UDP, and shared-memory transports), is the single point every fused observation crosses. Its append-only write-ahead log is CRC32-protected and bit-exact replayable — the audit-and-lineage spine the FCE writes to. A one-million-message benchmark of planetar-broker's own shared-memory ring recorded p50 95–100 ns and p99 1.0–1.6 µs across four runs on an untuned workstation; measuring the FCE's enforcement overhead against this baseline is part of the project, and that headroom shows a policy check adds no material tactical latency.
 Native provenance is built: zmesg, a zero-copy typed envelope, already carries a source identifier, nanosecond timestamps, and correlation and causation ids on every message — most of the provenance record an Essential Outcome requires. Classification marking and domain of origin are small additive fields delivered in the project.
 Machine-readable policy is built: planetar-market ships a working W3C ODRL policy layer — a standards-aligned rights language, with tests — that expresses machine-readable terms but, by its own design, does not yet enforce them. Adopting ODRL as the FCE's classification and release-authority language, and building the engine that acts on it, is the central advance of the project.
 Per-edge lineage and the analyst surface are built: planetar-ontology, a zero-dependency, test-covered service, tracks provenance per graph edge from ingestion through fused output, and planetar-ui renders each result's causal evidence chain. This entity-resolution-with-provenance work is a substantial development beyond the integrated-entity-view architecture of US Patent 10,936,582, on which the applicant is a named inventor (Salesforce-assigned), not the patent holder.
 The applicant's peer-reviewed semi-supervised machine learning on scarce-label sensor streams (ORCA-SLANG 2021; Sattar et al. 2011, on Ocean Networks Canada data) evidences the capability to deliver. Together this work formulates and de-risks the concept — chokepoint, provenance, policy language and lineage all exist — so the six months is spent on the enforcement engine itself, advancing the solution from TRL 2 to TRL 3.
---- END PASTE ---
-
-## Notes
-- Field 08 dropdown = **TRL 2**. Field 10 dropdown = **TRL 3**. This field is the R&D narrative behind the current TRL-2.
-- If DIP rejects as over 3,000: trim the closing pedigree sentence (ORCA-SLANG / Sattar) first — it is reinforced in PRC-1.

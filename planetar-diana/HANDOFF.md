@@ -1,5 +1,9 @@
 # HANDOFF — DIANA 2027 bid (resume-from-cold)
 
+> **2026-07-13: OVERTAKEN BY EVENTS — the bid was NOT submitted** (DUNS did not arrive before
+> the 2026-07-02/03 close; see the status update in `README.md`). Keep this handoff as the
+> playbook for the next DIANA call.
+
 > Written **2026-06-23**. Snapshot so the submission can be finished even if this session/person
 > changes. **The bid is content-complete and GO; the only blocker is obtaining a DUNS number.**
 > Working deadline: **2026-07-02.** Everything lives in `planetar-diana/`.

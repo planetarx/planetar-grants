@@ -4,9 +4,16 @@
 **"Multidomain Sensing and Advanced Data Processing for Intelligence and Surveillance."**
 The first non-IDEaS opportunity to pass *both* fit screens (honest TRL + software-essential).
 
+> **STATUS UPDATE 2026-07-13: NOT SUBMITTED — window missed on the DUNS blocker.** The DUNS
+> number (identified 2026-06-23 as the one true deadline blocker) did not arrive before the
+> 2026-07-02/03 close, so the portal account could not be created. The D&B request is still in
+> flight (D&B quotes ~30 days average). When the DUNS arrives: file it with the company records
+> (also useful for DI Assist and future NATO/defence registrations) and target the **next DIANA
+> call** — this workspace stays content-complete (drafts + verified re-ID demo all reusable).
+
 Created 2026-06-22. **Deadline-driven and fast-moving — re-verify every DIANA fact on the portal
 before acting.** Deadline: **2026-07-02** (portal cards say "Submission ends Jul 2"; the email cites
-2026-07-03 12:00 BST — **work to Jul 2**).
+2026-07-03 12:00 BST — **work to Jul 2**). *(Outcome: see status update above.)*
 
 ## The 60-second version
 
