@@ -61,6 +61,7 @@ FCE-off), measured during the 1a per PRC-4 — distinct from this ring-hop basel
 | R5 | **Q1 locked:** Component **1a** is the honest TRL lane (TRL 2 → 3) | 2026-06-22 (user) |
 | R6 | **Q3 locked:** **DROP the urban sibling** (CH15) — CH14 only | 2026-06-22 (user) |
 | R7 | **Q2 locked:** demo = **AIS + SAR** within the dark-vessel / MDA setting; **synthetic** classification markings (AIS unclassified, SAR Protected B) to give the FCE a real cross-domain-merge decision | 2026-06-22 (user + recommendation) |
+| R8 | **Team + budget amendment:** add **Colin Broughton** (employee, IC-design engineer; named inventor US 7,320,065 / 6,684,062 / 6,346,047; Canadian, in Canada; availability confirmed) + **$50K hardware enforcement-datapath WP** (RISC-V + custom instructions, FPGA prototype; 330 hrs × $140 + $3,800 board). Budget $131K → **$181K**; M1 = 39.8 %. Supersedes the solo lock. **Consent confirmed 2026-07-13** (Steven): Colin agrees to be named in the bid and to on-award employment; work location Victoria area (field 24 unchanged). Fit-filter screen-#2 risk raised by assistant, **accepted by founder**; mitigation: WP framed as the FCE enforcement datapath (DO3/DO1), subordinate to the software thesis — "distributed disruptor" framing kept **out** of bid text | 2026-07-13 (user, after risk briefing) |
 
 ## Carry-over audits from CH13 (re-verify before reusing language)
 - Patent language (CH13 Q9): "applicant-named inventor on US 10,936,582 / 11,442,952," never ownership.

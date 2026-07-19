@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FCE — Project Synopsis one-pager</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 8.5in; height: 11in; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1a1f26;
+    background: #ffffff;
+    padding: 0.42in 0.48in 0.38in;
+    display: flex; flex-direction: column;
+  }
+  .ink2 { color: #4a5361; } .muted { color: #6b7482; }
+  /* ---------- header ---------- */
+  header { display: flex; justify-content: space-between; align-items: flex-start;
+           border-bottom: 3px solid #1f3a5f; padding-bottom: 8px; }
+  h1 { font-size: 21px; letter-spacing: -0.2px; color: #1f3a5f; }
+  .subtitle { font-size: 11.5px; color: #4a5361; margin-top: 3px; }
+  .meta { text-align: right; font-size: 9.5px; color: #4a5361; line-height: 1.45; }
+  .meta b { color: #1a1f26; }
+  /* ---------- diagram ---------- */
+  figure { margin: 10px 0 2px; }
+  svg text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  /* ---------- EO row ---------- */
+  .eo-row { display: flex; gap: 5px; margin: 7px 0 9px; }
+  .eo { flex: 1; border: 1px solid #c8cedb; border-radius: 4px; padding: 4px 6px;
+        font-size: 8.2px; line-height: 1.3; color: #4a5361; background: #fbfcfd; }
+  .eo b { display: block; font-size: 8.6px; color: #1f3a5f; margin-bottom: 1px; }
+  /* ---------- stat strip ---------- */
+  .stats { display: flex; gap: 8px; }
+  .stat { flex: 1; border: 1px solid #c8cedb; border-top: 3px solid #1f3a5f;
+          border-radius: 4px; padding: 7px 9px 6px; background: #ffffff; }
+  .stat .v { font-size: 15.5px; font-weight: 700; color: #1a1f26; letter-spacing: -0.2px; }
+  .stat .c { font-size: 8.6px; color: #6b7482; margin-top: 3px; line-height: 1.35; }
+  /* ---------- footer ---------- */
+  .strip { border: 1px solid #e1e5ec; border-radius: 4px; background: #f7f8fa;
+           padding: 6px 9px; font-size: 9px; line-height: 1.45; color: #4a5361; margin-top: 8px; }
+  .strip b { color: #1a1f26; }
+  .colophon { margin-top: auto; padding-top: 7px; border-top: 1px solid #c8cedb;
+              font-size: 8.4px; color: #6b7482; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Fusion Compliance Engine (FCE)</h1>
+    <div class="subtitle">Sovereign real-time classification enforcement for multi-sensor fusion — enforce the policy <i>during</i> fusion, at the one chokepoint every element crosses.</div>
+  </div>
+  <div class="meta">
+    <b>Zax Analytics</b> · Victoria, BC<br>
+    IDEaS CFP 6 · Challenge 14 · <b>W7714-248676/014</b><br>
+    Component 1a · <b>TRL 2 → 3</b> · 6 mo · $181,000
+  </div>
+</header>
+
+<figure>
+<svg viewBox="0 0 738 434" width="738" height="434" role="img" aria-label="FCE architecture: sensors flow through the provenance envelope into the bus chokepoint where the FCE policy gate renders dispositions, journalled to the WAL, then on to the entity graph and analyst shell with exportable lineage; an FPGA hardware datapath prototypes the same gate.">
+  <defs>
+    <marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#4a5361"/>
+    </marker>
+  </defs>
+
+  <!-- ===== column 1: sensors ===== -->
+  <text x="60" y="14" font-size="9.5" font-weight="700" fill="#1f3a5f" text-anchor="middle">SENSOR MODALITIES</text>
+  <rect x="4" y="24" width="112" height="52" rx="4" fill="#f7f8fa" stroke="#9aa4b5"/>
+  <text x="60" y="41" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">AIS (live)</text>
+  <text x="60" y="54" font-size="8.2" fill="#4a5361" text-anchor="middle">vessel transponders</text>
+  <text x="60" y="66" font-size="8.2" fill="#4a5361" text-anchor="middle">UNCLASSIFIED</text>
+
+  <rect x="4" y="86" width="112" height="52" rx="4" fill="#f7f8fa" stroke="#9aa4b5"/>
+  <text x="60" y="103" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">Sentinel-1 SAR</text>
+  <text x="60" y="116" font-size="8.2" fill="#4a5361" text-anchor="middle">satellite radar detections</text>
+  <text x="60" y="128" font-size="8.2" fill="#4a5361" text-anchor="middle">PROTECTED B (synthetic)</text>
+
+  <text x="60" y="156" font-size="8" fill="#6b7482" text-anchor="middle">+ EO · acoustic (built, on the</text>
+  <text x="60" y="167" font-size="8" fill="#6b7482" text-anchor="middle">same bus — beyond demo scope)</text>
+
+  <!-- arrows col1 -> col2 -->
+  <line x1="116" y1="50" x2="146" y2="72" stroke="#4a5361" stroke-width="1.4" marker-end="url(#arr)"/>
+  <line x1="116" y1="112" x2="146" y2="92" stroke="#4a5361" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- ===== column 2: envelope ===== -->
+  <rect x="150" y="42" width="128" height="84" rx="4" fill="#ffffff" stroke="#9aa4b5"/>
+  <text x="214" y="58" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">zmesg envelope</text>
+  <text x="214" y="71" font-size="8.2" fill="#4a5361" text-anchor="middle">typed provenance on every</text>
+  <text x="214" y="82" font-size="8.2" fill="#4a5361" text-anchor="middle">message: source · ns timestamps</text>
+  <text x="214" y="93" font-size="8.2" fill="#4a5361" text-anchor="middle">· correlation / causation ids</text>
+  <text x="214" y="108" font-size="8.2" font-weight="700" fill="#1f3a5f" text-anchor="middle">+ classification marking</text>
+  <text x="214" y="119" font-size="8.2" font-weight="700" fill="#1f3a5f" text-anchor="middle">+ domain of origin (built in 1a)</text>
+
+  <line x1="278" y1="84" x2="306" y2="84" stroke="#4a5361" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- ===== column 3: chokepoint ===== -->
+  <rect x="310" y="16" width="212" height="238" rx="5" fill="#eef2f7" stroke="#1f3a5f" stroke-width="2"/>
+  <text x="416" y="33" font-size="10" font-weight="700" fill="#1f3a5f" text-anchor="middle">THE CHOKEPOINT — planetar-broker</text>
+  <text x="416" y="45" font-size="7.8" fill="#4a5361" text-anchor="middle">single-file C bus; every element crosses here</text>
+
+  <rect x="322" y="54" width="188" height="126" rx="4" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.6"/>
+  <text x="416" y="70" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">FCE policy gate — the 1a build</text>
+  <text x="416" y="84" font-size="8.4" fill="#4a5361" text-anchor="middle">W3C ODRL machine-readable policy</text>
+  <text x="416" y="95" font-size="8.4" fill="#4a5361" text-anchor="middle">(classification guides · release authorities ·</text>
+  <text x="416" y="106" font-size="8.4" fill="#4a5361" text-anchor="middle">coalition caveats) — hot-reload, no restart</text>
+  <text x="416" y="121" font-size="8.4" fill="#1a1f26" text-anchor="middle">evaluate {classification · domain · source ·</text>
+  <text x="416" y="132" font-size="8.4" fill="#1a1f26" text-anchor="middle">modality · releasability} per element</text>
+  <!-- disposition line -->
+  <rect x="324" y="142" width="184" height="16" rx="8" fill="#eef2f7" stroke="#1f3a5f"/>
+  <text x="416" y="153" font-size="7.2" font-weight="700" fill="#1f3a5f" text-anchor="middle" letter-spacing="0">PERMIT · RESTRICT · DOWNGRADE · SEGREGATE</text>
+  <text x="416" y="172" font-size="8" fill="#4a5361" text-anchor="middle">decision rendered before any cross-domain merge</text>
+
+  <!-- WAL bar -->
+  <rect x="322" y="190" width="188" height="54" rx="4" fill="#ffffff" stroke="#9aa4b5"/>
+  <text x="416" y="206" font-size="9" font-weight="700" fill="#1a1f26" text-anchor="middle">CRC32 append-only WAL</text>
+  <text x="416" y="219" font-size="8.2" fill="#4a5361" text-anchor="middle">every disposition journalled — rule applied,</text>
+  <text x="416" y="230" font-size="8.2" fill="#4a5361" text-anchor="middle">action, result · immutable · bit-exact replay</text>
+
+  <line x1="522" y1="90" x2="550" y2="70" stroke="#4a5361" stroke-width="1.4" marker-end="url(#arr)"/>
+  <line x1="522" y1="150" x2="550" y2="160" stroke="#4a5361" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- ===== column 4: downstream ===== -->
+  <rect x="554" y="34" width="180" height="62" rx="4" fill="#f7f8fa" stroke="#9aa4b5"/>
+  <text x="644" y="50" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">Entity graph — planetar-ontology</text>
+  <text x="644" y="63" font-size="8.2" fill="#4a5361" text-anchor="middle">fusion with per-edge lineage:</text>
+  <text x="644" y="74" font-size="8.2" fill="#4a5361" text-anchor="middle">every fused link records which inputs,</text>
+  <text x="644" y="85" font-size="8.2" fill="#4a5361" text-anchor="middle">under which policy, produced it</text>
+
+  <rect x="554" y="128" width="180" height="62" rx="4" fill="#f7f8fa" stroke="#9aa4b5"/>
+  <text x="644" y="144" font-size="9.5" font-weight="700" fill="#1a1f26" text-anchor="middle">Analyst shell — planetar-ui</text>
+  <text x="644" y="157" font-size="8.2" fill="#4a5361" text-anchor="middle">any disposition drills to its governing rule</text>
+  <text x="644" y="168" font-size="8.2" fill="#4a5361" text-anchor="middle">and the element's provenance · controlled,</text>
+  <text x="644" y="179" font-size="8.2" fill="#4a5361" text-anchor="middle">WAL-logged operator override</text>
+
+  <rect x="554" y="204" width="180" height="50" rx="4" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.4"/>
+  <text x="644" y="220" font-size="9" font-weight="700" fill="#1f3a5f" text-anchor="middle">Exportable lineage (W3C PROV)</text>
+  <text x="644" y="233" font-size="8.2" fill="#4a5361" text-anchor="middle">ingestion → fused output, reconstructable —</text>
+  <text x="644" y="244" font-size="8.2" fill="#4a5361" text-anchor="middle">compliance review · forensics · accreditation</text>
+  <line x1="644" y1="96" x2="644" y2="124" stroke="#4a5361" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="644" y1="190" x2="644" y2="200" stroke="#4a5361" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- ===== bottom band: latency + FPGA ===== -->
+  <rect x="150" y="278" width="372" height="64" rx="4" fill="#ffffff" stroke="#9aa4b5"/>
+  <text x="336" y="296" font-size="9" font-weight="700" fill="#1a1f26" text-anchor="middle">No added tactical latency — measured, not asserted</text>
+  <text x="336" y="310" font-size="8.4" fill="#4a5361" text-anchor="middle">shared-memory ring hop: p50 95–100 ns · p99 1.0–1.6 µs (four 1M-message runs, 2026-07-13);</text>
+  <text x="336" y="322" font-size="8.4" fill="#4a5361" text-anchor="middle">the 1a measures FCE-on enforcement overhead against this baseline and reports it</text>
+  <text x="336" y="334" font-size="8.4" fill="#4a5361" text-anchor="middle">conservatively (bracketing measured runs, no post-tuning figures)</text>
+
+  <rect x="150" y="356" width="584" height="72" rx="4" fill="#fbfcfd" stroke="#1f3a5f" stroke-dasharray="5 3" stroke-width="1.4"/>
+  <text x="162" y="374" font-size="9.5" font-weight="700" fill="#1f3a5f">Hardware enforcement datapath — 1a work package (FPGA prototype, Milestone 2)</text>
+  <text x="162" y="389" font-size="8.4" fill="#4a5361">RISC-V core + custom instructions: envelope parse · classification-label match · disposition — the same policy gate, in silicon-ready form.</text>
+  <text x="162" y="402" font-size="8.4" fill="#4a5361">Profiles: server offload at the chokepoint · sensor-adjacent enforcement on cameras and uncrewed platforms (tactical edge / SWaP).</text>
+  <text x="162" y="415" font-size="8.4" fill="#4a5361">Demonstrated on live bus traffic in the 1a; Component 1b path: test-chip tape-out via subsidized Canadian fabrication access (MPW).</text>
+
+  <rect x="4" y="278" width="112" height="150" rx="4" fill="#f7f8fa" stroke="#c8cedb"/>
+  <text x="60" y="296" font-size="8.8" font-weight="700" fill="#1a1f26" text-anchor="middle">The 1a in one line</text>
+  <text x="60" y="312" font-size="8" fill="#4a5361" text-anchor="middle">The substrate is built;</text>
+  <text x="60" y="323" font-size="8" fill="#4a5361" text-anchor="middle">the enforcement engine</text>
+  <text x="60" y="334" font-size="8" fill="#4a5361" text-anchor="middle">is the missing piece.</text>
+  <text x="60" y="350" font-size="8" fill="#4a5361" text-anchor="middle">Six months builds it,</text>
+  <text x="60" y="361" font-size="8" fill="#4a5361" text-anchor="middle">demonstrates it on two</text>
+  <text x="60" y="372" font-size="8" fill="#4a5361" text-anchor="middle">modalities at Protected B</text>
+  <text x="60" y="383" font-size="8" fill="#4a5361" text-anchor="middle">(synthetic), and proves</text>
+  <text x="60" y="394" font-size="8" fill="#4a5361" text-anchor="middle">the datapath in hardware</text>
+  <text x="60" y="405" font-size="8" fill="#4a5361" text-anchor="middle">— evaluator-operable,</text>
+  <text x="60" y="416" font-size="8" fill="#4a5361" text-anchor="middle">end-state, at planetar.ca</text>
+</svg>
+</figure>
+
+<div class="eo-row">
+  <div class="eo"><b>EO1 · in-path</b>Modular component enforces policy during ≥2-sensor fusion at the bus chokepoint</div>
+  <div class="eo"><b>EO2 · machine-readable</b>ODRL policy · 2 modalities · Protected B · STANAG 4774 label syntax</div>
+  <div class="eo"><b>EO3 · programmatic</b>Runs during ingestion &amp; fusion, no human approval for predefined conditions</div>
+  <div class="eo"><b>EO4 · provenance</b>Source · marking · timestamp · domain retained per element (4778 binding)</div>
+  <div class="eo"><b>EO5 · audit</b>Rule applied, action taken, disposition — journalled to the immutable WAL</div>
+  <div class="eo"><b>EO6 · lineage</b>Ingestion → output reconstructable &amp; exportable for review / accreditation</div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="v">p50 95–100 ns</div><div class="c">p99 1.0–1.6 µs — SHM ring-hop baseline, four 1M-msg runs, untuned workstation, 2026&#8209;07&#8209;13</div></div>
+  <div class="stat"><div class="v">TRL 2 → 3</div><div class="c">the enforcement engine is the new build; the supporting substrate is built, open-source, and live</div></div>
+  <div class="stat"><div class="v">2 modalities · Prot. B</div><div class="c">AIS + Sentinel-1 SAR under synthetic markings; end-state demo evaluator-operable at planetar.ca</div></div>
+  <div class="stat"><div class="v">$181,000 · 6 mo</div><div class="c">two-person team · two milestones · Milestone 1 = 39.8% of price (≤ 70% rule) · no GFP, public data only</div></div>
+</div>
+
+<div class="strip"><b>Built, open-source substrate (at project start):</b> planetar-broker (C bus + CRC32 WAL) · zmesg (typed provenance envelope) · planetar-market (W3C ODRL policy layer, test-covered) · planetar-ontology (per-edge lineage graph) · planetar-ui (analyst shell) · four per-modality ingest/detection services (AIS · SAR · EO · acoustic)</div>
+
+<div class="strip"><b>Standards:</b> W3C ODRL · NATO STANAG 4774 / 4778 · W3C PROV &nbsp;&nbsp;|&nbsp;&nbsp; <b>Team:</b> Steven Ness, PhD CS/ML (founder — built the substrate; peer-reviewed ML on continuous sensor streams) · Colin Broughton, IC-design engineer (named inventor, US Patent 7,320,065 — multithread embedded processor)</div>
+
+<div class="colophon">
+  <span>Zax Analytics — supporting one-pager for the Project Synopsis (per portal note, not evaluated)</span>
+  <span>W7714-248676/014 · Component 1a · closes 2026-07-21 14:00 EDT</span>
+</div>
+
+</body>
+</html>

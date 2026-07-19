@@ -5,8 +5,14 @@ submitted IDEaS CFP6 CH13 bid (that lives in `../planetar/`, under evaluation si
 2026-06-01). This README is the dashboard; per-opportunity detail lives in each
 workspace.
 
-**Last updated: 2026-07-04.** Dates and program terms move — each workspace lists its
+**Last updated: 2026-07-18.** Dates and program terms move — each workspace lists its
 sources; re-verify before acting.
+
+## ✅ Submitted — under evaluation
+
+| Opportunity | Ask | Submitted | Vehicle | Record |
+|---|---|---|---|---|
+| **IDEaS CFP6 CH14** "Reliable AI Sensor Fusion" (`W7714-248676/014`), Component 1a — Fusion Compliance Engine | **$181,000 CAD** (TRL 2→3, 25 wk, two-person) | **2026-07-18** as **CP6-143774** (deadline was 07-21; evaluation ~3–6 mo) | Zax Analytics | [`planetar-fce/submission-record.md`](planetar-fce/submission-record.md) — authoritative; planetar.ca must stay evaluator-drivable |
 
 ## 🔴 Live applications (act this month)
 
@@ -53,6 +59,7 @@ sources; re-verify before acting.
 | Directory | What | State |
 |---|---|---|
 | [`planetar-brainstorm/`](planetar-brainstorm/) | Funder research (00–06), `DECISIONS.md`, reusable drafts | Active — the map |
+| [`planetar-fce/`](planetar-fce/) | IDEaS CFP6 CH14 Fusion Compliance Engine bid | ✅ **submitted 2026-07-18 (CP6-143774)** — under evaluation |
 | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) | EV grant application | ✅ Ready to submit |
 | [`planetar-ocean-startup/`](planetar-ocean-startup/) | Ocean Startup Challenge application | ⏰ closes 07-26 |
 | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) | Schmidt Marine initial proposal | ⏰ closes 07-31 |

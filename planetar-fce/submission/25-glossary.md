@@ -1,62 +1,190 @@
 # Field 25 — Glossary
 
-**DIP page:** Component 1a → Glossary. Add each as a term + definition (separate entries; blank lines here are fine).
-**Status:** ✅ READY — covers the terms actually used in the CH14 narratives. Drop any the form already defines.
+**DIP page:** Component 1a → Glossary. Add each as a **term + definition** (separate entries).
+**Format:** term in bold, definition alone in the code fence below it — copy the fence contents straight into the definition box.
+**Status:** ✅ READY — covers the terms actually used in the CH14 narratives (incl. the R8 hardware terms). Drop any the form already defines.
 
-FCE: Fusion Compliance Engine — a modular, AI-enabled component that automatically enforces classification and release-authority policy in real time during multi-sensor fusion.
+FCE (Fusion Compliance Engine)
+```
+A modular, AI-enabled component that automatically enforces classification and release-authority policy in real time during multi-sensor fusion.
+```
 
-Compliance-by-design: building policy enforcement into the data path itself, rather than applying review or audit after the fact.
+Compliance-by-design
+```
+Building policy enforcement into the data path itself, rather than applying review or audit after the fact.
+```
 
-Chokepoint: the single message bus that every fused observation crosses; where the FCE enforces policy.
+Chokepoint
+```
+The single message bus that every fused observation crosses; where the FCE enforces policy.
+```
 
-Disposition: the FCE's decision on a data element — permit, restrict, downgrade, or segregate.
+Disposition
+```
+The FCE's decision on a data element — permit, restrict, downgrade, or segregate.
+```
 
-Downgrade: reducing the classification or release sensitivity of a data element so it can be shared more widely.
+Downgrade
+```
+Reducing the classification or release sensitivity of a data element so it can be shared more widely.
+```
 
-Segregate: isolating a data element so it is not merged across a security domain it is not cleared for.
+Segregate
+```
+Isolating a data element so it is not merged across a security domain it is not cleared for.
+```
 
-Multi-sensor (multi-domain) fusion: combining data from two or more sensor types or security domains into a single picture.
+Multi-sensor (multi-domain) fusion
+```
+Combining data from two or more sensor types or security domains into a single picture.
+```
 
-AIS: Automatic Identification System — a transponder system broadcasting a vessel's identity, position, course and speed (the unclassified modality in the demo).
+AIS (Automatic Identification System)
+```
+A transponder system broadcasting a vessel's identity, position, course and speed (the unclassified modality in the demonstration).
+```
 
-SAR: Synthetic-Aperture Radar — satellite or airborne radar imaging that operates day or night and through cloud.
+SAR (Synthetic-Aperture Radar)
+```
+Satellite or airborne radar imaging that operates day or night and through cloud.
+```
 
-Sentinel-1: the European Space Agency's free, public C-band SAR satellite mission (the Protected-B-marked modality in the demo).
+Sentinel-1
+```
+The European Space Agency's free, public C-band SAR satellite mission (the Protected-B-marked modality in the demonstration).
+```
 
-EO: Electro-Optical — visible-spectrum (camera) imagery. RF: Radio Frequency emissions. Hydrophone: an underwater microphone for passive acoustic detection.
+EO (Electro-Optical)
+```
+Visible-spectrum (camera) imagery.
+```
 
-MDA: Maritime Domain Awareness — the demonstration domain (a named CH14 example).
+RF (Radio Frequency)
+```
+Radio-frequency emissions.
+```
 
-ISR: Intelligence, Surveillance and Reconnaissance. C2: Command and Control. DND/CAF: Department of National Defence / Canadian Armed Forces.
+Hydrophone
+```
+An underwater microphone for passive acoustic detection.
+```
 
-Classification marking: machine-readable metadata stating a data element's classification level, releasability and policy identifier.
+MDA (Maritime Domain Awareness)
+```
+The demonstration domain (a named CH14 example).
+```
 
-Protected B: a Government of Canada classification level for sensitive information whose unauthorized disclosure could cause serious injury outside the national interest.
+ISR
+```
+Intelligence, Surveillance and Reconnaissance.
+```
 
-Release authority / coalition caveat: rules governing who a data element may be released to (e.g., national-only, or specific coalition partners).
+C2
+```
+Command and Control.
+```
 
-ODRL: W3C Open Digital Rights Language — a standards-track machine-readable policy language; the FCE's policy substrate.
+DND/CAF
+```
+Department of National Defence / Canadian Armed Forces.
+```
 
-STANAG 4774 / 4778: NATO standards for confidentiality metadata label syntax (4774) and for binding that label to the data object (4778).
+Classification marking
+```
+Machine-readable metadata stating a data element's classification level, releasability and policy identifier.
+```
 
-ABAC / XACML: Attribute-Based Access Control, and its OASIS policy-language standard; the incumbent access-decision approach the FCE contrasts with.
+Protected B
+```
+A Government of Canada classification level for sensitive information whose unauthorized disclosure could cause serious injury outside the national interest.
+```
 
-W3C PROV: the W3C standard data model for provenance and lineage; the interoperable target for the FCE's exportable lineage.
+Release authority / coalition caveat
+```
+Rules governing who a data element may be released to (e.g., national-only, or specific coalition partners).
+```
 
-Cross-Domain Solution (CDS) / guard: a device that screens data at a network boundary between security domains; "Raise the Bar" is the NCDSMO security standard for them.
+ODRL (Open Digital Rights Language)
+```
+A W3C standards-track machine-readable policy language; the FCE's policy substrate.
+```
 
-WAL (write-ahead log): an append-only, integrity-protected log recording every event so state can be replayed exactly — the FCE's audit-and-lineage spine.
+STANAG 4774 / 4778
+```
+NATO standards for confidentiality metadata label syntax (4774) and for binding that label to the data object (4778).
+```
 
-Provenance / lineage: the recorded chain of which inputs and rules produced a given output, enabling audit, forensic review and accreditation.
+ABAC / XACML
+```
+Attribute-Based Access Control, and its OASIS policy-language standard; the incumbent access-decision approach the FCE contrasts with.
+```
 
-Entity resolution: linking observations to a single canonical entity and tracking it, with provenance on each link.
+W3C PROV
+```
+The W3C standard data model for provenance and lineage; the interoperable target for the FCE's exportable lineage.
+```
 
-Hot-reload: updating policy without restarting the system (policy is data, not code).
+Cross-Domain Solution (CDS) / guard
+```
+A device that screens data at a network boundary between security domains; "Raise the Bar" is the NCDSMO security standard for them.
+```
 
-Accreditation / Authority-to-Operate (ATO): the formal approval to run a system that handles classified data.
+WAL (write-ahead log)
+```
+An append-only, integrity-protected log recording every event so state can be replayed exactly — the FCE's audit-and-lineage spine.
+```
 
-TRL: Technology Readiness Level (1–9). SWaP: Size, Weight and Power — the constraints of edge/deployed hardware.
+Provenance / lineage
+```
+The recorded chain of which inputs and rules produced a given output, enabling audit, forensic review and accreditation.
+```
 
-GBA Plus: Gender-Based Analysis Plus — the Government of Canada framework for assessing diverse population impacts.
+Entity resolution
+```
+Linking observations to a single canonical entity and tracking it, with provenance on each link.
+```
 
-ONC: Ocean Networks Canada — the University of Victoria-operated cabled ocean observatory (source of the applicant's peer-reviewed hydrophone ML).
+Hot-reload
+```
+Updating policy without restarting the system (policy is data, not code).
+```
+
+Accreditation / Authority-to-Operate (ATO)
+```
+The formal approval to run a system that handles classified data.
+```
+
+TRL (Technology Readiness Level)
+```
+The 1-to-9 scale for technology maturity used to stage IDEaS funding components.
+```
+
+SWaP (Size, Weight and Power)
+```
+The constraints of edge/deployed hardware.
+```
+
+FPGA (Field-Programmable Gate Array)
+```
+Reconfigurable hardware used to prototype and validate a digital circuit design before committing it to fixed silicon; the project demonstrates the hardware enforcement datapath on an FPGA.
+```
+
+RISC-V
+```
+An open, royalty-free processor instruction-set architecture; the hardware enforcement datapath is a RISC-V core extended with custom instructions for envelope parse, label match, and disposition.
+```
+
+Tape-out / multi-project wafer (MPW)
+```
+Committing a verified chip design to fabrication; an MPW run shares one mask set across many small projects, reducing test-chip cost (the Component 1b silicon path).
+```
+
+GBA Plus (Gender-Based Analysis Plus)
+```
+The Government of Canada framework for assessing diverse population impacts.
+```
+
+ONC (Ocean Networks Canada)
+```
+The University of Victoria-operated cabled ocean observatory (source of the applicant's peer-reviewed hydrophone machine learning).
+```

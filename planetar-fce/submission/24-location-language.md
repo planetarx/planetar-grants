@@ -6,9 +6,9 @@
 One table entry (≤256 characters):
 
 ```
-Victoria, British Columbia, Canada — performed remotely at the Offeror's home office. Solo execution; no travel or field deployment (all data is public/open-source).
+Victoria, British Columbia, Canada — performed at the Offeror's home offices (two-person team, both Victoria area). No travel or field deployment (all data is public/open-source).
 ```
-- ~163 characters (well under the 256 cap). Swap the city if your actual work location differs.
+- ~178 characters (well under the 256 cap). **Amended 2026-07-13 (R8):** "Solo execution" removed — two-person team, both Victoria.
 
 ## Language of Work
 Select: **English**.
@@ -19,4 +19,4 @@ Select: **English**.
 - **Glossary** — FCE, ODRL, STANAG 4774/4778, WAL, AIS, SAR, EO, ISR, Protected B, TRL, GBA+, MDA.
 - **Reference Documents** — open-source repos + key citations (see `../06-REFERENCES.md`).
 - **Progression to Follow-on Component** — the Component 1b pitch (TRL 4–5: lab validation of the FCE).
-- **Certifications Required with the Bid** — standard PWGSC/CFP6 Amendment 2 certs (solo, Canadian, no subcontractors).
+- **Certifications Required with the Bid** — standard PWGSC/CFP6 Amendment 2 certs (Canadian; two employees, no subcontractors — R8).

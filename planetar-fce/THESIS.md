@@ -77,6 +77,12 @@ this) · Arctic surveillance · coalition interoperability.
   planetar-broker itself (ring-hop 2026-07-13: p50 95–100 ns / p99 1.0–1.6 µs;
   `benchmark-2026-07-13-ring-hop.md`), different argument.
 
+> **R8 amendment (2026-07-13):** the 1a adds a **subordinate hardware work package** — an FPGA-prototyped
+> RISC-V enforcement datapath (custom instructions: envelope parse, label match, disposition; server +
+> sensor-adjacent camera/UAS profiles), owned by Colin Broughton (employee, IC-design engineer). It serves
+> the FCE thesis (DO3 SWaP, DO1 real-time); it is **not a second thesis** — keep "distributed disruptor"
+> framing out of all bid text. Budget $181K per `proposal/PRC-7_budget.md`; decision record `08` R8.
+
 ## Per-narrative pivot checklist
 
 | Narrative | CH14 angle |

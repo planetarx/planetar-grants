@@ -136,7 +136,7 @@ Same funding ladder, same deadline. Fit verdict for both challenges → [`FIT.md
 ## Unconfirmed at note time (resolve before committing)
 
 Resolved 2026-06-22: ~~solicitation number~~ → **`W7714-248676/014` (CH14)**; ~~deadline~~ →
-**2026-07-14 14:00 EDT confirmed**; ~~where the Guide is~~ → two CanadaBuys PDFs (above).
+**2026-07-14 14:00 EDT confirmed**; ~~where the Guide is~~ → two CanadaBuys PDFs (above). *(2026-07-13: deadline since **extended to 2026-07-21 14:00 EDT** by notice amendment — see the fact table.)*
 
 **Resolved by reading the CH14 challenge PDF** (`CH14-challenge.pdf` / `.txt`, retrieved
 2026-06-22): the per-challenge PDF is **only** the Challenge Statement + Essential/Desired
