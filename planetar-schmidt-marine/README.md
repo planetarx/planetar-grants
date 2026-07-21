@@ -1,8 +1,18 @@
 # Planetar × Schmidt Marine Technology Partners — application workspace
 
-> ⏰ **ACTIVE — initial-proposal portal closes 2026-07-31** (opened 2026-06-01; verified
-> 2026-07-02). Grants typically **US$100K–$400K**; ~10% of reviewed proposals funded.
+> ⏰ **ACTIVE — initial proposal closes 2026-07-31 @ 12:00 NOON, stated "PST"** (i.e. Pacific —
+> a **midday** deadline, not end of day). **Re-verified LIVE 2026-07-20** (Airtable form open,
+> active Submit; canonical page is schmidtmarine.org/proposals — /apply 404s).
+> Grants typically **US$100K–$400K**; ~10% of reviewed proposals funded.
 > **Civilian face only (D3)** — this is an ocean-health philanthropy, not a defence funder.
+>
+> **⚠️ 2026-07-20 corrections vs the 07-02 record — founder re-decision needed on D6:**
+> 1. **The initial proposal is SHORT:** Airtable form with **Problem / Solution / Impact at
+>    <200 words each**, plus focus area, TRL, budget, team. Invited full proposals are due
+>    2026-09-01. Much lighter lift than the long draft — distill `01-APPLICATION-draft.md`.
+> 2. **Ask shape:** current call is **~12-month initial term with annual renewals** (majority
+>    supported 3+ years), form caps a 1-year request at **US$550K**. The D6 "US$200K/18 mo"
+>    doesn't match — re-shape (e.g. ~US$150–200K for year 1, renewal path) before filing.
 
 Application workspace for Schmidt Marine Technology Partners' ocean-innovation funding.
 Verified program facts: [`CHALLENGE.md`](CHALLENGE.md). Draft initial proposal:

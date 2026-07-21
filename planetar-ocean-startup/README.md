@@ -1,8 +1,16 @@
 # Planetar × Ocean Startup Challenge 2026–27 — application workspace
 
-> ⏰ **ACTIVE — closes 2026-07-26 23:59** (opened 2026-06-05; selection 2026-07-27 → 08-25).
-> Up to **$25K CAD**, up to 15 startups, **TRL ≤6**. Re-verified 2026-07-02.
-> **Apply as an individual (Steven Ness), NOT as Zax Analytics** — see below.
+> ⏰ **ACTIVE — closes 2026-07-26 @ 11:59pm** (timezone unstated; assume ADT). **Form re-verified
+> LIVE 2026-07-20** (Airtable, active Submit; no save-and-continue confirmed verbatim).
+> Up to **$25K CAD**, up to 15 startups, **TRL ≤6**. **Apply as an individual (Steven Ness),
+> NOT as Zax Analytics** — see below.
+>
+> **➜ [`FORM-KIT.md`](FORM-KIT.md) (2026-07-20) maps the LIVE form field-by-field** — all long
+> answers drafted ≤3,000 chars, traction re-verified (24k LOC measured 2026-07-20; 433-Mpx;
+> planetar.ca live), video script + budget lines + deck outline included. **Three asset
+> blockers remain (the critical path): record the 3-min video · build a civilian pitch deck
+> (NOT the CH14 one-pager) · fill their budget template.** Plus founder-only fields: phone,
+> pronouns, time-commitment band, prior programs, customer-research answer, self-ID.
 
 Application workspace for the Ocean Startup Project's **2026–27 Startup Challenge**.
 Verified program facts: [`CHALLENGE.md`](CHALLENGE.md). The field-by-field draft answers
