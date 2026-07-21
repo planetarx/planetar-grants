@@ -5,6 +5,7 @@
 **Key rule:** Milestone 1 ≤ 70% of total. Ours = **39.8%** ✅.
 **Rates:** both team members **$140/hr fully-loaded** (no separate overhead line — sidesteps §3.7). Hours: PI 900 + IC engineer 330 = 1,230.
 **Per-entry cap:** each activity sub-field ≤ **800 characters**; Other-Costs descriptions ≤ 255. No blank lines inside boxes.
+**R9 (2026-07-20):** the five Other-Costs description cells are reformatted below — value on its own line, no backticks. The CP6-143774 filing leaked literal backticks (and once a "Description: " label) into these cells by copying the old inline-code formatting. Copy only the description line itself. All figures unchanged.
 **Bucket note:** PRC-7 Table B lumped the $3,800 FPGA board into M2 "other costs"; in the DIP it goes in the **Materials** table (CH13 precedent: the MacBook). Totals unchanged.
 **Consistency anchor:** activities mirror field 11's milestone sentences and PRC-4's six increments; the two GBA-Plus deliverables promised in PRC-5 (bias-audit protocol; accessibility + bilingual checklist) appear in M2 activities 3–4.
 
@@ -148,12 +149,14 @@ Hybrid by design: common-case dispositions execute in hardware; rare or complex 
 ### Other Costs — "Add Other Costs" (two rows)
 **Row 1**
 - Other cost: `Cloud compute`
-- Description: `Cloud compute for Sentinel-1 scene fetching and processing, policy-evaluation test runs, and hosting the live planetar.ca system. No model training.`
+- Description — copy the next line only, nothing else:
+Cloud compute for Sentinel-1 scene fetching and processing, policy-evaluation test runs, and hosting the live planetar.ca system. No model training.
 - Cost ($): `1500.00`
 
 **Row 2**
 - Other cost: `Software / tools`
-- Description: `Development and operations tooling: continuous-integration runner minutes, observability/monitoring, and ancillary paid developer services. RTL work uses open-source toolchains.`
+- Description — copy the next line only, nothing else:
+Development and operations tooling: continuous-integration runner minutes, observability/monitoring, and ancillary paid developer services. RTL work uses open-source toolchains.
 - Cost ($): `500.00`
 
 → Total Other Costs: **$2,000**
@@ -292,7 +295,8 @@ The hybrid escalation design makes partial hardware coverage safe — anything n
 ### Materials — "Add Materials" (one row)
 | Field | Value |
 |---|---|
-| Description | `FPGA development board and prototyping sundries (RISC-V-capable, for the hardware enforcement-datapath prototype)` |
+| Description — copy the next line only, nothing else: | |
+FPGA development board and prototyping sundries (RISC-V-capable, for the hardware enforcement-datapath prototype)
 | Quantity | `1` |
 | Unit Cost ($) | `3800.00` |
 | Total ($) | `3800.00` |
@@ -302,17 +306,20 @@ The hybrid escalation design makes partial hardware coverage safe — anything n
 ### Other Costs — "Add Other Costs" (three rows)
 **Row 1**
 - Other cost: `Cloud compute`
-- Description: `Cloud compute for enforcement-overhead benchmark runs, policy-correctness and lineage-fidelity evaluation, Sentinel-1 processing, and hosting the live evaluator-operable planetar.ca demonstrator.`
+- Description — copy the next line only, nothing else:
+Cloud compute for enforcement-overhead benchmark runs, policy-correctness and lineage-fidelity evaluation, Sentinel-1 processing, and hosting the live evaluator-operable planetar.ca demonstrator.
 - Cost ($): `2000.00`
 
 **Row 2**
 - Other cost: `Software / tools`
-- Description: `Development and operations tooling: continuous-integration runner minutes, observability/monitoring, and ancillary paid developer services. RTL flow on open-source toolchains.`
+- Description — copy the next line only, nothing else:
+Development and operations tooling: continuous-integration runner minutes, observability/monitoring, and ancillary paid developer services. RTL flow on open-source toolchains.
 - Cost ($): `500.00`
 
 **Row 3**
 - Other cost: `Datasets / licences`
-- Description: `Reserve for paid data access if a public source proves insufficient; core demonstration data (AIS, Sentinel-1) are public and free.`
+- Description — copy the next line only, nothing else:
+Reserve for paid data access if a public source proves insufficient; core demonstration data (AIS, Sentinel-1) are public and free.
 - Cost ($): `500.00`
 
 → Total Other Costs: **$3,000**

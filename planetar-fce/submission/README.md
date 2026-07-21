@@ -10,6 +10,15 @@ advances field-by-field on *Next* (no jumping around), so each row = one form in
 already lives in [`../proposal/`](../proposal/); this kit says **which file → which field**, the **cap**, and
 what still needs drafting. At T-3 you produce the paste-ready plaintext per the protocol below.
 
+> **⟳ R9 REPLACEMENT PASS (2026-07-20) — active.** CP6-143774 (filed 07-18) is being replaced before the
+> 2026-07-21 14:00 EDT close ("Replacement Submission", reference CP6-143774; **the form starts empty — every
+> field below gets re-pasted**). Five sources changed, marked **R9** in the table; every other field re-pastes
+> its existing block unchanged. Changes + rationale: [`../replacement-2026-07-19.md`](../replacement-2026-07-19.md).
+> **Q8 closed:** the CH14 Q&A (read 07-19, archived `../CH14-QA-amendment003-2026-07-13.pdf`) drove the
+> knowledge-based-AI wording in MC-2/PRC-1. **Rule learned from the filed PDF: no `≥ ≤ →` anywhere** — the
+> DIP PDF generator strips them (it keeps `µ — –`); and copy cost-cell values without any backticks.
+> Before submitting: regenerate the summary PDF and grep it for the denylist (step 7 of the replacement doc).
+
 > **Locked facts threaded through every field.** Thesis = **compliance-by-design / Fusion Compliance Engine**
 > (`../THESIS.md`). **TRL 2 → 3.** **Budget $181,000** (≈72% of the $250K cap; DIP M1 = 39.8% ≤ 70%) —
 > **amended per R8 2026-07-13**: team of two (founder + Colin Broughton, IC-design engineer, employee) +
@@ -32,12 +41,12 @@ what still needs drafting. At T-3 you produce the paste-ready plaintext per the 
 | 09 | MC-1: **R&D activities** | 3,000 | [`09-mc1-rd-activities.md`](09-mc1-rd-activities.md) (2,941) — split from `MC-1_trl.md` | ✅ |
 | 10 | MC-1: End-state TRL (dropdown) | — | **TRL-3** | ✅ |
 | 11 | MC-1: **Justify end-state TRL** | 3,000 | [`11-mc1-end-state-justify.md`](11-mc1-end-state-justify.md) (2,827) — split from `MC-1_trl.md`, R8-amended | ✅ |
-| 12 | MC-2: Alignment | 3,000 | [`12-mc2-alignment.md`](12-mc2-alignment.md) (2,817) | ✅ paste-ready |
-| 13 | PRC-1: S&T Merit | 3,000 | [`13-prc1-st-merit.md`](13-prc1-st-merit.md) (2,541) | ✅ paste-ready |
-| 14 | PRC-2: Novelty | 3,000 | [`14-prc2-novelty.md`](14-prc2-novelty.md) (2,924) ⚠️ tightest | ✅ paste-ready |
-| 15 | PRC-3: Impact | 3,000 | [`15-prc3-impact.md`](15-prc3-impact.md) (2,630) | ✅ paste-ready |
-| 16 | PRC-4: Feasibility | 3,000 | [`16-prc4-feasibility.md`](16-prc4-feasibility.md) (2,627) | ✅ paste-ready |
-| 17 | PRC-5: GBA Plus | 3,000 | [`17-prc5-gba-plus.md`](17-prc5-gba-plus.md) (2,872) | ✅ paste-ready |
+| 12 | MC-2: Alignment | 3,000 | [`12-mc2-alignment.md`](12-mc2-alignment.md) (2,928) | ✅ **R9** — knowledge-based-AI EO1 + domain mechanization + ASCII |
+| 13 | PRC-1: S&T Merit | 3,000 | [`13-prc1-st-merit.md`](13-prc1-st-merit.md) (2,847) | ✅ **R9** — AI-enabled grounding + ASCII |
+| 14 | PRC-2: Novelty | 3,000 | [`14-prc2-novelty.md`](14-prc2-novelty.md) (2,924) ⚠️ tightest | ✅ paste-ready (unchanged) |
+| 15 | PRC-3: Impact | 3,000 | [`15-prc3-impact.md`](15-prc3-impact.md) (2,630) | ✅ paste-ready (unchanged) |
+| 16 | PRC-4: Feasibility | 3,000 | [`16-prc4-feasibility.md`](16-prc4-feasibility.md) (2,939) | ✅ **R9** — true 39.8% M1 figure + ASCII |
+| 17 | PRC-5: GBA Plus | 3,000 | [`17-prc5-gba-plus.md`](17-prc5-gba-plus.md) (2,917) | ✅ **R9** — enforce-first principle (EO3 fix) |
 | 18 | PRC-6: Desired Outcomes | 3,000 | [`18-prc6-desired-outcomes.md`](18-prc6-desired-outcomes.md) (2,143) | ✅ paste-ready |
 | 19 | Financial — cost summary (ref) | (ref) | `proposal/PRC-7_budget.md` Table A — **$181,000** (R8) | ✅ |
 | 20 | Work Plan & Deliverables — **2 milestones** (the real SC-1/PRC-7 entry) | (tables) | `proposal/PRC-7_budget.md` Table B (M1 = 39.8%) | 🟡 transcribe to wizard |
@@ -51,7 +60,7 @@ what still needs drafting. At T-3 you produce the paste-ready plaintext per the 
 ## Still to draft (remaining non-narrative fields)
 
 ✅ **Done 2026-06-23:** 01 title, 03 synopsis, 06 keywords, 07 overview, 09/11 MC-1 split, 24 location/language,
-[`25-glossary.md`](25-glossary.md), [`26-reference-documents.md`](26-reference-documents.md), [`27-progression-1b.md`](27-progression-1b.md) (5,402 / 8,000 after R8).
+[`25-glossary.md`](25-glossary.md), [`26-reference-documents.md`](26-reference-documents.md) (**R9 2026-07-20: 13 verified entries** — CP6-143774 filed only 3; copy all 13), [`27-progression-1b.md`](27-progression-1b.md) (5,402 / 8,000 after R8).
 
 | Field | Cap | How to build | Source |
 |---|---|---|---|

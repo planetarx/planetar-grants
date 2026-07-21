@@ -1,26 +1,6 @@
-# Field 26 — Reference Documents
-
-**DIP page:** Reference Documents step. Each entry needs **Title / Author / Publication Date / Relevance**.
-**Status:** ✅ READY — **R9 replacement list (2026-07-20), all dates web-verified.** 13 entries (the old
-draft's combined XACML+NIST row is split so [P3] and [P4] each resolve). Same content as
-[`paste/26-reference-documents.txt`](paste/26-reference-documents.txt), which is formatted for
-line-wise copying (label line, then the value alone on the next line) — **copy from the .txt**.
-**Why 13 entries:** CP6-143774 filed only 3 (thesis + 2 patents), leaving ~10 bracket keys in
-MC-2/PRC-1/2/3/6 dangling. This list resolves every key: [A1]=1 · [A2]=2 · [P1]=6 · [P3]=7 ·
-[P4]=8 · [S1]=9 · [S2]=10 · [S3]=11 · [S5]=12 · [S6]=13.
-**Rules:** plain text only (no `**`, no backticks — the filed patent cells leaked literal `**not**`);
-patents keep the exact named-inventor-not-owner wording (Q6 / CLAUDE.md).
-
-## Date verification record (2026-07-19/20; evidence PDFs in `../refs-evidence/`)
-
-- Thesis: **2013-12-23** (UVic DSpace hdl 1828/5109; the filed "2013-12-31" was a placeholder — `dc:date.issued` is year-only 2013, repository date 2013-12-23)
-- ODRL 2.2 **2018-02-15** (w3.org/TR/odrl-model) · XACML 3.0 **2013-01-22** (docs.oasis-open.org) · PROV-DM **2013-04-30** (w3.org/TR/prov-dm)
-- NIST SP 800-162 **2014-01, updated 2019-08-02** (csrc.nist.gov/pubs/sp/800/162/upd2/final). If the portal date field demands a full date, use 2019-08-02.
-- ADatP-4774 **Ed A V1, promulgated 2017-12-20** · ADatP-4778 **Ed A V1, 2018-10-26** (nisp.nw3.dk registry + promulgation letters; no Edition B of either exists)
-- Raise the Bar: cite **RTB Baseline Release v4.1, 2022-07-11** (NCDSMO-R-00008-004_01, via public DoD NDIA deck); initiative first published 2018 (secondary sources only)
-- TBS Standard on Security Categorization (Appendix J): **effective 2019-07-01** (tbs-sct.canada.ca id=32614) · ITSG-33 **2012-11-01** (cyber.gc.ca)
-
---- ENTRIES (portal order; label line, value alone on the next line — copy the value line whole) ---
+REFERENCE DOCUMENTS — 13 entries, portal order. All dates verified 2026-07-19/20.
+Format: each label line is followed by the value alone on the next line — copy the value line whole.
+Plain text only: no asterisks, no backticks.
 
 === 1 ===
 Title:
@@ -151,9 +131,3 @@ Publication Date:
 2019-07-01 (Appendix J effective date); ITSG-33 2012-11-01
 Relevance:
 The Government of Canada framework defining Protected B — the sovereign Canadian classification baseline the FCE enforces to in the demonstration.
-
---- END ENTRIES ---
-
-## Notes
-- The full annotated cite list with source URLs is `../06-REFERENCES.md`; verification evidence PDFs are in `../refs-evidence/`.
-- All 13 entries are load-bearing — sections B/C keys are cited in the scored narratives; do not drop entries.

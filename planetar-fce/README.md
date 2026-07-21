@@ -8,15 +8,16 @@
 amendment 2026-07-13 — was 2026-07-14; verified on `cb-0-11990877`).
 **Target Component:** **1a** (TRL 1–3, ≤$250K CAD, ≤6 mo). **TRL 2 → 3.**
 
-> **Status: ✅ SUBMITTED 2026-07-18 — CP6-143774** ($181,000, TRL 2→3, Component 1a),
-> 3 days before the extended deadline. **[`submission-record.md`](submission-record.md) is now
-> the authoritative current-state file** — read it before assuming what was or wasn't filed
-> (portal PDF archived: [`CP6-143774_ProposalSummary.pdf`](CP6-143774_ProposalSummary.pdf)).
-> Text under `proposal/` + `submission/` is **filed** — no silent edits. Live obligation:
-> **planetar.ca stays up and evaluator-drivable.** Evaluation ~3–6 mo (movement expected
-> ~2026-10 → 2027-01). Thesis SSOT = [`THESIS.md`](THESIS.md); this workspace mirrors
-> `../../planetar/` (the filed CH13 bid) with the thesis swapped from *learned fusion model*
-> to *compliance-by-design / Fusion Compliance Engine*.
+> **Status: ✅ SUBMITTED — CP6-144220** (Replacement Submission, filed 2026-07-20 08:15 PM,
+> replacing CP6-143774 of 07-18; $181,000, TRL 2→3, Component 1a). The R9 replacement folded in
+> the CH14 Q&A's knowledge-based-AI clarification, fixed the EO3 contradiction in PRC-5, restored
+> a 10-entry verified reference list (portal max), and eliminated every rendering artifact —
+> post-filing PDF grep: clean. **[`submission-record.md`](submission-record.md) is the
+> authoritative current-state file** (portal PDFs archived:
+> [`CP6-144220_ProposalSummary.pdf`](CP6-144220_ProposalSummary.pdf) authoritative,
+> CP6-143774 historical). Text under `proposal/` + `submission/` is **filed** — no silent edits.
+> Live obligation: **planetar.ca stays up and evaluator-drivable.** Evaluation ~3–6 mo (movement
+> expected ~2026-10 → 2027-01). Thesis SSOT = [`THESIS.md`](THESIS.md).
 
 ---
 
