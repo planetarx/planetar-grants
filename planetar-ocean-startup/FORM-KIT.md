@@ -12,8 +12,11 @@
    (YouTube unlisted / Drive), paste link.
 2. **Pitch deck (link required).** ⚠️ The CH14 one-pager is defence-framed — **do not reuse**
    (D3: civilian face here). A civilian deck must be made; slide outline below (§Deck).
-3. **Budget file (upload, their template).** Make a copy of the form's linked template and
-   fill from §Budget below; export PDF/xlsx.
+3. **Budget file (upload, their template).** ✅ A submittable draft is rendered at
+   [`budget/osc-budget.pdf`](budget/osc-budget.pdf) (source `budget/osc-budget.html`). Either upload
+   it directly, or transcribe its lines into OSC's official template if they require that exact
+   format. **Two founder checks before upload:** (a) confirm founder-time is an eligible expense in
+   the OSC info kit — if not, re-tag per the note on the PDF; (b) confirm the split.
 
 ---
 
