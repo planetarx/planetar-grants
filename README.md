@@ -19,7 +19,7 @@ sources; re-verify before acting.
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
 | **Emergent Ventures** (Mercatus) | **US$50K** ($25K runway / $15K GPU / $10K data+hosting) | rolling — **submit now** (~1 hr) | Steven, individual | ✅ **READY TO SUBMIT** — no `[TODO]`s | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
-| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | ⏰ **2026-07-26 @ 11:59pm** (≈ADT; re-verified live 07-20) | Steven, individual (Zax fails <5-yr + majority-owner rules; new entity only on win) | **`FORM-KIT.md` maps the live form** — text done; blockers: 3-min video, civilian deck, budget template (one-sitting form) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
+| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | ✅ **SUBMITTED 2026-07-23** — shortlist by 2026-08-08 | Steven, individual (new entity on win) | Filed: FORM-KIT answers + video + deck + budget; confirmation received (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
 | **Schmidt Marine Technology Partners** | ⚠️ re-shape: call is ~12-mo initial (US$100–400K typical, $550K/yr cap), not $200K/18 mo | ⏰ **2026-07-31 @ 12:00 NOON Pacific** (re-verified live 07-20) | **Zax Analytics** (Steven CEO) | Initial proposal is SHORT (3 × <200 words, Airtable) — distill the draft; founder re-decides ask shape | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
 
 ## 🟡 On hold / watches

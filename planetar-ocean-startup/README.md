@@ -1,7 +1,7 @@
 # Planetar × Ocean Startup Challenge 2026–27 — application workspace
 
-> ⏰ **ACTIVE — closes 2026-07-26 @ 11:59pm** (timezone unstated; assume ADT). **Form re-verified
-> LIVE 2026-07-20** (Airtable, active Submit; no save-and-continue confirmed verbatim).
+> ✅ **SUBMITTED 2026-07-23** — confirmation received; shortlist notification by **2026-08-08**.
+> See [`SUBMISSION.md`](SUBMISSION.md). *(Closed 2026-07-26 @ 11:59pm ADT.)*
 > Up to **$25K CAD**, up to 15 startups, **TRL ≤6**. **Apply as an individual (Steven Ness),
 > NOT as Zax Analytics** — see below.
 >
