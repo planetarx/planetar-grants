@@ -43,10 +43,8 @@ Program facts: [`CHALLENGE.md`](CHALLENGE.md). Draft: [`01-APPLICATION-draft.md`
 | [`01-APPLICATION-draft.md`](01-APPLICATION-draft.md) | ✅ **Complete (2026-07-04)** — trim to form limits at submission |
 | `SUBMISSION.md` | — write on submission |
 
-## Status: READY TO SUBMIT — rolling; paste-ready in [`EV-FORM-KIT.md`](EV-FORM-KIT.md)
+## Status: ✅ SUBMITTED 2026-07-24 — reply ~1 week
 
-Form verified live 2026-07-23. All content drafted to the real fields — tweet (281/295 chars),
-proposal (826/1500 words, story→consensus-view→idea structure), budget. **Remaining are
-founder-only:** phone (+country code), phone/email type, Affected-Region + Project-Topic dropdowns,
-optional Twitter, and a 30-second confirm that the consensus-view answer is genuinely yours (swap if
-not). Then paste top-to-bottom and submit (one page; incomplete apps auto-rejected).
+Confirmation received. See [`SUBMISSION.md`](SUBMISSION.md). Filed the R2 big-platform framing
+(~1,250-word proposal, "open infrastructure for understanding and response"). Paste-ready source
+kept at [`EV-FORM-KIT.md`](EV-FORM-KIT.md) / [`EV-paste.txt`](EV-paste.txt).
