@@ -1,9 +1,9 @@
-# Schmidt Marine — initial proposal (draft)
+# Schmidt Marine — initial proposal (draft — SUPERSEDED)
 
-> 🚧 **Draft.** The portal's real form fields are login-gated — these sections are
-> written to be re-mapped onto whatever the form asks. `[TODO]` = founder-only fact.
-> **Civilian face only (D3).** Claims below are auditable (repo paths / measurements) —
-> don't soften, don't inflate.
+> ⚠️ **Superseded 2026-07-24 by [`FORM-KIT.md`](FORM-KIT.md)** — the live Airtable form was verified.
+> It's a short intake (Problem/Solution/Impact ≤200 words each, focus-area radio, TRL, banded
+> year-1 ask, team) with no uploads. The form kit is the paste-ready version; this file is kept as
+> the fuller source narrative. **Submit from the form kit.**
 
 ---
 

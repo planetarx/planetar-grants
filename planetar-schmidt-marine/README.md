@@ -56,4 +56,9 @@ Watch problem, delivered as auditable open infrastructure anyone can run.
 | [`01-APPLICATION-draft.md`](01-APPLICATION-draft.md) | 🚧 Draft — `[TODO]`s + field-mapping open |
 | `SUBMISSION.md` | — write on submission |
 
-## Status: ACTIVE — vehicle + ask decided (2026-07-04); portal fields + minor `[TODO]`s open
+## Status: READY TO SUBMIT — paste-ready in [`FORM-KIT.md`](FORM-KIT.md) (form verified 2026-07-24)
+
+All content matched to the live Airtable form: Problem/Solution/Impact (141/163/167 words), contact
+block, team, TRL 4. **Two founder calls flagged in the kit:** Focus Area (Sustaining Fisheries
+recommended vs Ocean Observing) and the year-1 ask band ($150–200K recommended vs $200–250K). No
+uploads. **Closes 2026-07-31 12:00 PM PST — a midday cutoff.**
