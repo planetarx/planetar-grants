@@ -43,4 +43,10 @@ Program facts: [`CHALLENGE.md`](CHALLENGE.md). Draft: [`01-APPLICATION-draft.md`
 | [`01-APPLICATION-draft.md`](01-APPLICATION-draft.md) | ✅ **Complete (2026-07-04)** — trim to form limits at submission |
 | `SUBMISSION.md` | — write on submission |
 
-## Status: READY TO SUBMIT — rolling deadline; ~1 hour at the form
+## Status: READY TO SUBMIT — rolling; paste-ready in [`EV-FORM-KIT.md`](EV-FORM-KIT.md)
+
+Form verified live 2026-07-23. All content drafted to the real fields — tweet (281/295 chars),
+proposal (826/1500 words, story→consensus-view→idea structure), budget. **Remaining are
+founder-only:** phone (+country code), phone/email type, Affected-Region + Project-Topic dropdowns,
+optional Twitter, and a 30-second confirm that the consensus-view answer is genuinely yours (swap if
+not). Then paste top-to-bottom and submit (one page; incomplete apps auto-rejected).

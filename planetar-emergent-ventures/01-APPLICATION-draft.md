@@ -1,8 +1,9 @@
-# Emergent Ventures — application (draft)
+# Emergent Ventures — application (draft — SUPERSEDED)
 
-> 🚧 **Draft.** Form fields unverified (mercatus.tfaforms.net/5099527) — trim to the real
-> limits when filling it in. Voice: first-person, direct, zero grant-speak. `[TODO]` =
-> founder-only fact. Claims are auditable — keep them exact.
+> ⚠️ **Superseded 2026-07-23 by [`EV-FORM-KIT.md`](EV-FORM-KIT.md)** — the live form was verified and
+> is more structured than this draft assumed (required ≤295-char tweet, ≤1500-word proposal in a
+> prescribed story→consensus-view→idea structure, no CV/website fields, optional budget). The form
+> kit is the paste-ready version; this file is kept as history. **Submit from the form kit.**
 
 ---
 
