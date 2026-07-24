@@ -19,8 +19,8 @@
 **Project Title:**
 planetar — open-source, real-time sensor fusion to find the fishing vessels that don't want to be seen
 
-**Short Project Description (1–2 sentences):**
-planetar is an open-source platform that fuses AIS, satellite radar, cameras, and hydrophones into one live picture of who is on the water — including vessels that switch off their transponders to fish illegally. This grant funds a self-supervised model that re-identifies those "dark" vessels across sensors when their transponders are off.
+**Short Project Description (1–2 sentences, HARD CAP 250 chars — 236 below):**
+Open-source platform fusing AIS, radar, cameras and hydrophones into one live picture of who's on the water — including "dark" vessels that fish illegally with their transponders off. It funds a model to re-identify them across sensors.
 
 **SMTP Focus Area (radio, pick one):** Sustaining Fisheries
 
