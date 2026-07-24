@@ -4,17 +4,15 @@
 > (a midday cutoff). Verified live 2026-07-24. **Civilian face only (D3)** — no defence language.
 > Short intake, **no uploads/attachments**, ~200-word advisory caps (not enforced). Paste top-to-bottom.
 
-## Two founder calls (flagged inline below)
+## Founder decisions — CONFIRMED 2026-07-24
 
-1. **SMTP Focus Area** (pick ONE radio): **Sustaining Fisheries** *(recommended — Schmidt funds
-   fisheries enforcement here, and "find illegal fishing vessels that go dark" is the sharpest
-   mission-aligned hook)* vs **Ocean Observing** *(equally valid — matches what planetar *is*, an
-   open observing platform; the text below works under either, only the radio changes)*.
-2. **Requested Amount** (year-1 band, dropdown): **$150,000–$200,000** *(recommended — lands on the
-   founder's $200K anchor as a full year of funding, well within Schmidt's $100–400K norm)* vs
-   **$200,000–$250,000** *(slightly more ambitious)*.
-   *(This reshapes D6's "$200K/18mo" — the form asks for 1 year of funding with annual renewals,
-   not an 18-month total. See DECISIONS D6 note.)*
+- **SMTP Focus Area:** **Sustaining Fisheries** (pick this radio).
+- **Requested Amount (year-1 band):** **$150,000–$200,000**. **Total Project Budget:** **$350,000**.
+  *(Reshapes D6's "$200K/18mo" — the form asks for 1 year of funding with annual renewals, not an
+  18-month total.)*
+- **Work Title:** **Founder & CEO**.
+- **TRL:** **3** (rating the funded work — the re-ID model at proof-of-concept — not the platform
+  substrate; within Schmidt's TRL 2–6 band).
 
 ## Project Overview
 
@@ -24,7 +22,7 @@ planetar — open-source, real-time sensor fusion to find the fishing vessels th
 **Short Project Description (1–2 sentences):**
 planetar is an open-source platform that fuses AIS, satellite radar, cameras, and hydrophones into one live picture of who is on the water — including vessels that switch off their transponders to fish illegally. This grant funds a self-supervised model that re-identifies those "dark" vessels across sensors when their transponders are off.
 
-**SMTP Focus Area (radio, pick one):** Sustaining Fisheries *(recommended; alt: Ocean Observing)*
+**SMTP Focus Area (radio, pick one):** Sustaining Fisheries
 
 **Technology Type (multi-select, pick all):** Artificial Intelligence (AI) & Machine Learning · Sensors & Acoustics · Observing Systems
 
@@ -51,11 +49,11 @@ IUU fishing is one of the largest drivers of overfishing and a direct threat to 
 
 **Project Location (multi-select):** Canada · Global *(demo is the Salish Sea; the problem is global)*
 
-**TRL (dropdown):** 4 *(the platform is a working prototype on real feeds over two operating areas; the self-supervised re-ID model this grant funds is the earlier-stage research advanced on top of it — within Schmidt's TRL 2–6 band)*
+**TRL (dropdown):** 3 *(rating the funded work — the self-supervised cross-modal re-ID model, at analytical/experimental proof-of-concept. It advances on top of a working platform substrate that is itself further along; within Schmidt's TRL 2–6 band)*
 
 **Total Project Budget:** $350,000 *(the full ~2-year research program: model development, integration into the live stack, published evaluation, and deployment documentation)*
 
-**Requested Amount (year-1 band):** $150,000–$200,000 *(recommended; alt $200,000–$250,000 — founder's call)*
+**Requested Amount (year-1 band):** $150,000–$200,000
 
 **Team Description:**
 Steven Ness — founder and CEO of Zax Analytics (Victoria, BC, Canada) — is building planetar solo. He holds a PhD in Computer Science (University of Victoria) and has published peer-reviewed ocean-bioacoustics research using Ocean Networks Canada hydrophone data (IEEE PacRim 2011) and on large-scale killer-whale call identification (Interspeech 2021); planetar's acoustic pipeline descends directly from that work. He is an applicant-named inventor on US Patent 10,936,582 (entity-resolution architecture; one of nineteen inventors) — the discipline behind planetar's cross-sensor vessel re-identification. He has built the entire existing prototype himself — the real-time message bus, the typed data envelope, four sensor pipelines (AIS, satellite radar, cameras, hydrophones), the entity-resolution graph, and the analyst interface — live at planetar.ca.
