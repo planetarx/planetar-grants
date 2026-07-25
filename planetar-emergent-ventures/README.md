@@ -43,8 +43,9 @@ Program facts: [`CHALLENGE.md`](CHALLENGE.md). Draft: [`01-APPLICATION-draft.md`
 | [`01-APPLICATION-draft.md`](01-APPLICATION-draft.md) | ✅ **Complete (2026-07-04)** — trim to form limits at submission |
 | `SUBMISSION.md` | — write on submission |
 
-## Status: ✅ SUBMITTED 2026-07-24 — reply ~1 week
+## Status: ❌ DECLINED 2026-07-24 (same-day) — resubmission invited
 
-Confirmation received. See [`SUBMISSION.md`](SUBMISSION.md). Filed the R2 big-platform framing
-(~1,250-word proposal, "open infrastructure for understanding and response"). Paste-ready source
-kept at [`EV-FORM-KIT.md`](EV-FORM-KIT.md) / [`EV-paste.txt`](EV-paste.txt).
+Submitted and declined the same day (EV's fast, high-volume process; no individual reasons given).
+Rejection explicitly **invites a future resubmission**. See [`SUBMISSION.md`](SUBMISSION.md) for the
+note and the reapply strategy (lead with one sharp novel result, time it after a fresh milestone).
+Kit preserved at [`EV-FORM-KIT.md`](EV-FORM-KIT.md) / [`EV-paste.txt`](EV-paste.txt).

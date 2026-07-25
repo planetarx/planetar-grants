@@ -18,7 +18,7 @@ sources; re-verify before acting.
 
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
-| **Emergent Ventures** (Mercatus) | **US$50K** ($25K runway / $15K GPU / $10K data+hosting) | ✅ **SUBMITTED 2026-07-24** — reply ~1 week | Steven, individual | Confirmation received (`SUBMISSION.md`); R2 open-platform framing | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
+| **Emergent Ventures** (Mercatus) | **US$50K** | ❌ **DECLINED 2026-07-24** (same-day) — resubmission invited | Steven, individual | Form rejection, no reasons (EV norm); reapply after a fresh milestone (`SUBMISSION.md`) | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
 | **Ocean Startup Challenge** 2026–27 | up to $25K CAD | ✅ **SUBMITTED 2026-07-23** — shortlist by 2026-08-08 | Steven, individual (new entity on win) | Filed: FORM-KIT answers + video + deck + budget; confirmation received (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
 | **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
 
