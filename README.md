@@ -36,7 +36,7 @@ sources; re-verify before acting.
 ## Decisions on record → [`planetar-brainstorm/DECISIONS.md`](planetar-brainstorm/DECISIONS.md)
 
 - **D1** Zax Analytics incorporated; **C1** Steven is CEO → IRAP/SR&ED track unblocked.
-- **D2** License: permissive bus (Apache-2.0) + AGPL platform; **C3** applied 2026-06-03.
+- **D2** License — **superseded by D2a (2026-07-27): single-license GPLv3 + paid services** (zmesg stays Apache-2.0; dual-license dropped). **C3** applied 2026-06-03.
 - **D3** Civilian-forward identity for OSS/ocean funders; defence face for IDEaS/DIANA.
 - **D4** (2026-07-04) Vehicle doctrine: **individual** for Ocean Startup / EV / NLnet;
   **Zax** for Schmidt Marine / IRAP / SR&ED.

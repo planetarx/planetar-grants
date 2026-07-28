@@ -31,6 +31,27 @@ Only **one repo needs relicensing**; everything else already matches the decisio
 > note that the 2026-05-15 public release already happened under AGPL — that can't be
 > retracted for code already published.
 
+### D2a (2026-07-27) — SUPERSEDES D2: single-license GPLv3 + paid services
+
+The dual-license / commercial-relicensing model is dropped. **Everything is GPLv3, except `zmesg`
+(the wire protocol/envelope) which stays Apache-2.0 for interoperability.** Monetize via **add-on
+services** — support, hosting, integration, and bespoke work for defence departments (the primary
+customers, who pay through contracts and services, not license fees). Rationale: dual-licensing is
+operational overhead (CLA, relicensing) that fights the real goal — **maximum adoption; easy and
+fun for everyone to use**. GPLv3 (not AGPLv3) is the deliberate, adoption-friendly choice (no
+network-copyleft; defence runs on-prem anyway). No CLA needed — contributions come in under GPLv3.
+
+- **Executed 2026-07-27:** all 14 platform/software repos relicensed to GPLv3 (`planetar-broker`
+  Apache→GPLv3; `-ui/-ais/-sat/-eo/-acoustic/-ontology/-registry` AGPL→GPLv3; `-market/-disruptor/
+  -flutter/-platform/-fusion/-vaults` set/added GPLv3), `license` fields in package.json/pyproject
+  updated. **`zmesg` stays Apache-2.0.** `planetar-grants` (this funding workspace = business
+  documents, not software) is deliberately left unlicensed.
+- **Data-licensing guardrail (unchanged, reinforced):** third-party **NonCommercial / ShareAlike**
+  datasets (xView3 = CC BY-NC-SA; GFW = CC BY-NC) can back **research, benchmarks, and the demo**,
+  but **cannot be released as part of the GPLv3 model** (SA is incompatible with GPLv3, and NC bars
+  the commercial-services use). Any *released* model trains on clean data — Copernicus Sentinel-1 +
+  Marine Cadastre AIS (public domain). See `../planetar-fusion/docs/DESIGN.md`.
+
 ## Clarifications — RESOLVED (2026-06-03, with Steven)
 
 | # | Resolution | Consequence |

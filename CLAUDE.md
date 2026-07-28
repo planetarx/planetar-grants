@@ -68,7 +68,8 @@ framings · individual-eligible or low-partner-dependency calls.
 ## Authoritative records — read before acting
 
 - **`planetar-brainstorm/DECISIONS.md`** is the decision record — D1 (Zax incorporated, Steven is
-  CEO), D2 (license: permissive bus + AGPL platform), D3 (per-funder identity), D4 (vehicle
+  CEO), D2 (license — **superseded by D2a 2026-07-27: single-license GPLv3 + paid services;
+  zmesg stays Apache-2.0**), D3 (per-funder identity), D4 (vehicle
   doctrine: individual vs Zax per funder), D5/D6 (EV and Schmidt asks), clarifications C1–C3.
   Check there before repeating any claim about eligibility, licensing, vehicles, or company
   structure.
