@@ -13,3 +13,15 @@
 - **C2:** Open Ocean Robotics relationship disclosed where the form asked (if it asked).
 
 Contact for questions: `admin@oceanstartupproject.ca`.
+
+---
+
+## Outcome — SHORTLISTED for the interview phase (2026-08-12)
+
+Email 2026-08-12 from Iliass Lamrini (`ilamrini@oceanstartupproject.ca`, +1 514 262 6468,
+Program Manager; cc Natasha): Planetar is shortlisted for the interview phase.
+
+- **Interview: Monday 2026-08-17 15:00 EDT (12:00 PDT)** — log in 2 minutes early for AV check.
+- **Zoom:** <https://us02web.zoom.us/j/82057750739>
+- **Format (15 minutes total):** 3-minute solution pitch, then 12-minute Q&A with the judging panel.
+- **Required action:** reply to the email to confirm presence.

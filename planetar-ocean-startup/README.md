@@ -1,16 +1,16 @@
 # Planetar × Ocean Startup Challenge 2026–27 — application workspace
 
-> ✅ **SUBMITTED 2026-07-23** — confirmation received; shortlist notification by **2026-08-08**.
-> See [`SUBMISSION.md`](SUBMISSION.md). *(Closed 2026-07-26 @ 11:59pm ADT.)*
-> Up to **$25K CAD**, up to 15 startups, **TRL ≤6**. **Apply as an individual (Steven Ness),
-> NOT as Zax Analytics** — see below.
+> 🎯 **SHORTLISTED 2026-08-12** for the interview phase (email from Iliass Lamrini,
+> `ilamrini@oceanstartupproject.ca`). **Interview: Monday 2026-08-17 15:00 EDT / 12:00 PDT,
+> Zoom <https://us02web.zoom.us/j/82057750739>** — log in 2 minutes early. Format (15 min
+> total): **3-min solution pitch + 12-min judging-panel Q&A**. Presence confirmed by email
+> 2026-08-13. **➜ Prep kit: [`INTERVIEW.md`](INTERVIEW.md)** (pitch script · Q&A model
+> answers · logistics). Outcome record in [`SUBMISSION.md`](SUBMISSION.md).
 >
-> **➜ [`FORM-KIT.md`](FORM-KIT.md) (2026-07-20) maps the LIVE form field-by-field** — all long
-> answers drafted ≤3,000 chars, traction re-verified (24k LOC measured 2026-07-20; 433-Mpx;
-> planetar.ca live), video script + budget lines + deck outline included. **Three asset
-> blockers remain (the critical path): record the 3-min video · build a civilian pitch deck
-> (NOT the CH14 one-pager) · fill their budget template.** Plus founder-only fields: phone,
-> pronouns, time-commitment band, prior programs, customer-research answer, self-ID.
+> *(Submitted 2026-07-23, closed 2026-07-26. Up to **$25K CAD**, up to 15 startups, TRL ≤6.
+> Applicant: **Steven Ness, individual**, NOT Zax — new Canadian entity incorporated on
+> selection. What was filed: [`FORM-KIT.md`](FORM-KIT.md) answers, the 3-min video, the pitch
+> deck `deck/planetar-osc-deck.pdf`, the $25K budget `budget/osc-budget.pdf`.)*
 
 Application workspace for the Ocean Startup Project's **2026–27 Startup Challenge**.
 Verified program facts: [`CHALLENGE.md`](CHALLENGE.md). The field-by-field draft answers
@@ -53,6 +53,9 @@ Canadian entity. So:
 |---|---|
 | [`CHALLENGE.md`](CHALLENGE.md) | ✅ Verified program facts + eligibility (2026-07-02) |
 | [`../planetar-brainstorm/drafts/02-ocean-startup-challenge.md`](../planetar-brainstorm/drafts/02-ocean-startup-challenge.md) | ✅ Draft answers complete (verified 2026-06-03; no `[TODO]`s — needs founder pass) |
-| `SUBMISSION.md` | — write on submission (date, confirmation, final answers) |
+| [`SUBMISSION.md`](SUBMISSION.md) | ✅ Filed record (submitted 2026-07-23) + outcome log (shortlisted 2026-08-12) |
+| [`INTERVIEW.md`](INTERVIEW.md) | ✅ Interview kit (2026-08-15): 3-min pitch script + beat card + Q&A model answers + logistics |
+| [`DETECTION-ALGORITHMS.md`](DETECTION-ALGORITHMS.md) | ✅ Interview companion (2026-08-17): exact vessel-detection algorithms verified against source — SAR CFAR (classical, not ML), YOLO on EO, designed learned SAR detector |
+| [`deck/planetar-osc-deck-interview.pdf`](deck/planetar-osc-deck-interview.pdf) | ✅ Interview deck (+ `.html` source) — filed deck with the slide-6 licence card updated to D2a (GPLv3 + services); the filed PDF is untouched |
 
-## Status: ACTIVE — awaiting final answers + submission
+## Status: SHORTLISTED — interview 2026-08-17 15:00 EDT

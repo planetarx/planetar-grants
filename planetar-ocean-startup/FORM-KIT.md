@@ -97,33 +97,44 @@ Does your startup fall under any of the industries below?
 fisheries-adjacent options; select all that apply)*
 
 What are current alternatives in the market addressing this problem?
-Most operators still rely on single-sensor tools and manual watchkeeping: an AIS feed on one
-screen, a radar picture on another, cameras on a third. Each is easy to evade alone — AIS can
-simply be switched off, satellite radar passes miss small craft between revisits, and cameras
-fail at night and in weather. Commercial fusion platforms exist at the high end (closed
-maritime-intelligence suites sold to navies, insurers and large agencies), but they are
-expensive, proprietary and vendor-locked: a port authority, a fisheries enforcement office or
-a conservation NGO cannot afford them, cannot audit how they reach their conclusions, and
-cannot run them on their own infrastructure. At the open end, Global Fishing Watch has proven
-the demand for vessel-behaviour transparency, but it is a global batch-analysis service, not
-a real-time local operating picture an operator can point at their own harbour, strait or
-marine protected area. The gap between those two poles — affordable, open, real-time,
+
+Most operators still rely on single-sensor tools and manual
+watchkeeping: an AIS feed on one screen, a radar picture on another,
+cameras on a third. Each is easy to evade alone — AIS can simply be
+switched off, satellite radar passes miss small craft between
+revisits, and cameras fail at night and in weather. Commercial fusion
+platforms exist at the high end (closed maritime-intelligence suites
+sold to navies, insurers and large agencies), but they are expensive,
+proprietary and vendor-locked: a port authority, a fisheries
+enforcement office or a conservation NGO cannot afford them, cannot
+audit how they reach their conclusions, and cannot run them on their
+own infrastructure. At the open end, Global Fishing Watch has proven
+the demand for vessel-behaviour transparency, but it is a global
+batch-analysis service, not a real-time local operating picture an
+operator can point at their own harbour, strait or marine protected
+area. The gap between those two poles — affordable, open, real-time,
 locally-deployable multi-sensor fusion — is where this venture sits.
 
 How will your solution be better than what is currently on the market?
-Three advantages. (1) Open and auditable: the entire stack is open source — a message bus and
-typed envelope under a permissive licence, the platform under AGPL — so any harbour master,
-enforcement office or NGO can inspect it, run it on commodity hardware, and never be locked
-in. Every detection carries provenance (which sensor, when, via which processing steps), so
-conclusions are traceable rather than black-box. (2) Real-time cross-sensor re-identification,
-including dark vessels: the system fuses live AIS, free Sentinel-1 satellite radar,
-electro-optical camera detections and hydrophone acoustics into one entity graph that links
-the same vessel across sensors — so a vessel that switches off its AIS does not vanish, it
-becomes a correlated radar/camera/acoustic track. (3) Cost structure: public and low-cost data
-(Sentinel-1 is free; AIS and webcams are cheap; hydrophone feeds exist through Ocean Networks
-Canada), commodity hardware, and a measured low-latency core — the fusion bus is benchmarked
-at nanosecond-scale message handling — mean the whole system runs at a price point smaller
-coastal operators can actually afford.
+
+Three advantages. (1) Open and auditable: the entire stack is open
+source — a message bus and typed envelope under a permissive licence,
+the platform under AGPL — so any harbour master, enforcement office or
+NGO can inspect it, run it on commodity hardware, and never be locked
+in. Every detection carries provenance (which sensor, when, via which
+processing steps), so conclusions are traceable rather than
+black-box. (2) Real-time cross-sensor re-identification, including
+dark vessels: the system fuses live AIS, free Sentinel-1 satellite
+radar, electro-optical camera detections and hydrophone acoustics into
+one entity graph that links the same vessel across sensors — so a
+vessel that switches off its AIS does not vanish, it becomes a
+correlated radar/camera/acoustic track. (3) Cost structure: public and
+low-cost data (Sentinel-1 is free; AIS and webcams are cheap;
+hydrophone feeds exist through Ocean Networks Canada), commodity
+hardware, and a measured low-latency core — the fusion bus is
+benchmarked at nanosecond-scale message handling — mean the whole
+system runs at a price point smaller coastal operators can actually
+afford.
 
 ## Customer Discovery & Market Interest
 
@@ -136,44 +147,59 @@ a port authority, DFO fisheries, or a marine-conservation NGO). If a text box ac
 ## Proposed Solution
 
 What are you building to address this problem?
-Planetar is an open-source, real-time multi-sensor fusion platform for maritime domain
-awareness. Live sensor streams — AIS transponder data, Sentinel-1 satellite radar scenes,
-electro-optical camera feeds, and hydrophone acoustics — flow over a low-latency message bus
-into an entity graph that resolves detections from different sensors into one vessel identity,
-with per-edge provenance, and surfaces the fused picture in an analyst console. The core
-capability is re-identifying vessels across sensors, including "dark" vessels operating with
-AIS off — the central enforcement gap in illegal, unreported and unregulated (IUU) fishing,
-and equally relevant to search-and-rescue and pollution monitoring. It is working today on
-live data out of Victoria BC: live AIS ingest for the Salish Sea, Sentinel-1 radar vessel
-detection validated on a real 433-megapixel scene, webcam-based vessel detection, hydrophone
-acoustic classification descended from the founder's published Ocean Networks Canada work,
-and a working cross-sensor re-identification rule — roughly 24,000 lines of open-source code
-across nine public repositories (measured 2026-07-20), with a live demonstration at
-planetar.ca. The $25K would fund a validation sprint: quantify dark-vessel detection and
-re-identification performance on real regional traffic, package a reproducible containerized
-deployment, and run one design-partner pilot.
+
+Planetar is an open-source, real-time multi-sensor fusion platform for
+maritime domain awareness. Live sensor streams — AIS transponder data,
+Sentinel-1 satellite radar scenes, electro-optical camera feeds, and
+hydrophone acoustics — flow over a low-latency message bus into an
+entity graph that resolves detections from different sensors into one
+vessel identity, with per-edge provenance, and surfaces the fused
+picture in an analyst console. The core capability is re-identifying
+vessels across sensors, including "dark" vessels operating with AIS
+off — the central enforcement gap in illegal, unreported and
+unregulated (IUU) fishing, and equally relevant to search-and-rescue
+and pollution monitoring. It is working today on live data out of
+Victoria BC: live AIS ingest for the Salish Sea, Sentinel-1 radar
+vessel detection validated on a real 433-megapixel scene, webcam-based
+vessel detection, hydrophone acoustic classification descended from
+the founder's published Ocean Networks Canada work, and a working
+cross-sensor re-identification rule — roughly 24,000 lines of
+open-source code across nine public repositories (measured
+2026-07-20), with a live demonstration at planetar.ca. The $25K would
+fund a validation sprint: quantify dark-vessel detection and
+re-identification performance on real regional traffic, package a
+reproducible containerized deployment, and run one design-partner
+pilot.
 
 Describe your company in one sentence.
+
 Open, real-time multi-sensor fusion that gives ocean operators one live picture of who is on
 the water — including vessels trying not to be seen.
 
 Does your solution have any novel inventions or designs that will need to be protected (IP)?
-The strategy is open source rather than patents: the message bus and envelope are permissively
-licensed (Apache-2.0) and the platform is AGPL — protection comes from copyright, licence
-terms and being the reference implementation, which is deliberate for public-good ocean
-infrastructure. The founder brings relevant prior art expertise as an applicant-named inventor
-on US Patent 10,936,582 (entity resolution; Salesforce-assigned — named-inventor credit, not
-an asset of this venture). A trademark on the Planetar name may be registered as the venture
-incorporates.
+
+The strategy is open source rather than patents: the message bus and
+envelope are permissively licensed (Apache-2.0) and the platform is
+AGPL — protection comes from copyright, licence terms and being the
+reference implementation, which is deliberate for public-good ocean
+infrastructure. The founder brings relevant prior art expertise as an
+applicant-named inventor on US Patent 10,936,582 (entity resolution;
+Salesforce-assigned — named-inventor credit, not an asset of this
+venture). A trademark on the Planetar name may be registered as the
+venture incorporates.
 
 How will you monetize this solution?
-Open-core model on a dual-licensed stack: the platform is AGPL, so organizations that want to
-embed it in closed products purchase commercial licences, while the open version remains free
-for public-interest users. Revenue lines, in order of nearness: (1) paid design-partner pilots
-and deployment/integration contracts for ports, enforcement agencies and NGOs; (2) a hosted,
-managed instance (subscription) for operators who don't want to run infrastructure; (3)
-commercial licensing and support agreements as adoption grows. The near-term $25K validation
-sprint feeds line (1) directly by producing the benchmark evidence and the first pilot.
+
+Open-core model on a dual-licensed stack: the platform is AGPL, so
+organizations that want to embed it in closed products purchase
+commercial licences, while the open version remains free for
+public-interest users. Revenue lines, in order of nearness: (1) paid
+design-partner pilots and deployment/integration contracts for ports,
+enforcement agencies and NGOs; (2) a hosted, managed instance
+(subscription) for operators who don't want to run infrastructure; (3)
+commercial licensing and support agreements as adoption grows. The
+near-term $25K validation sprint feeds line (1) directly by producing
+the benchmark evidence and the first pilot.
 
 Select below what best describes your solution:
 *(dropdown — pick the software/data-platform option)*

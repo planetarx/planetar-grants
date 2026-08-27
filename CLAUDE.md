@@ -8,7 +8,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **funding-pursuits portfolio** for the planetar platform — every pursuit *other than* the filed
 IDEaS CFP6 CH13 bid, which lives in the sibling repo `../planetar/`. It is **Markdown only — no
 code, no build, no lint, no tests.** The work is researching opportunities, screening them with
-the fit filter, recording bid/no-bid/hold decisions, and authoring application drafts.
+the fit filter, recording bid/no-bid/hold decisions, authoring application drafts, and — for
+filed pursuits — tracking outcomes. Several workspaces now hold **submitted applications under
+evaluation**; their filed text follows the same no-silent-edits rule as `../planetar/`.
 
 **Git layout exception:** unlike most `planetarx/` subdirectories, this directory *is* the git
 repo — the workspaces inside are plain directories, not nested repos. Commit here.
@@ -19,7 +21,9 @@ patent phrasing, absolute dates) apply fully.
 ## Where current state lives (read before assuming anything)
 
 - **Each workspace's own `README.md` is the authoritative per-opportunity status dashboard.**
-  Read it before acting in that workspace.
+  Read it before acting in that workspace — the **whole** file: status flips land in the
+  `## Status:` section at the end, and top banners can lag behind it (a stale "ACTIVE"
+  banner can sit above a DECLINED status).
 - The top-level `README.md` is the portfolio dashboard (live deadlines, vehicles, asks, remaining
   founder inputs) — useful, but it lags when work lands in bursts. When a status changes, update
   **both** the workspace README and the top-level dashboard.
@@ -29,16 +33,16 @@ patent phrasing, absolute dates) apply fully.
 
 ## Layout — one directory per pursuit
 
-States verified 2026-07-10; trust the workspace READMEs over this table.
+States verified 2026-08-16; trust the workspace READMEs over this table.
 
 | Directory | Opportunity | State |
 |---|---|---|
 | `planetar-brainstorm/` | The funding map: pitch framing (`00`), funder research (`01`–`05`), shortlist + calendar (`06`), announcement-channel radar (`07`), `DECISIONS.md`, reusable `drafts/` | Active reference |
-| `planetar-fce/` | IDEaS CFP6 **Challenge 14** "Reliable AI Sensor Fusion" (`W7714-248676/014`), Component 1a, Fusion Compliance Engine thesis | **ACTIVE — closes 2026-07-14 14:00 EDT.** All 9 narratives drafted + `submission/` kit; see README for the blocking Q7 benchmark gate |
-| `planetar-diana/` | NATO DIANA 2027 "Multidomain Sensing…" accelerator (€100K + up to €300K) | GO, content-complete 2026-06-23; **deadline 2026-07-02/03 has passed** — the workspace does not record whether it was submitted; confirm with the founder before citing |
-| `planetar-emergent-ventures/` | Emergent Ventures / Mercatus (US$50K, individual, rolling) | Ready to submit |
-| `planetar-ocean-startup/` | Ocean Startup Challenge 2026–27 (≤$25K CAD) — apply as **individual**, not Zax | ACTIVE — closes 2026-07-26; answers in `planetar-brainstorm/drafts/02` |
-| `planetar-schmidt-marine/` | Schmidt Marine Technology Partners (US$200K/18 mo) — **Zax** applicant, civilian face only | ACTIVE — closes 2026-07-31 |
+| `planetar-fce/` | IDEaS CFP6 **Challenge 14** "Reliable AI Sensor Fusion" (`W7714-248676/014`), Component 1a, Fusion Compliance Engine thesis | ✅ **SUBMITTED — CP6-144220** (replacement, filed 2026-07-20; $181K, TRL 2→3). Under evaluation ~3–6 mo; `submission-record.md` is authoritative; `proposal/` + `submission/` text is **filed**; planetar.ca must stay evaluator-drivable |
+| `planetar-diana/` | NATO DIANA 2027 "Multidomain Sensing…" accelerator (€100K + up to €300K) | **NOT SUBMITTED** — 2026-07-02/03 window missed on the DUNS blocker (recorded 2026-07-13); DUNS request in flight; workspace stays content-complete for the next DIANA call |
+| `planetar-emergent-ventures/` | Emergent Ventures / Mercatus (US$50K, individual, rolling) | ❌ **DECLINED 2026-07-24** (same-day, no reasons — EV norm); resubmission explicitly invited — reapply after a fresh milestone (`SUBMISSION.md`) |
+| `planetar-ocean-startup/` | Ocean Startup Challenge 2026–27 (≤$25K CAD) — applied as **individual**, not Zax; new entity on win | 🎯 **SHORTLISTED 2026-08-12** (submitted 2026-07-23) — interview 2026-08-17 15:00 EDT; prep kit `INTERVIEW.md` |
+| `planetar-schmidt-marine/` | Schmidt Marine Technology Partners (year-1 US$150–200K, annual renewals) — **Zax** applicant, civilian face only | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 |
 | `planetar-irap/` | NRC IRAP (AI Assist + DI Assist streams) + SR&ED | **ON HOLD** (2026-06-30, pending cash flow) — `DECISION-hold.md` has the re-engage trigger |
 | `planetar-smartearth/` | CSA smartEarth EO-applications AOs (≤~$250K) | WATCH — quarterly check |
 | `planetar-true-north/` | IDEaS "True North Precision" (`W7714-248676/012`) | NO-BID (2026-05-31) — reference |
@@ -73,8 +77,10 @@ framings · individual-eligible or low-partner-dependency calls.
   doctrine: individual vs Zax per funder), D5/D6 (EV and Schmidt asks), clarifications C1–C3.
   Check there before repeating any claim about eligibility, licensing, vehicles, or company
   structure.
-- **`DECISION-no-bid.md` / `DECISION-hold.md` files are filed, dated decisions.** Don't rewrite
-  them — append dated updates or add new docs if circumstances change.
+- **`DECISION-no-bid.md` / `DECISION-hold.md` / `SUBMISSION.md` / `submission-record.md` are
+  filed, dated records.** Don't rewrite them — append dated outcome updates (submitted →
+  shortlisted → declined/won) or add new docs if circumstances change. Filed application text
+  (e.g. `planetar-fce/proposal/` + `submission/`, filed form-kit answers) gets no silent edits.
 - **Sensitive facts are deliberate on-the-record material:** C1 (company registration/officer
   details) and C2 (spouse works at Open Ocean Robotics → proactively disclose in ocean-sector
   applications) must be represented exactly as recorded in `DECISIONS.md`, never paraphrased
@@ -90,7 +96,8 @@ When a new opportunity arrives, create `planetar-<name>/` and follow the establi
 4. `THESIS.md` — single source of truth all narratives must match (for committed bids)
 5. Numbered strategy/architecture docs (`01-…`, `02-…`, `08-OPEN-QUESTIONS.md`)
 6. `proposal/` (and, for IDEaS, `submission/`) — or `DECISION-no-bid.md` with rationale
-7. `README.md` — the status dashboard, with a file index stating each doc's state
+7. `SUBMISSION.md` on filing — the filed record plus a dated outcome log
+8. `README.md` — the status dashboard, with a file index stating each doc's state
 
 ## IDEaS authoring conventions (CH13 = CH14, identical framework)
 

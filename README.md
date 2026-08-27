@@ -5,7 +5,7 @@ submitted IDEaS CFP6 CH13 bid (that lives in `../planetar/`, under evaluation si
 2026-06-01). This README is the dashboard; per-opportunity detail lives in each
 workspace.
 
-**Last updated: 2026-07-18.** Dates and program terms move — each workspace lists its
+**Last updated: 2026-08-13.** Dates and program terms move — each workspace lists its
 sources; re-verify before acting.
 
 ## ✅ Submitted — under evaluation
@@ -19,7 +19,7 @@ sources; re-verify before acting.
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
 | **Emergent Ventures** (Mercatus) | **US$50K** | ❌ **DECLINED 2026-07-24** (same-day) — resubmission invited | Steven, individual | Form rejection, no reasons (EV norm); reapply after a fresh milestone (`SUBMISSION.md`) | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
-| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | ✅ **SUBMITTED 2026-07-23** — shortlist by 2026-08-08 | Steven, individual (new entity on win) | Filed: FORM-KIT answers + video + deck + budget; confirmation received (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
+| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | 🎯 **SHORTLISTED 2026-08-12** — interview **2026-08-17 15:00 EDT** (Zoom) | Steven, individual (new entity on win) | 15-min interview: 3-min pitch + 12-min panel Q&A; confirm presence by replying to the 2026-08-12 email (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
 | **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
 
 ## 🟡 On hold / watches
@@ -49,7 +49,8 @@ sources; re-verify before acting.
 
 1. Founder **phone** (NLnet form, for the fall window).
 2. **Schmidt budget line items** (US$200K shape) + portal field mapping at first login.
-3. Founder pass over the Ocean Startup answers before pasting.
+3. **Ocean Startup interview 2026-08-17 15:00 EDT:** confirm presence (email reply) + prep
+   the 3-min pitch and panel Q&A.
 4. Later: YouTube/demo-video/sponsor links in the one-pager; GitHub Sponsors + Open
    Collective handles ([`drafts/04`](planetar-brainstorm/drafts/04-license-and-funding-setup.md)).
 5. The **equity stance** decision (records as D7 when made).
@@ -61,7 +62,7 @@ sources; re-verify before acting.
 | [`planetar-brainstorm/`](planetar-brainstorm/) | Funder research (00–06), `DECISIONS.md`, reusable drafts | Active — the map |
 | [`planetar-fce/`](planetar-fce/) | IDEaS CFP6 CH14 Fusion Compliance Engine bid | ✅ **submitted (CP6-144220, replacement filed 2026-07-20)** — under evaluation |
 | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) | EV grant application | ✅ Ready to submit |
-| [`planetar-ocean-startup/`](planetar-ocean-startup/) | Ocean Startup Challenge application | ⏰ closes 07-26 |
+| [`planetar-ocean-startup/`](planetar-ocean-startup/) | Ocean Startup Challenge application | 🎯 shortlisted 2026-08-12 — interview 08-17 |
 | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) | Schmidt Marine initial proposal | ⏰ closes 07-31 |
 | [`planetar-smartearth/`](planetar-smartearth/) | CSA smartEarth watch | 👀 quarterly |
 | [`planetar-true-north/`](planetar-true-north/) | IDEaS True North Precision (/012) | 🛑 no-bid 2026-05-31 (reference) |
