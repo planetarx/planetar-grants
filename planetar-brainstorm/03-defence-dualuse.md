@@ -17,6 +17,11 @@ Component 1a, ≤$250K, ≤6 mo, TRL 1–3) is here. Keep it warm:
   under it. Component 1a (TRL 1–3 ≤$250K) is *the* honest planetar lane.
 - **MINERVA Initiative** (Canadian Army) — "True North Precision" was challenge #1
   (we no-bid: hardware). **More are expected**; watch for a software/AI-essential one.
+  - **Correction 2026-09-29:** the six 2026 MINERVA calls ran through **ISC Call 004, Phase 2
+    only (TRL 5–9, $500K, incorporated SMEs — no individuals)**, not IDEaS 1a. MINERVA routes
+    early-stage work to IDEaS and later-stage to ISC. Five were hardware (no-bid); **UAS
+    Deconfliction** (`EN578-24ISC4/94`, closes 2026-10-21) is the software-essential one —
+    screened in [`../planetar-minerva/FIT.md`](../planetar-minerva/FIT.md).
 - **Eligibility includes individuals** — no incorporation needed (unlike IRAP/ISC).
 - **Action:** standing watch on the IDEaS challenge list + MINERVA; bid any challenge
   whose *essential* outcomes are data fusion / entity resolution / MDA / decision support.

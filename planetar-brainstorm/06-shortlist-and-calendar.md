@@ -23,7 +23,7 @@ Fit = match to planetar's honest profile. ⛔ = blocked. ⏰ = time-sensitive. �
 | 6 | **NRC IRAP** (AI Assist / Defence Assist) | Gov grant | $75K–$1M | ✅ Track B unblocked (D1/C1) | Med | ★★★ | [01](01-canada-non-dilutive.md) |
 | 7 | **SR&ED tax credit** | Tax credit | % of R&D, yearly | ✅ once Zax pays R&D salary | Med | ★★★ | [01](01-canada-non-dilutive.md) |
 | 8 | **CSA smartEarth** (next AO) | Gov contribution | ≤~$250K | 👀 no open AO confirmed | Med | ★★★ | [`../planetar-smartearth/`](../planetar-smartearth/) |
-| 9 | **IDEaS** future challenges (MINERVA etc.) | Gov contract | ≤$250K (1a) | ✅ individual OK | Med | ★★★ | [03](03-defence-dualuse.md) |
+| 9 | **IDEaS** future challenges (MINERVA etc.) | Gov contract | ≤$250K (1a) | ✅ individual OK — **but MINERVA's 2026 calls went via ISC Phase 2 (TRL 5–9, Zax only); see [`../planetar-minerva/`](../planetar-minerva/) (2026-09-29)** | Med | ★★★ | [03](03-defence-dualuse.md) |
 | 10 | **Compute credits** (NVIDIA Inception, AWS Activate, Google for Startups) | In-kind (GPU/cloud) | $5K–$100K+ credits | ✅ (Zax) | Low | ★★ | *(unverified — apply directly)* |
 | 11 | **ISC Challenge Stream** (data/OSINT call) | Gov contract | ≤$150K→≤$1M | 👀 needs matching call | Med | ★★ | [01](01-canada-non-dilutive.md) |
 | 12 | **NATO DIANA** (next challenge call) | Accelerator+$ | contractual | ✅ | High | ★★ | [03](03-defence-dualuse.md) |

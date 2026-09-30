@@ -5,7 +5,7 @@ submitted IDEaS CFP6 CH13 bid (that lives in `../planetar/`, under evaluation si
 2026-06-01). This README is the dashboard; per-opportunity detail lives in each
 workspace.
 
-**Last updated: 2026-08-13.** Dates and program terms move — each workspace lists its
+**Last updated: 2026-09-29** (MINERVA row; earlier rows as of 2026-08-13). Dates and program terms move — each workspace lists its
 sources; re-verify before acting.
 
 ## ✅ Submitted — under evaluation
@@ -18,6 +18,7 @@ sources; re-verify before acting.
 
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
+| **MINERVA — UAS Deconfliction** (ISC Call 004, `EN578-24ISC4/94`) | up to **$500K CAD** × ~5 contracts, 15 mo | ⏰ **2026-10-21 14:00 EDT** (enquiries by 2026-10-11) | **Zax Analytics** (ISC: incorporated SME only) | ⚖️ **Decision pending 2026-09-29** — first MINERVA call with all-software Essentials, but Phase 2 **TRL 5–9 mandatory** and the app is unbuilt (TRL ~2) → solo bid fails Q2. Lanes: (A) partner-sub for live conformance · (B) build to TRL 5 for the next call (`FIT.md`). Five hardware siblings NO-BID 2026-09-23 | [`planetar-minerva/`](planetar-minerva/) |
 | **Emergent Ventures** (Mercatus) | **US$50K** | ❌ **DECLINED 2026-07-24** (same-day) — resubmission invited | Steven, individual | Form rejection, no reasons (EV norm); reapply after a fresh milestone (`SUBMISSION.md`) | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
 | **Ocean Startup Challenge** 2026–27 | up to $25K CAD | 🎯 **SHORTLISTED 2026-08-12** — interview **2026-08-17 15:00 EDT** (Zoom) | Steven, individual (new entity on win) | 15-min interview: 3-min pitch + 12-min panel Q&A; confirm presence by replying to the 2026-08-12 email (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
 | **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
@@ -30,7 +31,7 @@ sources; re-verify before acting.
 | **NRC IRAP + SR&ED** (Track B, $75K–$1M) | Unblocked (D1 + C1) — needs the first conversation | **Call 1-877-994-4727** for an ITA; keep contemporaneous R&D records; accountant confirms share split (SR&ED rate) |
 | **CSA smartEarth** (≤~$250K AOs) | No open AO confirmed 2026-07-02 | Quarterly check (next ~2026-10-01) — [`planetar-smartearth/`](planetar-smartearth/) |
 | **Compute credits** (NVIDIA Inception, AWS Activate, Google for Startups) | Not cash but offsets the GPU training spend | Apply under Zax; low effort |
-| **IDEaS/MINERVA · ISC Challenge Stream · NATO DIANA** | Standing watches | Bid only software/AI-essential, TRL 1–3 calls (the no-bid lesson) |
+| **IDEaS/MINERVA · ISC Challenge Stream · NATO DIANA** | Standing watches | Bid only software/AI-essential calls (the no-bid lesson). **2026-09-29:** MINERVA's 2026 calls run through **ISC Phase 2 (TRL 5–9, SMEs only)**, not IDEaS 1a — see [`planetar-minerva/`](planetar-minerva/) |
 | **ONC outreach** (Victoria) | Relationship, not a cheque; compounds into Mitacs/OSC/Schmidt | Find contact, send [`drafts/03`](planetar-brainstorm/drafts/03-onc-outreach-email.md) |
 
 ## Decisions on record → [`planetar-brainstorm/DECISIONS.md`](planetar-brainstorm/DECISIONS.md)
@@ -54,6 +55,8 @@ sources; re-verify before acting.
 4. Later: YouTube/demo-video/sponsor links in the one-pager; GitHub Sponsors + Open
    Collective handles ([`drafts/04`](planetar-brainstorm/drafts/04-license-and-funding-setup.md)).
 5. The **equity stance** decision (records as D7 when made).
+6. **MINERVA Deconfliction lane** — (A) partner-sub / (B) build-for-next / stop. Closes 2026-10-21;
+   lane A only works if chosen this week ([`planetar-minerva/FIT.md`](planetar-minerva/FIT.md)).
 
 ## Repo map
 
@@ -67,6 +70,7 @@ sources; re-verify before acting.
 | [`planetar-smartearth/`](planetar-smartearth/) | CSA smartEarth watch | 👀 quarterly |
 | [`planetar-true-north/`](planetar-true-north/) | IDEaS True North Precision (/012) | 🛑 no-bid 2026-05-31 (reference) |
 | [`planetar-innovation/`](planetar-innovation/) | ISC Testing Stream TS13 | 🛑 no-bid 2026-06-01 (reference) |
+| [`planetar-minerva/`](planetar-minerva/) | Canadian Army MINERVA 2026 — six ISC Phase-2 calls: five hardware no-bids + **UAS Deconfliction** | ⚖️ decision pending 2026-09-29 — closes **10-21** |
 
 **History of this push:** funder scan + shortlist built 2026-06-01→03 (post-CH13);
 re-verified and expanded 2026-07-02→04 (NLnet correction, Schmidt Marine + Emergent

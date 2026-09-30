@@ -33,7 +33,7 @@ patent phrasing, absolute dates) apply fully.
 
 ## Layout — one directory per pursuit
 
-States verified 2026-08-16; trust the workspace READMEs over this table.
+States verified 2026-08-16 (MINERVA row added 2026-09-29); trust the workspace READMEs over this table.
 
 | Directory | Opportunity | State |
 |---|---|---|
@@ -47,6 +47,7 @@ States verified 2026-08-16; trust the workspace READMEs over this table.
 | `planetar-smartearth/` | CSA smartEarth EO-applications AOs (≤~$250K) | WATCH — quarterly check |
 | `planetar-true-north/` | IDEaS "True North Precision" (`W7714-248676/012`) | NO-BID (2026-05-31) — reference |
 | `planetar-innovation/` | ISC Testing Stream TS13 (`EN578-26ISC1`) | NO-BID (2026-06-01) — reference |
+| `planetar-minerva/` | Canadian Army **MINERVA** 2026 cycle — six ISC Call 004 **Phase 2** calls (TRL 5–9, $500K, incorporated SMEs only). Five hardware calls NO-BID (2026-09-23); **UAS Deconfliction `EN578-24ISC4/94`** — all-software Essentials — closes **2026-10-21 14:00 EDT** | ⚖️ **DECISION PENDING** (2026-09-29) — solo bid fails the TRL-5 gate (app unbuilt, TRL ~2); lanes A (partner-sub) / B (build-for-next) in `FIT.md`; `THESIS.md` draft |
 
 ## The fit filter (the load-bearing lesson of this repo)
 
