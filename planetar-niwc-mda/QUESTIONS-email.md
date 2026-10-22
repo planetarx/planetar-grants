@@ -1,6 +1,6 @@
 # Draft — questions to the CSO contact (§6.11)
 
-> Draft 2026-10-22, **not sent**. To: the contact named in CSO §4.1 / §6.11 (see `idea.md`).
+> Draft 2026-10-22, **not sent — held by the founder 2026-10-22** while non-US customers come first. To: the contact named in CSO §4.1 / §6.11 (see `idea.md`).
 > Questions may be sent "at any time" (§6.11). Unclassified; no proprietary content.
 
 ---

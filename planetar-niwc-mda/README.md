@@ -38,7 +38,7 @@ Canada and the first that is a procurement rather than a grant or innovation cha
 | `THESIS.md` | — due 2026-12-11 per the build schedule (one thesis per bid; must not import CH13's or CH14's hero) |
 | `proposal/` | — not written |
 
-## Status: LANE B — close the gaps, then brief (2026-10-22); target send 2026-12-18
+## Status: LANE B — PAUSED 2026-10-22 (founder: focus on Canadian, European and other non-US customers first); brief target 2026-12-18 stands until revisited
 
 2026-10-06 — workspace created from the procurement scan; fit screened; no founder decision
 yet. Recommended lane is (B). Two actions do not depend on the lane and have lead time: start
@@ -49,5 +49,10 @@ SAM.gov registration, and e-mail the notice's contact the questions listed in
 the brief). SAM.gov checklist, contact e-mail draft and brief outline written. Next founder
 actions: request the NCAGE code; send `QUESTIONS-email.md`; download xView3 (unblocks the
 score the brief rests on).
+
+2026-10-22 — `QUESTIONS-email.md` reviewed with the founder and **deliberately not sent**; recorded
+for later. Before sending: soften "We are starting NCAGE and SAM.gov registration now" unless the
+NCAGE request has gone in (the NSPA tool was down for maintenance on 2026-10-22), and fill or drop
+the phone `[TODO]`. Work shifted to non-US customers (`../planetar-customers/`).
 
 Decision owner: Steven Ness.
