@@ -23,11 +23,12 @@ the Q&A is the interview.**
 
 ## The 3-minute pitch (~380 words ≈ 2:40 at speaking pace — rehearse to ≤2:45)
 
-**[0:00–0:25] Who I am.**
-"I'm Steven Ness, in Victoria BC. I have a PhD in computer science from UVic — years of
-machine learning on Ocean Networks Canada hydrophone data, including a thirty-year orca
-acoustic archive — and then industry entity-resolution at scale; I'm a named inventor on
-a US patent in that field. What I build is ocean infrastructure anyone can use."
+**[0:00–0:25] Who I am.**  "I'm Steven Ness, in Victoria BC. I have a
+PhD in computer science from UVic — years of machine learning on Ocean
+Networks Canada hydrophone data, including a thirty-year orca acoustic
+archive — and then industry entity-resolution at scale; I'm a named
+inventor on a US patent in that field. What I build is ocean
+infrastructure anyone can use."
 
 **[0:25–1:05] The problem.**  "Every sensor watching the ocean is easy
 to evade on its own. A vessel that wants to disappear just switches

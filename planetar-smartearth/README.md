@@ -11,7 +11,7 @@ satellite-EO application development. Verified facts and fit analysis:
 ## Why this is a near-perfect fit
 
 planetar already operates a Sentinel-1 SAR pipeline (`planetar-sat`: CDSE fetch → CFAR
-detect → IoU track → bus) and fuses it with AIS/EO/acoustic — **dark-vessel detection
+detect → nearest-neighbour geo track → bus) and fuses it with AIS/EO/acoustic — **dark-vessel detection
 from space is an EO application by definition**. A smartEarth AO would fund exactly the
 satellite leg of the learned cross-modal fusion thesis, under the civilian face (IUU
 fishing, Arctic shipping safety, pollution response). Zax Analytics (Canadian corp,

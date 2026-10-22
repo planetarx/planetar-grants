@@ -20,7 +20,7 @@ during verification — figures below are from CSA secondary pages and press cov
 ## planetar fit
 
 - **The pitch is already built:** `planetar-sat` (Sentinel-1 SAR: CDSE fetch → CFAR
-  detect → IoU track → bus) fused with AIS/EO/acoustic feeds; live demo at planetar.ca.
+  detect → nearest-neighbour geo track → bus) fused with AIS/EO/acoustic feeds; live demo at planetar.ca.
 - **EO application, civilian face (D3):** dark-vessel detection for IUU fishing, Arctic
   shipping safety, and pollution response — squarely "solutions to key challenges on
   Earth using satellite data."

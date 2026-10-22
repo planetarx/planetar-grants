@@ -14,10 +14,11 @@ Two live facts drive everything here:
 
 - **Five of the six calls are hardware-platform buys and are NO-BID (decided 2026-09-23)** —
   `DECISION-no-bid.md` is a filed record; append dated updates, don't rewrite.
-- **The sixth, UAS Deconfliction (`EN578-24ISC4/94`), closes 2026-10-21 14:00 EDT** and is the
-  first MINERVA call with all-software Essential outcomes. It is Phase 2, **TRL 5–9 mandatory**,
-  and planetar's matching application is unbuilt (TRL ~2). `FIT.md` holds the honest screen and
-  the two viable lanes; `README.md` `## Status` holds the founder's decision. **Read the whole
+- **The sixth, UAS Deconfliction (`EN578-24ISC4/94`), closed 2026-10-21 NOT BID**; on 2026-10-22
+  the founder chose **lane (B): build to TRL 5 for the next call**. It was the first MINERVA call
+  with all-software Essential outcomes (Phase 2, **TRL 5–9 mandatory**; the application is
+  unbuilt, TRL ~2). `FIT.md` holds the screen and lane B's plan; `README.md` `## Status` holds the
+  dated decision log and the lane-B checklist. **Read the whole
   README before acting** — the status section at the end is authoritative over the banner.
 
 ## Inherited rules (read them there)

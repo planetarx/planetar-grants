@@ -37,6 +37,8 @@ or low-partner-dependency calls.
 | [`05-community-revenue.md`](05-community-revenue.md) | GitHub Sponsors, dual-license / open-core, services, YouTube + website flywheel |
 | [`06-shortlist-and-calendar.md`](06-shortlist-and-calendar.md) | Ranked shortlist (fit × $ × effort) + a dated calendar of known windows |
 | [`07-funding-radar.md`](07-funding-radar.md) | Announcement channels to subscribe to (with status + cadence) + a Gotham-adjacency scan mapping planetar's assets to programs beyond maritime |
+| [`08-procurement-scan-2026-10-06.md`](08-procurement-scan-2026-10-06.md) | Procurement (not grant) scan: eight data-platform / data-fusion buys in Canada, the UK, the EU, NATO and the US, ranked, with eligibility blockers and exclusions |
+| [`09-platform-benchmark-emsa-bdw.md`](09-platform-benchmark-emsa-bdw.md) | A real platform tender's 26 requirements mapped onto the `planetar-platform` parity matrix (3 built · 13 partial · 9 designed · 1 planned); benchmark only, not biddable |
 
 ## Top picks (the 60-second version)
 
