@@ -18,7 +18,7 @@ sources; re-verify before acting.
 
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
-| **US Navy NIWC Pacific CSO — Data and Analytics for Maritime Domain Awareness** (`N66001-26-S-C036`) | no ceiling; awards "not expected to exceed $100M"; rough price `[TODO]` | ⏰ **2027-01-07 16:00 Pacific** (5-page solution brief by e-mail) | **Zax Analytics** (to confirm; foreign-owned welcome, SAM.gov before award) | ⚖️ **Screened 2026-10-06, decision pending** — both fit screens pass; source identification + methodology map to built code; gaps: no measured detection performance, no S3/bulk delivery, data rights unchecked. Lanes: (A) brief now · (B) close gaps then brief · (C) team under a prime (`FIT.md`) | [`planetar-niwc-mda/`](planetar-niwc-mda/) |
+| **US Navy NIWC Pacific CSO — Data and Analytics for Maritime Domain Awareness** (`N66001-26-S-C036`) | no ceiling; awards "not expected to exceed $100M"; rough price `[TODO]` | ⏰ **2027-01-07 16:00 Pacific** (5-page solution brief by e-mail) | **Zax Analytics** (to confirm; foreign-owned welcome, SAM.gov before award) | 🛠️ **Lane B chosen 2026-10-22** — close gaps (Stage 1 detection score, S3/bulk/API keys, method doc + source-ID demo), then brief; target send **2026-12-18**. Now: NCAGE → SAM.gov (`SAM-REGISTRATION.md`), send `QUESTIONS-email.md`, download xView3 | [`planetar-niwc-mda/`](planetar-niwc-mda/) |
 | **Emergent Ventures** (Mercatus) | **US$50K** | ❌ **DECLINED 2026-07-24** (same-day) — resubmission invited | Steven, individual | Form rejection, no reasons (EV norm); reapply after a fresh milestone (`SUBMISSION.md`) | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
 | **Ocean Startup Challenge** 2026–27 | up to $25K CAD | 🎯 **SHORTLISTED 2026-08-12** — interview **2026-08-17 15:00 EDT** (Zoom) | Steven, individual (new entity on win) | 15-min interview: 3-min pitch + 12-min panel Q&A; confirm presence by replying to the 2026-08-12 email (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
 | **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
@@ -59,9 +59,8 @@ sources; re-verify before acting.
 5. The **equity stance** decision (records as D7 when made).
 6. ~~**MINERVA Deconfliction lane**~~ — closed 2026-10-21 not bid; **lane B chosen 2026-10-22**
    (build for the next call — [`planetar-minerva/README.md`](planetar-minerva/README.md)).
-7. **NIWC lane** — (A) brief now / (B) close gaps then brief / (C) team / stop. Independent of
-   the lane and with lead time: start SAM.gov registration; e-mail the notice's contact
-   ([`planetar-niwc-mda/FIT.md`](planetar-niwc-mda/FIT.md)).
+7. **NIWC** — lane B chosen 2026-10-22. Founder actions: request the NCAGE code (gates SAM.gov),
+   send [`planetar-niwc-mda/QUESTIONS-email.md`](planetar-niwc-mda/QUESTIONS-email.md), download xView3.
 8. ~~**IDEaS CH17**~~ — pass (closed 2026-10-20; recorded 2026-10-22).
 
 ## Repo map
@@ -77,7 +76,7 @@ sources; re-verify before acting.
 | [`planetar-true-north/`](planetar-true-north/) | IDEaS True North Precision (/012) | 🛑 no-bid 2026-05-31 (reference) |
 | [`planetar-innovation/`](planetar-innovation/) | ISC Testing Stream TS13 | 🛑 no-bid 2026-06-01 (reference) |
 | [`planetar-minerva/`](planetar-minerva/) | Canadian Army MINERVA 2026 — six ISC Phase-2 calls: five hardware no-bids + **UAS Deconfliction** | 🛑 Deconfliction not bid (closed 2026-10-21) → lane B build-for-next (2026-10-22) |
-| [`planetar-niwc-mda/`](planetar-niwc-mda/) | US Navy NIWC Pacific CSO — maritime domain awareness data and analytics (first procurement, first non-Canadian pursuit) | ⚖️ screened 2026-10-06, decision pending — closes **2027-01-07** |
+| [`planetar-niwc-mda/`](planetar-niwc-mda/) | US Navy NIWC Pacific CSO — maritime domain awareness data and analytics (first procurement, first non-Canadian pursuit) | 🛠️ lane B (2026-10-22) — brief target 2026-12-18; closes **2027-01-07** |
 
 **History of this push:** funder scan + shortlist built 2026-06-01→03 (post-CH13);
 re-verified and expanded 2026-07-02→04 (NLnet correction, Schmidt Marine + Emergent

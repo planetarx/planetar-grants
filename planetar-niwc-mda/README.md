@@ -32,15 +32,22 @@ Canada and the first that is a procurement rather than a grant or innovation cha
 | [`idea.md`](idea.md) | raw capture — verbatim solicitation text, retrieved 2026-10-06; keep as-is |
 | [`CHALLENGE.md`](CHALLENGE.md) | ✅ verified research note: facts, process, requirements R1–R11, eligibility, unknowns (2026-10-06) |
 | [`FIT.md`](FIT.md) | ✅ two-screen fit + requirement→asset map + parity-matrix rows + lanes A/B/C + risks (2026-10-06) |
-| `THESIS.md` | — write if a lane is chosen (one thesis per bid; must not import CH13's or CH14's hero) |
+| [`SAM-REGISTRATION.md`](SAM-REGISTRATION.md) | ✅ NCAGE → Login.gov → UEI → full registration checklist from the SAM.gov primary checklist (2026-10-22); nothing filed |
+| [`QUESTIONS-email.md`](QUESTIONS-email.md) | ✅ draft to the §6.11 contact (2026-10-22); **not sent** |
+| [`BRIEF-outline.md`](BRIEF-outline.md) | ✅ page plan mapped to §4.1 + R1–R11, gaps marked, proposed build schedule to a 2026-12-18 send (2026-10-22) |
+| `THESIS.md` | — due 2026-12-11 per the build schedule (one thesis per bid; must not import CH13's or CH14's hero) |
 | `proposal/` | — not written |
 
-## Status: SCREENED — DECISION PENDING (lane A brief-now · B close-gaps-then-brief · C team under a prime · stop)
+## Status: LANE B — close the gaps, then brief (2026-10-22); target send 2026-12-18
 
 2026-10-06 — workspace created from the procurement scan; fit screened; no founder decision
 yet. Recommended lane is (B). Two actions do not depend on the lane and have lead time: start
 SAM.gov registration, and e-mail the notice's contact the questions listed in
 [`FIT.md`](FIT.md).
 
-Decision owner: Steven Ness. When decided, record it here with the date and update
-[`../README.md`](../README.md) and [`../CLAUDE.md`](../CLAUDE.md).
+2026-10-22 — **Lane B chosen** (founder agreed the sequence: Stage 1 detection score first, then
+the brief). SAM.gov checklist, contact e-mail draft and brief outline written. Next founder
+actions: request the NCAGE code; send `QUESTIONS-email.md`; download xView3 (unblocks the
+score the brief rests on).
+
+Decision owner: Steven Ness.

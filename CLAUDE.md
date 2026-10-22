@@ -48,6 +48,7 @@ States verified 2026-08-16 (MINERVA row added 2026-09-29); trust the workspace R
 | `planetar-true-north/` | IDEaS "True North Precision" (`W7714-248676/012`) | NO-BID (2026-05-31) — reference |
 | `planetar-innovation/` | ISC Testing Stream TS13 (`EN578-26ISC1`) | NO-BID (2026-06-01) — reference |
 | `planetar-minerva/` | Canadian Army **MINERVA** 2026 cycle — six ISC Call 004 **Phase 2** calls (TRL 5–9, $500K, incorporated SMEs only). Five hardware calls NO-BID (2026-09-23); **UAS Deconfliction `EN578-24ISC4/94`** — all-software Essentials — closed **2026-10-21 NOT BID** | 🛑 Not bid; **lane B (build to TRL 5 for the next call) chosen 2026-10-22** — checklist in its README `## Status`; `FIT.md`, `THESIS.md` draft |
+| `planetar-niwc-mda/` | US Navy NIWC Pacific CSO `N66001-26-S-C036` — data and analytics for maritime domain awareness, feeds into SeaVision; first procurement, first non-Canadian pursuit; SAM.gov (NCAGE first) needed before award | 🛠️ **Lane B** (2026-10-22): close gaps, then brief — target send 2026-12-18, closes 2027-01-07; `BRIEF-outline.md` holds the build schedule |
 
 ## The fit filter (the load-bearing lesson of this repo)
 
