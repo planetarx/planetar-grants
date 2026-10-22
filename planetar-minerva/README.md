@@ -82,9 +82,9 @@ Decision owner: Steven Ness.
   engaged. Lane A (partner-sub) lapsed with the deadline.
 - **2026-10-22** — Founder chose **lane (B)**: build the deconfliction application to TRL 5 for the
   next MINERVA / ISC airspace call. Next steps from [`FIT.md`](FIT.md) § *Before committing*:
-  - [ ] Open the build repo (suggested `planetar-airspace`, under the `planetarx` org) with the
-    notice's seven Essentials as its `docs/DESIGN.md` requirements table; log R&D
-    contemporaneously (ISC Q2 needs the record).
+  - [x] Open the build repo — **`../../planetar-airspace/`** created 2026-10-22 (local only; no
+    GitHub remote yet): `docs/DESIGN.md` holds E1–E7/A1–A3 + open decisions D1–D5, `docs/RD-LOG.md`
+    the contemporaneous R&D record (ISC Q2).
   - [ ] Re-verify substrate TRL claims against the repos (not the June note).
   - [ ] Contact `MINERVA.Initiative@forces.gc.ca` (Enabling Technologies working group; Gagetown
     deconfliction follow-up) — the route to relevant-environment validation.
