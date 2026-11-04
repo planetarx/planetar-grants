@@ -56,7 +56,9 @@ Watch problem, delivered as auditable open infrastructure anyone can run.
 | [`01-APPLICATION-draft.md`](01-APPLICATION-draft.md) | 🚧 Draft — `[TODO]`s + field-mapping open |
 | `SUBMISSION.md` | — write on submission |
 
-## Status: ✅ SUBMITTED 2026-07-24 — full-proposal invites by 2026-09-01
+## Status: ✅ SUBMITTED 2026-07-24 — no word as of 2026-11-03 (invites were due by 2026-09-01)
+
+Silence two months past the invite date most likely means not invited. Next: check spam for the submission address, then e-mail the program to confirm the outcome.
 
 Confirmation received. See [`SUBMISSION.md`](SUBMISSION.md). Filed as Sustaining Fisheries,
 Zax Analytics (For-profit), year-1 band $150–200K / $350K total, TRL 3.

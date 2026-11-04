@@ -58,4 +58,8 @@ Canadian entity. So:
 | [`DETECTION-ALGORITHMS.md`](DETECTION-ALGORITHMS.md) | ✅ Interview companion (2026-08-17): exact vessel-detection algorithms verified against source — SAR CFAR (classical, not ML), YOLO on EO, designed learned SAR detector |
 | [`deck/planetar-osc-deck-interview.pdf`](deck/planetar-osc-deck-interview.pdf) | ✅ Interview deck (+ `.html` source) — filed deck with the slide-6 licence card updated to D2a (GPLv3 + services); the filed PDF is untouched |
 
-## Status: SHORTLISTED — interview 2026-08-17 15:00 EDT
+## Status: ❌ NOT SELECTED (recorded 2026-11-03)
+
+Shortlisted 2026-08-12 and interviewed 2026-08-17; not selected for funding. Decision date not recorded.
+
+### Prior status: SHORTLISTED — interview 2026-08-17 15:00 EDT

@@ -16,7 +16,11 @@ Contact for questions: `admin@oceanstartupproject.ca`.
 
 ---
 
-## Outcome — SHORTLISTED for the interview phase (2026-08-12)
+## Outcome — NOT SELECTED (recorded 2026-11-03)
+
+Interviewed 2026-08-17; not selected. The founder reported the result 2026-11-03; no reasons recorded.
+
+## Earlier outcome — SHORTLISTED for the interview phase (2026-08-12)
 
 Email 2026-08-12 from Iliass Lamrini (`ilamrini@oceanstartupproject.ca`, +1 514 262 6468,
 Program Manager; cc Natasha): Planetar is shortlisted for the interview phase.

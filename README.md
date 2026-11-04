@@ -5,7 +5,7 @@ submitted IDEaS CFP6 CH13 bid (that lives in `../planetar/`, under evaluation si
 2026-06-01). This README is the dashboard; per-opportunity detail lives in each
 workspace.
 
-**Last updated: 2026-10-22** (MINERVA Deconfliction not bid → lane B; CH17 pass; Ocean Startup + Schmidt outcomes still unrecorded). Previously 2026-10-06 (NIWC row + IDEaS CH17 watch from the procurement scan; MINERVA row 2026-09-29; earlier rows as of 2026-08-13). Dates and program terms move — each workspace lists its
+**Last updated: 2026-11-03** (Ocean Startup not selected; Schmidt still silent; NIWC → NO-BID: founder rule, no US bids — rest of world, Canada first; smartEarth no 2026 AO found). Previously 2026-11-02 (three ISC challenges of 2026-10-30 screened — two hardware no-bids; SSC AI governance GO — sprint to TRL 5). Previously 2026-10-22 (MINERVA Deconfliction not bid → lane B; CH17 pass; Ocean Startup + Schmidt outcomes still unrecorded). Previously 2026-10-06 (NIWC row + IDEaS CH17 watch from the procurement scan; MINERVA row 2026-09-29; earlier rows as of 2026-08-13). Dates and program terms move — each workspace lists its
 sources; re-verify before acting.
 
 ## ✅ Submitted — under evaluation
@@ -18,11 +18,12 @@ sources; re-verify before acting.
 
 | Opportunity | Ask | Deadline | Vehicle | State | Workspace |
 |---|---|---|---|---|---|
-| **US Navy NIWC Pacific CSO — Data and Analytics for Maritime Domain Awareness** (`N66001-26-S-C036`) | no ceiling; awards "not expected to exceed $100M"; rough price `[TODO]` | ⏰ **2027-01-07 16:00 Pacific** (5-page solution brief by e-mail) | **Zax Analytics** (to confirm; foreign-owned welcome, SAM.gov before award) | ⏸️ **Lane B chosen, then paused 2026-10-22** (non-US customers first; questions e-mail held, not sent) — close gaps (Stage 1 detection score, S3/bulk/API keys, method doc + source-ID demo), then brief; target send **2026-12-18**. Now: NCAGE → SAM.gov (`SAM-REGISTRATION.md`), send `QUESTIONS-email.md`, download xView3 | [`planetar-niwc-mda/`](planetar-niwc-mda/) |
+| **US Navy NIWC Pacific CSO — Data and Analytics for Maritime Domain Awareness** (`N66001-26-S-C036`) | no ceiling; awards "not expected to exceed $100M"; rough price `[TODO]` | ⏰ **2027-01-07 16:00 Pacific** (5-page solution brief by e-mail) | **Zax Analytics** (to confirm; foreign-owned welcome, SAM.gov before award) | 🛑 **NO-BID 2026-11-03** — founder rule: **no US bids; rest of the world, Canada first**. NCAGE/SAM.gov not started; `QUESTIONS-email.md` not sent. Was: close gaps (Stage 1 detection score, S3/bulk/API keys, method doc + source-ID demo), then brief; target send **2026-12-18**. Now: NCAGE → SAM.gov (`SAM-REGISTRATION.md`), send `QUESTIONS-email.md`, download xView3 | [`planetar-niwc-mda/`](planetar-niwc-mda/) |
+| **ISC Call 004 — SSC AI decision-making visibility, traceability and compliance governance** (`EN578-24ISC4`, CanadaBuys `CB-331-17030872`) | up to **$2M CAD**, 1–2 contracts, 20 mo, Phase 2 / TRL 5–9 | ⏰ **2026-12-22 14:00 ET** (enquiries ~12-12) | **Zax Analytics** | 🛠️ **GO 2026-11-02 — sprint to TRL 5**; bid only if the **2026-12-15** TRL gate passes. Two ISED calls in the same mailing (magnetometer, NV diamond) are hardware no-bids | [`planetar-isc-ai-governance/`](planetar-isc-ai-governance/) |
 | [`planetar-customers/`](planetar-customers/) | First **paying** customers (services under D2a, not grants) — **Canada, Europe and non-US** since 2026-10-22. Merged plan: OceanMind (UK MMO SAR-QA subcontract), Larus, Coast Guard/DND, ESA InCubed, Transport Canada EMSA, IOTC VMS pilot, Kystverket | 🔎 researched 2026-10-22 — no outreach yet; gates: xView3 score, aisstream.io terms, ProServices |
 | **Emergent Ventures** (Mercatus) | **US$50K** | ❌ **DECLINED 2026-07-24** (same-day) — resubmission invited | Steven, individual | Form rejection, no reasons (EV norm); reapply after a fresh milestone (`SUBMISSION.md`) | [`planetar-emergent-ventures/`](planetar-emergent-ventures/) |
-| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | 🎯 **SHORTLISTED 2026-08-12** — interview **2026-08-17 15:00 EDT** (Zoom) | Steven, individual (new entity on win) | 15-min interview: 3-min pitch + 12-min panel Q&A; confirm presence by replying to the 2026-08-12 email (`SUBMISSION.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
-| **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — full-proposal invites by 2026-09-01 | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
+| **Ocean Startup Challenge** 2026–27 | up to $25K CAD | ❌ **NOT SELECTED** (shortlisted 2026-08-12, interviewed 2026-08-17; outcome recorded 2026-11-03) | Steven, individual | Closed. Interview kit and deck reusable for the next cohort (`INTERVIEW.md`) | [`planetar-ocean-startup/`](planetar-ocean-startup/) |
+| **Schmidt Marine Technology Partners** | year-1 band **$150–200K** ($350K total) | ✅ **SUBMITTED 2026-07-24** — ⚠️ **no word as of 2026-11-03**, two months past the 2026-09-01 invite date: likely not invited; check spam, then e-mail SMTP to confirm | **Zax Analytics** (Steven CEO) | Filed as Sustaining Fisheries, TRL 3; confirmation received (`SUBMISSION.md`) | [`planetar-schmidt-marine/`](planetar-schmidt-marine/) |
 
 ## 🟡 On hold / watches
 
@@ -30,7 +31,7 @@ sources; re-verify before acting.
 |---|---|---|
 | **NLnet / Restack** (€5K–50K) | Aug-1 call is Taler/Fediversity only; Restack / regular call reopens **after summer 2026** (verified 2026-07-02) | Check `nlnet.nl/propose` **monthly**; submit [`drafts/01`](planetar-brainstorm/drafts/01-nlnet-application.md) immediately when open (only `[TODO]`: phone) |
 | **NRC IRAP + SR&ED** (Track B, $75K–$1M) | Unblocked (D1 + C1) — needs the first conversation | **Call 1-877-994-4727** for an ITA; keep contemporaneous R&D records; accountant confirms share split (SR&ED rate) |
-| **CSA smartEarth** (≤~$250K AOs) | No open AO confirmed 2026-07-02 | Quarterly check (next ~2026-10-01) — [`planetar-smartearth/`](planetar-smartearth/) |
+| **CSA smartEarth** (≤~$250K AOs) | No 2026 AO found (web check 2026-11-03); an aggregator says smartEarth left CSA's active funding list by 2026-04 — unverified | Confirm with smartearth.utiliterre@asc-csa.gc.ca; else next check ~2027-01 — [`planetar-smartearth/`](planetar-smartearth/) |
 | **Compute credits** (NVIDIA Inception, AWS Activate, Google for Startups) | Not cash but offsets the GPU training spend | Apply under Zax; low effort |
 | **IDEaS/MINERVA · ISC Challenge Stream · NATO DIANA** | Standing watches | Bid only software/AI-essential calls (the no-bid lesson). **2026-09-29:** MINERVA's 2026 calls run through **ISC Phase 2 (TRL 5–9, SMEs only)**, not IDEaS 1a — see [`planetar-minerva/`](planetar-minerva/) |
 | **IDEaS CFP6 CH17** "RF Data Fusion for Command and Control" (`W7714-248676/017`; 1a up to $250K CAD) | 🛑 **PASS — closed 2026-10-20, not screened** (decided 2026-10-22). Essentials were message conversion (MTF-XML, NIEM, NATO Core Data Framework), not fusion | Reference only — [`planetar-brainstorm/08-procurement-scan-2026-10-06.md`](planetar-brainstorm/08-procurement-scan-2026-10-06.md); keep watching `W7714-248676` for /018+ |
@@ -60,9 +61,9 @@ sources; re-verify before acting.
 5. The **equity stance** decision (records as D7 when made).
 6. ~~**MINERVA Deconfliction lane**~~ — closed 2026-10-21 not bid; **lane B chosen 2026-10-22**
    (build for the next call — [`planetar-minerva/README.md`](planetar-minerva/README.md)).
-7. **NIWC** — lane B chosen 2026-10-22. Founder actions: request the NCAGE code (gates SAM.gov),
-   send [`planetar-niwc-mda/QUESTIONS-email.md`](planetar-niwc-mda/QUESTIONS-email.md), download xView3.
+7. ~~**NIWC**~~ — no-bid 2026-11-03 (no US bids; rest of the world, Canada first).
 8. ~~**IDEaS CH17**~~ — pass (closed 2026-10-20; recorded 2026-10-22).
+9. **ISC SSC AI governance** (closes 2026-12-22) — GO 2026-11-02. Founder: external reviewer for validation, Q7 team, Q8 inclusivity, budget, phone for the enquiry ([`planetar-isc-ai-governance/PLAN.md`](planetar-isc-ai-governance/PLAN.md)).
 
 ## Repo map
 
@@ -77,8 +78,9 @@ sources; re-verify before acting.
 | [`planetar-true-north/`](planetar-true-north/) | IDEaS True North Precision (/012) | 🛑 no-bid 2026-05-31 (reference) |
 | [`planetar-innovation/`](planetar-innovation/) | ISC Testing Stream TS13 | 🛑 no-bid 2026-06-01 (reference) |
 | [`planetar-minerva/`](planetar-minerva/) | Canadian Army MINERVA 2026 — six ISC Phase-2 calls: five hardware no-bids + **UAS Deconfliction** | 🛑 Deconfliction not bid (closed 2026-10-21) → lane B build-for-next (2026-10-22) |
-| [`planetar-niwc-mda/`](planetar-niwc-mda/) | US Navy NIWC Pacific CSO — maritime domain awareness data and analytics (first procurement, first non-Canadian pursuit) | 🛠️ lane B (2026-10-22) — brief target 2026-12-18; closes **2027-01-07** |
+| [`planetar-niwc-mda/`](planetar-niwc-mda/) | US Navy NIWC Pacific CSO — maritime domain awareness data and analytics (first procurement, first non-Canadian pursuit) | 🛑 no-bid 2026-11-03 (no US bids) |
 
 **History of this push:** funder scan + shortlist built 2026-06-01→03 (post-CH13);
 re-verified and expanded 2026-07-02→04 (NLnet correction, Schmidt Marine + Emergent
 Ventures + smartEarth added, vehicles + asks decided, drafts completed).
+| [`planetar-isc-ai-governance/`](planetar-isc-ai-governance/) | ISC challenges of 2026-10-30: SSC AI governance + two ISED sensor calls | 🛠️ SSC AI governance: sprint to TRL 5 (GO 2026-11-02, gate 12-15, closes 12-22); hardware no-bids |

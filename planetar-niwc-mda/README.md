@@ -38,7 +38,11 @@ Canada and the first that is a procurement rather than a grant or innovation cha
 | `THESIS.md` | — due 2026-12-11 per the build schedule (one thesis per bid; must not import CH13's or CH14's hero) |
 | `proposal/` | — not written |
 
-## Status: LANE B — PAUSED 2026-10-22 (founder: focus on Canadian, European and other non-US customers first); brief target 2026-12-18 stands until revisited
+## Status: 🛑 NO-BID 2026-11-03 — founder rule: no US bids; focus on the rest of the world, Canada first
+
+Briefly set to GO earlier on 2026-11-03, then withdrawn the same day. Nothing was filed or sent (no NCAGE request, no questions e-mail). Kept for reference.
+
+### Prior status: PAUSED 2026-10-22 (founder: focus on Canadian, European and other non-US customers first)
 
 2026-10-06 — workspace created from the procurement scan; fit screened; no founder decision
 yet. Recommended lane is (B). Two actions do not depend on the lane and have lead time: start
