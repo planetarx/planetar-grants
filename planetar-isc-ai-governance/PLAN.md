@@ -42,10 +42,14 @@ Call 004). Proposed relevant environment, *to be confirmed with the Contracting 
 
 Fail any → no TRL-5 claim; record outcome in README `## Status`.
 
+## Progress
+
+- 2026-11-03: build repo `../../planetar-govern/` (Python stdlib) — AI Register ingest with provenance,
+  412 systems / 43 orgs, completeness profile, `RD-LOG.md` started. Not pushed (no GitHub repo yet).
+
 ## Open issues
 
-- **NIWC collision.** NIWC brief target was 2026-12-18 (lane B, paused 2026-10-22). This sprint
-  takes priority through 2026-12-22 unless Steven says otherwise — confirm.
+- ~~**NIWC collision.**~~ Resolved 2026-11-03: NIWC no-bid under D7 (no US bids). This sprint has priority.
 - Phase 2 subcontracting cap and IP terms under Call 004 — unverified (also open on MINERVA).
 - Is "public GC data + one external reviewer" accepted as a relevant environment? → enquiry.
 - Budget shape for up to $2M / 20 months; team for Q7 (solo founder scores poorly) `[TODO]`.
