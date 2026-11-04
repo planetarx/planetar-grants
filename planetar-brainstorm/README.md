@@ -39,6 +39,8 @@ or low-partner-dependency calls.
 | [`07-funding-radar.md`](07-funding-radar.md) | Announcement channels to subscribe to (with status + cadence) + a Gotham-adjacency scan mapping planetar's assets to programs beyond maritime |
 | [`08-procurement-scan-2026-10-06.md`](08-procurement-scan-2026-10-06.md) | Procurement (not grant) scan: eight data-platform / data-fusion buys in Canada, the UK, the EU, NATO and the US, ranked, with eligibility blockers and exclusions |
 | [`09-platform-benchmark-emsa-bdw.md`](09-platform-benchmark-emsa-bdw.md) | A real platform tender's 26 requirements mapped onto the `planetar-platform` parity matrix (3 built · 13 partial · 9 designed · 1 planned); benchmark only, not biddable |
+| [`10-scan-europe-2026-11-03.md`](10-scan-europe-2026-11-03.md) | Europe scan (~35 screened): almost nothing lets a Canadian firm apply alone. Top: **Eurostars Call 12** (Canadian SME can lead; closes 2027-03-04), Horizon CL3-2027-BM-01 (civilian maritime security, consortium), CL4-2027-SPACE-03-33 (Canada named), ARIA Scaling Trust |
+| [`11-scan-middle-east-2026-11-03.md`](11-scan-middle-east-2026-11-03.md) | Middle East scan (32 screened): no open grant without relocation or equity; nothing maritime open. Top: Hub71 (Feb 2027; SAFE + relocation), KAUST TAQADAM, Dubai Future Accelerators (watch), Canada–Israel via IRAP; Supernova 0X closes 2026-11-10 |
 
 ## Top picks (the 60-second version)
 
