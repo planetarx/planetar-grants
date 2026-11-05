@@ -19,8 +19,10 @@ Raw capture: [`idea.md`](idea.md) (newsletter forwarded by D. Huang, 2026-10-30)
 | `FIT.md` | screen + Essential→asset map, 2026-11-02 (its no-bid recommendation was overruled — see Status) |
 | `THESIS.md` | SSOT, draft (2026-11-02) — distinct from CH14 |
 | `PLAN.md` | 6-week build + proposal schedule, TRL gate 2026-12-15 |
-| `QUESTIONS-email.md` | enquiry draft — **not sent** |
+| `QUESTIONS-email.md` | enquiry draft — **not sent; on hold by founder 2026-11-05** (hard deadline 2026-12-12) |
 | `COMPETITORS.md` | Q3b competitor scan, 2026-11-05 (secondary sources; re-verify before quoting) |
+| `FINANCE.md` | financial-capability check, payment terms, peak-cash model, Q9 skeleton, 2026-11-05 |
+| `REVIEWER.md` | external reviewer: role, protocol, who qualifies, outreach draft (not sent), 2026-11-05 |
 
 ## Status: 🛠️ SPRINT TO TRL 5 — decided 2026-11-02
 

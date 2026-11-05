@@ -44,19 +44,43 @@ identifying their ecosystem-wide impacts." The comparisons below are organised a
 | **TBS AIA tool** (GC's own) | GC, open source (MIT) | TBS releases new questionnaire versions (v0.8 → v1.0.1); **question names change between versions** | None: a one-system questionnaire; no cross-system view, no reassessment trigger | Is the AIA | 32 of ~38 published AIAs are machine-readable, spread over 5 tool versions (planetar-govern, 2026-11-05) |
 | **compliance-trestle** (OSCAL) | CNCF sandbox, open source | — | — | — | **Not a competitor: a reuse candidate for Essential 2C** (NIST OSCAL 1.1.x tooling). Source: [GitHub](https://github.com/oscal-compass/compliance-trestle) |
 
-Not examined yet: OneTrust, Holistic AI, ModelOp, Monitaur, Airia, SAP, Cranium (all Gartner-listed);
-the two firms on the notice's partnering list (Xstal Consulting Limited, ABEN HUB INC.), for which a
-web search found nothing.
+### The rest of the Gartner list (second pass, 2026-11-05)
+
+| Product | Change tracking | Notes |
+|---|---|---|
+| **OneTrust AI Governance** + DataGuidance | **Yes, as research:** DataGuidance covers 300+ jurisdictions, "updated daily", with an AI regulation tracker dashboard and a Copilot that answers regulatory questions (2024-10 release) | Model sync from SageMaker, AzureML and Vertex; automation rules on attributes; AI risk assessments mapped to OECD, ALTAI, UK ICO and NIST AI RMF. Gartner Visionary (reported). Source: [OneTrust 2024-10-16](https://www.onetrust.com/news/onetrust-unveils-the-next-generation-of-dataguidance-regulatory-research/) |
+| **Holistic AI** | **Yes, as a "regulation tracker"** (2024); a directory listing claims automated mapping of systems to regulations with scored gap analysis | EU AI Act, NIST AI RMF, ISO 42001, NYC LL144 assessments; discovery and inventory. Gartner Challenger (reported). Sources: [techUK case study](https://www.techuk.org/insights/guest-insights/ai-adoption-case-study-learn-how-holistic-ai-s-ai-governance-platform-enables-enterprises-to-adopt-and-scale-ai-confidently-while-regularly-monitoring-risk), [Holistic AI blog](https://www.holisticai.com/blog/5-essential-features-in-ai-governance-software) |
+| **ModelOp Center** | Not documented | An "AI system of record": inventory, drag-and-drop approval workflows, a rules engine for controls, audit-ready documentation; sold to the US public sector via Carahsoft. Source: [ModelOp](https://modelop.com/product) |
+| **Monitaur** | Not documented | Model inventory, controls library mapped to requirements, evidence capture; drift and bias detection. Source: [Monitaur](https://monitaur.ai/platform) |
+| **Airia** | Not documented | AI security and orchestration; governance dashboard aggregating risk scores and compliance status across agents and models. Source: [Airia product sheet 2025-12](https://airia.com/wp-content/uploads/2026/02/Airia_Governance-_A4-December-2025.pdf) |
+| **Cranium** | Not documented | AI security: shadow-AI discovery, red-teaming, automated completion of compliance frameworks. Source: [CyberSecTools](https://cybersectools.com/tools/cranium-ai-governance-platform) |
+
+SAP and Relyance AI were not examined.
+
+**What this changes:** "nobody tracks regulatory change" is **false**. OneTrust and Holistic AI sell
+regulatory-change research. The defensible distinction is narrower: theirs is a research and news feed
+(or a curated mapping) that people then translate into controls. Ours detects the change at clause
+level in the authoritative text and computes the affected controls, assessments and systems. That is
+the "manual effort … interpreting evolving requirements … ecosystem-wide impacts" SSC names. Claim 1
+below must be worded that way, and its measurement must show the computed step.
+
+### Partnering list on the notice
+
+- **ABEN HUB INC.** = AL BATOOL[S] ENERGY HUB INCORPORATED (operating name ABEN HUB), Toronto: a
+  renewable-energy design platform with a small NRC-IRAP contribution (2025-11 → 2026-03). **Not an
+  AI-governance competitor.** Source: [Open Government grants record](https://search.open.canada.ca/grants/record/nrc-cnrc%2C172-2025-2026-Q3-1035984%2Ccurrent).
+- **Xstal Consulting Limited:** nothing found. Check the Corporations Canada registry if it matters.
 
 ## Where we can claim an advance (each needs its measurement before it goes in Q3b)
 
 The **significant** candidates (20 points needs two):
 
-1. **Requirement change computed from the authoritative text, not curated by a vendor.** Every vendor
-   above keeps its regulatory content current by hand (an in-house policy team, "authority documents",
-   a library), with no published cadence, and ServiceNow puts change alerts in a separate product. We
-   re-read the official text, detect a change at clause level (hash per clause), and compute the
-   affected controls and then the affected systems. *Measure:* time from a TBS amendment to flagged
+1. **Requirement change computed from the authoritative text, not curated by a vendor.** The vendors
+   keep their regulatory content current by hand (an in-house policy team, "authority documents", a
+   library), with no published cadence. OneTrust and Holistic AI sell change *research* (news,
+   trackers), and ServiceNow puts change alerts in a separate product, so people still translate a
+   change into controls. We re-read the official text, detect a change at clause level (hash per
+   clause), and compute the affected controls and then the affected systems. *Measure:* time from a TBS amendment to flagged
    systems, and the affected-system set's precision and recall on replayed real amendments (DADM has
    four reviews; TBS published the text changes for the 2024–25 review).
 2. **Findings with measured confidence, not asserted scores.** The incumbent reports a red/yellow/green
