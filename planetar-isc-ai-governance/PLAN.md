@@ -66,6 +66,15 @@ Fail any → no TRL-5 claim; record outcome in README `## Status`.
   - **Q2 must name the validation environment and who validated it, with title.** The external reviewer
     is mandatory, not a nice-to-have.
   - **Evaluators ignore URLs (CFP §3.3.2).** Every measurement goes in the proposal text.
+- 2026-11-05: Q3b competitor scan (`COMPETITORS.md`, `a03ce24`). The two "significant improvement" claims
+  and the measurement each needs (both go in the **week 5 validation run**):
+  1. **Change propagation computed from the official text** (IBM/Credo, ServiceNow and Saidot curate
+     regulatory content by hand). Measure by replaying real DADM amendments (TBS published the 2024–25 text
+     changes on wiki.gccollab.ca): precision/recall of the affected-system set, and amendment-to-flag latency.
+  2. **Confidence calibrated against reviewer labels** (the GC incumbent NuEnergy.ai reports a red/yellow/
+     green trust index). Measure reviewer agreement and calibration error.
+  - Reuse candidate for Essential 2C: compliance-trestle (OSCAL tooling, CNCF sandbox) — check its licence
+    against GPLv3 before importing.
 
 ## Open issues
 
