@@ -11,6 +11,7 @@ tracking people.
 | [`CUSTOMERS-research.md`](CUSTOMERS-research.md) | ✅ first pass, Canada-heavy (2026-10-22). Spot-check: Larus IDEaS award CW2409671 (CAD 8,305,500, 2025-08-27 → 2028-03-31) re-read on CanadaBuys |
 | [`CUSTOMERS-canada-intl.md`](CUSTOMERS-canada-intl.md) | ✅ Canada (deeper) + non-US, non-European (2026-10-22). Spot-checks: Coast Guard CAD 816M / 7 yr release (2026-05-22) and CanExport's 3 FTE + CAD 300k minimum, both re-read on the primary pages |
 | [`CUSTOMERS-europe.md`](CUSTOMERS-europe.md) | ✅ Europe incl. UK, Norway, NATO, ESA (2026-10-22). Spot-checks: MMO award 025029-2024 subcontracting split (57%; 35% "SAR data processing, QA of vessel detected") via the Find a Tender API; Kystverket notice TED 587752-2026 via the TED API |
+| [`TARGETS-partners-2026-11-05.md`](TARGETS-partners-2026-11-05.md) | ✅ Beyond maritime (2026-11-05): 12 non-US Palantir customers (backup / exit-path pitch) + integrators, 10 Eurostars Call 12 partner candidates, 9 Canadian AI-governance targets. Spot-check: Trackwell coordinated TrackIUU (CORDIS 867166, SME Instrument phase 1, 2019-05-01 → 2019-08-31) — re-read on CORDIS. Open founder question: is Carahsoft (US-HQ, Palantir's GC reseller) a channel under D7? |
 
 ## What the three passes agree on
 
@@ -58,6 +59,6 @@ New Zealand, Australia and the Pacific (Starboard + free Skylight) · Latin Amer
 service) · Japan, Korea, the Gulf, India, Indonesia, Chile, Argentina (domestic primes or in-house) ·
 CanExport (3 FTE + CAD 300k minimum) · CCC G2G (sized for large deals). Details in each file.
 
-## Status: RESEARCHED — no outreach yet (2026-10-22)
+## Status: RESEARCHED — no outreach yet (2026-11-05)
 
 Every first step above is a founder contact; nothing has been sent.
