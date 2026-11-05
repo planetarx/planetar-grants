@@ -75,7 +75,11 @@ cadence, a variance threshold, and audit readiness.
 ## Founder inputs needed
 
 - [ ] Target budget (the model above covers $0.75M–$2M) and the team it pays for (ties to Q7).
-- [ ] Cash and credit Zax can show by 2026-12-15.
-- [ ] Who keeps the books and prepares statements (name, firm, designation, e.g. CPA).
+      **Unknown as of 2026-11-05.** It drives the cash requirement, so settle it before the
+      2026-12-01 checkpoint; the default is the low end until the cash position is known.
+- [ ] Cash and credit Zax can show by 2026-12-15. **Unknown as of 2026-11-05.**
+- [x] Who keeps the books: **Zax's long-standing accountant** (2026-11-05; the name is kept out of
+      this public repo). Still needed for Q9: the firm and the professional designation, and whether
+      the accountant can prepare the monthly cash-flow forecast and statements the check may request.
 - [ ] Whether Zax has prior-year financial statements (audited or not).
 - [ ] Payment-method preference to raise during negotiation (recommend monthly progress payments).

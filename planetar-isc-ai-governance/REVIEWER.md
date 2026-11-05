@@ -79,6 +79,22 @@ the reviewer can continue as a Phase 2 subcontractor (up to half the work may be
 > Steven Ness
 > CEO, Zax Analytics · [phone]
 
+## Status (2026-11-05)
+
+**The founder has no contacts in this field yet**, so this is cold outreach, and it is the critical
+path: no reviewer by about 2026-11-25 leaves too little time to label by 2026-12-06. Routes, in order:
+
+1. **Authors of public work on DADM or AIAs** (papers, op-eds, peer reviews published under DADM
+   6.3.7). Their public work is the reason to write to them; cite it. A named shortlist is kept
+   **outside this public repo**.
+2. **University research offices and clinics** that broker paid expert work (law-and-technology
+   centres; UVic is local).
+3. **Mitacs or a university partnership** if a student-plus-supervisor review is acceptable. The
+   supervisor's title is what Q2 needs.
+4. **Professional networks:** IAPP Canada chapters (AIGP holders), Digital Governance Council events.
+
+Do not use NRC-IRAP advisers: NRC-IRAP evaluates these proposals (CFP §4.1c).
+
 ## Founder decisions
 
 - [ ] Shortlist 3–5 people (the categories above are leads, not checked people) and choose who to ask
