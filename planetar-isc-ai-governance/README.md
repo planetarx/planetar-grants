@@ -20,6 +20,7 @@ Raw capture: [`idea.md`](idea.md) (newsletter forwarded by D. Huang, 2026-10-30)
 | `THESIS.md` | SSOT, draft (2026-11-02) — distinct from CH14 |
 | `PLAN.md` | 6-week build + proposal schedule, TRL gate 2026-12-15 |
 | `QUESTIONS-email.md` | enquiry draft — **not sent** |
+| `COMPETITORS.md` | Q3b competitor scan, 2026-11-05 (secondary sources; re-verify before quoting) |
 
 ## Status: 🛠️ SPRINT TO TRL 5 — decided 2026-11-02
 
