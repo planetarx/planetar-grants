@@ -75,6 +75,15 @@ Fail any → no TRL-5 claim; record outcome in README `## Status`.
      green trust index). Measure reviewer agreement and calibration error.
   - Reuse candidate for Essential 2C: compliance-trestle (OSCAL tooling, CNCF sandbox) — check its licence
     against GPLv3 before importing.
+- 2026-11-05: finance and reviewer prep (`FINANCE.md`, `REVIEWER.md`, `a6ab45a`):
+  - **Enquiry e-mail on hold by the founder.** Hard deadline for enquiries is still 2026-12-12.
+  - **Q3b claim 1, narrowed.** OneTrust (DataGuidance) and Holistic AI sell regulatory-change tracking as
+    research/news. The claim must be specifically: clause-level change in the official text → computed
+    affected controls → affected systems, and the measurement must show that computed step.
+  - **Reviewer protocol** (`REVIEWER.md`): ~150 findings stratified by control × result; the reviewer is
+    blind to the confidence score; labels needed by **2026-12-06**. Build consequence: an export of the
+    sample with confidence hidden, and an import of the labels into the journal (the Essential 5 reviewer
+    workflow if ready by week 4, otherwise a spreadsheet import).
 
 ## Open issues
 
