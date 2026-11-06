@@ -85,8 +85,9 @@ the reviewer can continue as a Phase 2 subcontractor (up to half the work may be
 path: no reviewer by about 2026-11-25 leaves too little time to label by 2026-12-06. Routes, in order:
 
 1. **Authors of public work on DADM or AIAs** (papers, op-eds, peer reviews published under DADM
-   6.3.7). Their public work is the reason to write to them; cite it. A named shortlist is kept
-   **outside this public repo**.
+   6.3.7). Their public work is the reason to write to them; cite it. A named shortlist of seven,
+   ranked, with the work to cite for each, was compiled 2026-11-05 and is kept **outside this public
+   repo** (the founder's private docs vault). Nobody has been contacted.
 2. **University research offices and clinics** that broker paid expert work (law-and-technology
    centres; UVic is local).
 3. **Mitacs or a university partnership** if a student-plus-supervisor review is acceptable. The
