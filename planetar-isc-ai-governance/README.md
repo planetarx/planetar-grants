@@ -14,6 +14,7 @@ Raw capture: [`idea.md`](idea.md) (newsletter forwarded by D. Huang, 2026-10-30)
 
 | File | State |
 |---|---|
+| [`STATUS.md`](STATUS.md) | **start here**: everything in one place, 2026-11-05 |
 | `idea.md` | raw capture, verbatim |
 | `CHALLENGE.md` | verified 2026-11-02 from the ISC page; solicitation docs (`CB-331-17030872`) not yet read |
 | `FIT.md` | screen + Essential→asset map, 2026-11-02 (its no-bid recommendation was overruled — see Status) |
